@@ -1,0 +1,9 @@
+# Never commit real credentials -- write_creds.py generates this fresh
+# on every GitHub Actions run and the workflow deletes it before any
+# commit step runs, but this is a second layer of protection in case
+# someone runs the bridge locally against this same repo checkout.
+local_creds.py
+
+__pycache__/
+*.pyc
+.DS_Store

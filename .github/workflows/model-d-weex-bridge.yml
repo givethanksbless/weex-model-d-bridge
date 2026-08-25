@@ -1,0 +1,111 @@
+name: Model D WEEX Demo Bridge
+
+# Runs every 15 minutes. The bridge script has its own internal 45-minute
+# bar accumulation logic (accumulate_and_resample in
+# model_d_weex_live_bridge.py), so it doesn't need the schedule itself to
+# land on 45-minute boundaries -- see the project log, Part 42/45, for why
+# */15 was chosen over trying to express "every 45 minutes" in cron syntax.
+#
+# GitHub Actions does not guarantee exact schedule timing, especially on
+# the free tier under load -- delays of many minutes are possible. That's
+# an accepted tradeoff for the demo/sim phase (not real money). See Part 42.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (no real orders submitted)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+# Only one poll runs at a time. If a run is still going when the next
+# schedule tick fires, the new one waits rather than cancelling the one
+# in flight -- cancelling mid-run could leave an order submitted but the
+# state file not saved, which would be worse than a short delay.
+concurrency:
+  group: model-d-weex-bridge
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # No requirements.txt / pip install step -- confirmed the bridge and
+      # everything it imports (local_trading_bridge.py) use only the
+      # Python standard library (urllib, hmac, hashlib, base64, json).
+      # If a future edit adds a third-party import, add a
+      # `pip install -r requirements.txt` step here.
+
+      - name: Write WEEX credentials (generated fresh every run, never committed)
+        env:
+          WEEX_ACCESS_KEY: ${{ secrets.WEEX_API_KEY }}
+          WEEX_SECRET: ${{ secrets.WEEX_API_SECRET }}
+          WEEX_PASSPHRASE: ${{ secrets.WEEX_API_PASSPHRASE }}
+        run: python3 write_creds.py
+
+      # Safety default: real orders require BOTH manually triggering this
+      # workflow AND explicitly setting dry_run=false in that manual run.
+      # Scheduled (cron) runs always use whatever BRIDGE_DRY_RUN repo
+      # variable is set to (defaults to dry-run if the variable doesn't
+      # exist yet) -- so going live on the schedule requires a deliberate
+      # repo Settings > Variables change, not just merging code.
+      - name: Determine dry-run mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "dry_run=${{ inputs.dry_run }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "dry_run=${{ vars.BRIDGE_DRY_RUN != 'false' }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run Model D bridge
+        run: |
+          if [ "${{ steps.mode.outputs.dry_run }}" = "true" ]; then
+            echo "=== DRY RUN MODE -- no real orders will be submitted ==="
+            python3 model_d_weex_live_bridge.py --dry-run
+          else
+            echo "=== LIVE MODE -- orders WILL be submitted to WEEX demo/sim ==="
+            python3 model_d_weex_live_bridge.py
+          fi
+
+      - name: Remove generated credentials file
+        if: always()
+        run: rm -f local_creds.py
+
+      # Commits back the accumulated per-symbol bar history, the trading
+      # state file, and the run logs -- required because GitHub Actions
+      # runners are ephemeral (a clean checkout every run). Without this,
+      # the SMA(200) warmup would reset to zero on every single poll and
+      # never complete. See project log, Part 45.
+      - name: Commit updated state, history, and logs
+        if: always()
+        run: |
+          git config user.name "model-d-bridge-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A -- '*_5m_modeld_live_history.json' \
+                         'bridge_state.json' \
+                         'model_d_weex_execution_log.jsonl' \
+                         'model_d_live_poll_log.jsonl' \
+                         'model_d_closed_trades_log.jsonl' 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Bridge poll $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          else
+            echo "No state changes to commit this run."
+          fi
