@@ -1,0 +1,108 @@
+name: Delisting POC News Pipeline
+
+# Runs the full news ingest -> classify -> report pipeline on a schedule,
+# ending with a fresh latest_news_assessment.json that the Model D WEEX
+# bridge workflow reads. Hourly by default -- news doesn't need 15-minute
+# granularity like the trading bridge does, and this keeps LLM usage
+# (Groq + Gemini quotas) and Telegram fetch volume reasonable. Adjust the
+# cron below if you want it more/less frequent.
+#
+# Pipeline order confirmed directly from source on 2026-08-27 (not
+# guessed): unified_ingest.py -> layer1_filter.py -> dedup_filter.py ->
+# layer2_route.py -> spec_report.py -> write_latest_news_assessment.py.
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Only one run at a time, same reasoning as the trading bridge workflow --
+# don't want two overlapping runs fighting over event_registry.json.
+concurrency:
+  group: delisting-poc-news
+  cancel-in-progress: false
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests telethon google-genai
+
+      - name: Write Gemini API keys (generated fresh every run, never committed)
+        env:
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+        run: python3 write_gemini_config.py
+
+      - name: Write Telegram credentials (generated fresh every run, never committed)
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION_B64: ${{ secrets.TELEGRAM_SESSION_B64 }}
+        run: python3 write_telegram_config.py
+
+      # Deliberately do NOT set GEMINI_API_KEY or GOOGLE_API_KEY as env
+      # vars here -- load_or_prompt_api_keys() in layer2_classifier.py
+      # checks those FIRST and, if set, uses only that single key,
+      # silently discarding the 3-key rotation from gemini_config.json
+      # and losing the extra quota headroom that's the whole point of
+      # having 3 keys. Confirmed from source on 2026-08-27.
+      - name: Run ingest -> filter -> dedup
+        run: |
+          python3 unified_ingest.py
+          python3 layer1_filter.py
+          python3 dedup_filter.py
+
+      # layer2_route.py calls load_or_prompt_api_keys() (Gemini) which,
+      # even with gemini_config.json already populated, still hits one
+      # more input() asking to add another key or press Enter to
+      # continue with what's loaded. Piping an empty line answers that
+      # prompt with "continue," since keys are already loaded from file.
+      # Confirmed necessary from source on 2026-08-27 -- pre-writing the
+      # config file alone was NOT sufficient to avoid this.
+      - name: Run classification (Groq primary, Gemini secondary)
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: echo | python3 layer2_route.py
+
+      - name: Run report translation
+        run: |
+          python3 spec_report.py
+          python3 write_latest_news_assessment.py news_event_reports.json latest_news_assessment.json
+
+      - name: Remove generated credential files
+        if: always()
+        run: rm -f gemini_config.json telegram_config.json telegram_ingest.session
+
+      # Each pattern added separately -- see the trading bridge workflow
+      # for why a single combined `git add -A -- pat1 pat2 ...` is unsafe
+      # (fails atomically if any one pathspec matches nothing, silently
+      # blocking everything else from being staged).
+      - name: Commit updated registry and news assessment
+        if: always()
+        run: |
+          git config user.name "delisting-poc-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A -- 'event_registry.json' 2>/dev/null || true
+          git add -A -- 'latest_news_assessment.json' 2>/dev/null || true
+          git add -A -- 'news_event_reports.json' 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "News pipeline run $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          else
+            echo "No state changes to commit this run."
+          fi

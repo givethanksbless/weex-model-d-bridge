@@ -7,3 +7,6 @@ local_creds.py
 __pycache__/
 *.pyc
 .DS_Store
+gemini_config.json
+telegram_config.json
+telegram_ingest.session
