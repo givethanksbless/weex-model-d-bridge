@@ -97,11 +97,11 @@ jobs:
         run: |
           git config user.name "model-d-bridge-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A -- '*_5m_modeld_live_history.json' \
-                         'bridge_state.json' \
-                         'model_d_weex_execution_log.jsonl' \
-                         'model_d_live_poll_log.jsonl' \
-                         'model_d_closed_trades_log.jsonl' 2>/dev/null || true
+          git add -A -- '*_5m_modeld_live_history.json' 2>/dev/null || true
+          git add -A -- 'bridge_state.json' 2>/dev/null || true
+          git add -A -- 'model_d_weex_execution_log.jsonl' 2>/dev/null || true
+          git add -A -- 'model_d_live_poll_log.jsonl' 2>/dev/null || true
+          git add -A -- 'model_d_closed_trades_log.jsonl' 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Bridge poll $(date -u +'%Y-%m-%d %H:%M UTC')"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
