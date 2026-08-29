@@ -1,0 +1,30 @@
+{
+  "hack_500_vulnerability_859_affecting_20260828": {
+    "spec_category": "hack/exploit",
+    "first_seen_timestamp": "2026-08-28T22:30:53+00:00",
+    "last_seen_timestamp": "2026-08-28T22:30:53+00:00",
+    "trigger_timestamp": "2026-08-28T22:30:53+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/25787",
+    "trigger_title": "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
+    "entity_words": [
+      "500",
+      "vulnerability",
+      "859",
+      "affecting",
+      "rain",
+      "identifies",
+      "avici",
+      "card",
+      "users",
+      "1",
+      "balan",
+      "solana",
+      "contract",
+      "685"
+    ],
+    "symbols_affected": [
+      "SOL"
+    ],
+    "follow_up_titles": []
+  }
+}
