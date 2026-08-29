@@ -62,23 +62,25 @@
     "trigger_source": "https://t.me/CoinDeskGlobal/24422",
     "trigger_title": "[**Ripple is preparing XRP Ledger for quantum computers before \u2018Q-Day\u2019 arrives**](https://www.coinde",
     "entity_words": [
-      "ripple",
       "before",
-      "arrives",
-      "coinde",
-      "day",
-      "preparing",
-      "https",
-      "xrp",
-      "computers",
-      "www",
       "q",
+      "https",
+      "arrives",
+      "xrp",
+      "www",
+      "preparing",
+      "coinde",
       "ledger",
-      "quantum"
+      "ripple",
+      "computers",
+      "quantum",
+      "day"
     ],
     "symbols_affected": [
       "XRP"
     ],
-    "follow_up_titles": []
+    "follow_up_titles": [
+      "[**Ripple is preparing XRP Ledger for quantum computers before \u2018Q-Day\u2019 arrives**](https://www.coinde"
+    ]
   }
 }
