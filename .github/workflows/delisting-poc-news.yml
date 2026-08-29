@@ -101,12 +101,22 @@ jobs:
       # for why a single combined `git add -A -- pat1 pat2 ...` is unsafe
       # (fails atomically if any one pathspec matches nothing, silently
       # blocking everything else from being staged).
+      # routed_items.json is layer2_route.py's own resumability cache --
+      # confirmed from a real run on 2026-08-29: it processed 3/143 items
+      # then hit a genuine Groq rate-limit cooldown (329s, over the
+      # script's own 60s stop-don't-block threshold) and exited cleanly,
+      # printing "saved to routed_items.json -- re-run later and caching
+      # will pick up right here." Without persisting this file, every
+      # hourly run starts that cache at zero and gets stuck reprocessing
+      # the same first few items into the same rate limit forever,
+      # never making progress on the rest of the backlog.
       - name: Commit updated registry and news assessment
         if: always()
         run: |
           git config user.name "delisting-poc-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A -- 'event_registry.json' 2>/dev/null || true
+          git add -A -- 'routed_items.json' 2>/dev/null || true
           git add -A -- 'latest_news_assessment.json' 2>/dev/null || true
           git add -A -- 'news_event_reports.json' 2>/dev/null || true
           if ! git diff --cached --quiet; then
