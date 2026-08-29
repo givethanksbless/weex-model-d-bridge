@@ -37,19 +37,47 @@
     "trigger_source": "https://t.me/wublockchainenglish/25790",
     "trigger_title": "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
     "entity_words": [
-      "schnabel",
-      "onchain",
-      "money",
-      "ecb",
-      "calls",
       "central",
       "s",
+      "onchain",
+      "schnabel",
+      "money",
       "move",
-      "bank"
+      "calls",
+      "bank",
+      "ecb"
     ],
     "symbols_affected": [],
     "follow_up_titles": [
+      "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain"
     ]
+  },
+  "hack_ripple_before_arrives_coinde_20260829": {
+    "spec_category": "hack/exploit",
+    "first_seen_timestamp": "2026-08-29T02:30:40+00:00",
+    "last_seen_timestamp": "2026-08-29T02:30:40+00:00",
+    "trigger_timestamp": "2026-08-29T02:30:40+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24422",
+    "trigger_title": "[**Ripple is preparing XRP Ledger for quantum computers before \u2018Q-Day\u2019 arrives**](https://www.coinde",
+    "entity_words": [
+      "ripple",
+      "before",
+      "arrives",
+      "coinde",
+      "day",
+      "preparing",
+      "https",
+      "xrp",
+      "computers",
+      "www",
+      "q",
+      "ledger",
+      "quantum"
+    ],
+    "symbols_affected": [
+      "XRP"
+    ],
+    "follow_up_titles": []
   }
 }
