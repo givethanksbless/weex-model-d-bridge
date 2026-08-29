@@ -46,6 +46,7 @@ import json
 import os
 import re
 import time
+from datetime import datetime, timedelta, timezone
 
 import requests
 from google import genai
@@ -115,6 +116,61 @@ class GroqCooldownRequired(Exception):
         self.wait_s = wait_s
         super().__init__(f"Groq asked for a {wait_s:.0f}s wait -- over the "
                           f"{MAX_ACCEPTABLE_WAIT_S}s threshold, stopping instead of retrying.")
+
+
+# --- cross-run cooldown memory (added 2026-08-29) -----------------------
+#
+# This pipeline runs as an hourly GitHub Actions cron job, NOT a daemon --
+# each hour is a completely fresh process with no memory of the last run
+# beyond what's in the committed files. Before this, a GroqCooldownRequired
+# stop just ended that hour's run; the NEXT hourly invocation had no idea
+# a cooldown had been requested and would immediately retry from scratch,
+# potentially hitting the exact same still-active penalty window again.
+# Per this codebase's own documented history (see classify_item_groq's
+# docstring), retrying INTO an active penalty window doesn't clear it, it
+# extends it (258s -> 408s -> 681s -> 898s in a past session). An hourly
+# cadence is normally plenty of gap for an ordinary transient 429 to clear
+# on its own -- but if the real cause is a longer quota wall, blindly
+# retrying every hour regardless wastes a run and gives no diagnostic
+# signal beyond "stopped early" repeated forever.
+#
+# COOLDOWN_STATE_FILE persists the real deadline Groq asked for (now +
+# wait_s) across process boundaries. The NEXT run checks it BEFORE
+# attempting any fresh Groq call -- if still within the window, it skips
+# Stage 1 entirely (zero API calls, zero risk of extending the penalty)
+# and says exactly how long until it's worth trying again, instead of
+# silently failing at the same spot hour after hour.
+COOLDOWN_STATE_FILE = "groq_cooldown_state.json"
+
+
+def save_cooldown(wait_s, reason):
+    deadline = datetime.now(timezone.utc) + timedelta(seconds=wait_s)
+    with open(COOLDOWN_STATE_FILE, "w") as f:
+        json.dump({
+            "cooldown_until": deadline.isoformat(),
+            "requested_wait_s": wait_s,
+            "reason": reason,
+            "saved_at": datetime.now(timezone.utc).isoformat(),
+        }, f, indent=2)
+    return deadline
+
+
+def load_active_cooldown():
+    """Returns the cooldown deadline (datetime) if one is still active,
+    else None. Missing/unparseable state is treated as no cooldown --
+    fails open, since a stale/corrupt state file shouldn't be able to
+    block the pipeline forever."""
+    if not os.path.exists(COOLDOWN_STATE_FILE):
+        return None
+    try:
+        with open(COOLDOWN_STATE_FILE) as f:
+            state = json.load(f)
+        deadline = datetime.fromisoformat(state["cooldown_until"])
+    except Exception:
+        return None
+    if datetime.now(timezone.utc) < deadline:
+        return deadline
+    return None
 
 
 def load_or_prompt_groq_key():
@@ -298,6 +354,15 @@ def main():
     # ---- Stage 1: Groq, full batch ----
     print(f"STAGE 1 (Groq, primary): classifying {len(items)} items "
           f"({len(cache)} already have a good cached result -- will be reused, not re-billed)...\n")
+
+    active_cooldown = load_active_cooldown()
+    if active_cooldown is not None:
+        remaining_s = (active_cooldown - datetime.now(timezone.utc)).total_seconds()
+        print(f"NOTE: a Groq cooldown from a prior run is still active -- "
+              f"{remaining_s:.0f}s remaining (until {active_cooldown.isoformat()}). "
+              f"Skipping any fresh Groq calls this run; cached items still process "
+              f"normally below since they cost nothing.\n")
+
     results = []
     reused_count = 0
     stopped_early = False
@@ -322,11 +387,31 @@ def main():
             )
             continue
 
+        if active_cooldown is not None:
+            print(f"\n{'!' * 80}")
+            print(f"SKIPPING: Groq cooldown from a prior run is still active "
+                  f"({(active_cooldown - datetime.now(timezone.utc)).total_seconds():.0f}s "
+                  f"remaining) -- not attempting any new Groq calls this run, to avoid "
+                  f"retrying into the same window and extending it further (see "
+                  f"classify_item_groq's docstring for why that backfires).")
+            print(f"Processed {idx - 1}/{len(items)} items this run ({reused_count} from "
+                  f"cache). Everything gathered so far is saved to {OUTPUT_FILE} -- "
+                  f"the next scheduled run will retry once the cooldown clears "
+                  f"({(len(items) - idx + 1)} item(s) still waiting).")
+            print(f"{'!' * 80}\n")
+            stopped_early = True
+            break
+
         try:
             llm_result, call_tokens = classify_item_groq(groq_key, item)
         except GroqCooldownRequired as e:
+            deadline = save_cooldown(e.wait_s, str(e))
             print(f"\n{'!' * 80}")
             print(f"STOPPING: {e}")
+            print(f"Saved this cooldown to {COOLDOWN_STATE_FILE} (until "
+                  f"{deadline.isoformat()}) -- the next scheduled run will check this "
+                  f"first and skip straight past any fresh Groq calls instead of "
+                  f"retrying blind into the same window.")
             print(f"Processed {idx - 1}/{len(items)} items this run ({reused_count} from "
                   f"cache). Everything gathered so far is saved to {OUTPUT_FILE} -- "
                   f"re-run later and caching will pick up right here, no lost work.")
