@@ -69,14 +69,24 @@ jobs:
       # layer2_route.py calls load_or_prompt_api_keys() (Gemini) which,
       # even with gemini_config.json already populated, still hits one
       # more input() asking to add another key or press Enter to
-      # continue with what's loaded. Piping an empty line answers that
-      # prompt with "continue," since keys are already loaded from file.
-      # Confirmed necessary from source on 2026-08-27 -- pre-writing the
-      # config file alone was NOT sufficient to avoid this.
+      # continue with what's loaded. A single `echo |` was tried first
+      # (2026-08-27) and hung for 10+ minutes instead of satisfying the
+      # prompt -- `yes ""` instead feeds an endless stream of empty
+      # lines, so it can't under-supply input no matter how many prompts
+      # actually fire. `timeout 300` is a hard backstop so any other
+      # unrelated hang fails fast (5 min) instead of burning the whole
+      # 15-minute job timeout with no diagnostic info.
+      # `yes` gets killed by a broken-pipe signal the moment python3
+      # stops reading stdin (normal, expected) -- but GitHub Actions runs
+      # with pipefail on by default, so that non-zero exit from `yes`
+      # could otherwise mark this whole step as failed even though
+      # python3 actually succeeded. Wrapping it in "(yes "" || true)"
+      # swallows that specific exit code without hiding a real failure
+      # from python3 itself, which still propagates normally.
       - name: Run classification (Groq primary, Gemini secondary)
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: echo | python3 layer2_route.py
+        run: (yes "" || true) | timeout 300 python3 layer2_route.py
 
       - name: Run report translation
         run: |
