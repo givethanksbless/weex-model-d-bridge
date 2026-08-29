@@ -7,32 +7,32 @@
     "trigger_source": "https://t.me/CoinDeskGlobal/24420",
     "trigger_title": "[**Solana vote to double disinflation passes by a hair in dramatic finish**](https://www.coindesk.co",
     "entity_words": [
-      "1",
-      "solana",
-      "dramatic",
-      "contract",
-      "685",
-      "affecting",
-      "avici",
-      "finish",
-      "hair",
-      "coindesk",
-      "rain",
       "500",
+      "hair",
+      "finish",
+      "859",
+      "dramatic",
       "co",
+      "disinflation",
+      "passes",
+      "balan",
+      "identifies",
+      "vote",
       "vulnerability",
       "card",
-      "https",
-      "by",
-      "vote",
-      "disinflation",
       "users",
-      "859",
-      "identifies",
-      "balan",
+      "685",
+      "coindesk",
+      "rain",
+      "avici",
+      "affecting",
+      "solana",
+      "1",
+      "by",
       "www",
+      "contract",
       "double",
-      "passes"
+      "https"
     ],
     "symbols_affected": [
       "SOL"
@@ -41,6 +41,8 @@
       "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
       "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
       "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
+      "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
+      "[**Solana vote to double disinflation passes by a hair in dramatic finish**](https://www.coindesk.co",
       "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
       "[**Solana vote to double disinflation passes by a hair in dramatic finish**](https://www.coindesk.co"
     ]
@@ -53,18 +55,19 @@
     "trigger_source": "https://t.me/wublockchainenglish/25790",
     "trigger_title": "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
     "entity_words": [
-      "central",
-      "money",
-      "calls",
+      "ecb",
+      "bank",
+      "s",
       "move",
       "schnabel",
-      "bank",
+      "calls",
+      "central",
       "onchain",
-      "ecb",
-      "s"
+      "money"
     ],
     "symbols_affected": [],
     "follow_up_titles": [
+      "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
@@ -111,21 +114,22 @@
     "trigger_source": "https://t.me/cointelegraph/71834",
     "trigger_title": "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked ",
     "entity_words": [
-      "linked",
-      "trump",
-      "list",
-      "gold",
       "crash",
-      "account",
-      "com",
       "cointelegraph",
       "update",
-      "https",
+      "linked",
+      "account",
+      "list",
+      "trump",
+      "token",
+      "gold",
       "news",
-      "token"
+      "com",
+      "https"
     ],
     "symbols_affected": [],
     "follow_up_titles": [
+      "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked ",
       "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked ",
       "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked ",
       "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked "
@@ -139,22 +143,23 @@
     "trigger_source": "https://t.me/CoinDeskGlobal/24421",
     "trigger_title": "[**Kalshi takes legal blow in court ruling confirming state powers over prediction markets**](https:",
     "entity_words": [
-      "confirming",
-      "over",
-      "state",
+      "takes",
+      "powers",
       "ruling",
       "prediction",
       "legal",
-      "markets",
-      "https",
-      "powers",
+      "blow",
+      "state",
+      "over",
+      "confirming",
       "kalshi",
       "court",
-      "takes",
-      "blow"
+      "markets",
+      "https"
     ],
     "symbols_affected": [],
     "follow_up_titles": [
+      "[**Kalshi takes legal blow in court ruling confirming state powers over prediction markets**](https:",
       "[**Kalshi takes legal blow in court ruling confirming state powers over prediction markets**](https:",
       "[**Kalshi takes legal blow in court ruling confirming state powers over prediction markets**](https:"
     ]
@@ -167,24 +172,25 @@
     "trigger_source": "https://t.me/CoinDeskGlobal/24424",
     "trigger_title": "[**Swift\u2019s $1.5 quadrillion network faces a blockchain test**](https://www.coindesk.com/business/202",
     "entity_words": [
-      "1",
-      "202",
+      "5",
       "business",
       "network",
-      "5",
-      "quadrillion",
-      "swift",
-      "s",
       "coindesk",
-      "com",
-      "https",
+      "s",
+      "quadrillion",
+      "faces",
       "test",
+      "1",
+      "com",
       "www",
       "blockchain",
-      "faces"
+      "swift",
+      "https",
+      "202"
     ],
     "symbols_affected": [],
     "follow_up_titles": [
+      "[**Swift\u2019s $1.5 quadrillion network faces a blockchain test**](https://www.coindesk.com/business/202",
       "[**Swift\u2019s $1.5 quadrillion network faces a blockchain test**](https://www.coindesk.com/business/202"
     ]
   },
@@ -198,19 +204,20 @@
     "entity_words": [
       "long",
       "from",
-      "crypto",
-      "mostly",
-      "220",
-      "lost",
       "past",
-      "alert",
+      "lost",
       "hour",
+      "million",
+      "220",
+      "mostly",
       "positions",
       "traders",
-      "million"
+      "alert",
+      "crypto"
     ],
     "symbols_affected": [],
     "follow_up_titles": [
+      "**\ud83d\udea8 ALERT: **Crypto traders lost $220 million in the past hour, mostly from long positions.",
       "**\ud83d\udea8 ALERT: **Crypto traders lost $220 million in the past hour, mostly from long positions."
     ]
   },
@@ -222,18 +229,20 @@
     "trigger_source": "https://t.me/watcherguru/14840",
     "trigger_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Odds of the Federal Reserve raising interest rates next month surge to 49%.",
     "entity_words": [
-      "rates",
       "49",
+      "surge",
+      "federal",
+      "odds",
+      "rates",
+      "month",
+      "interest",
       "raising",
       "next",
-      "month",
-      "odds",
-      "interest",
-      "reserve",
-      "federal",
-      "surge"
+      "reserve"
     ],
     "symbols_affected": [],
-    "follow_up_titles": []
+    "follow_up_titles": [
+      "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Odds of the Federal Reserve raising interest rates next month surge to 49%."
+    ]
   }
 }
