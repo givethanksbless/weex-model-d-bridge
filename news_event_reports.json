@@ -1,7 +1,7 @@
 [
   {
     "event_id": "hack_cointelegraph_trump_gold_token_20260829",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-08-29T12:29:22+00:00",
     "trigger_source": "https://t.me/cointelegraph/71834",
@@ -52,6 +52,66 @@
         "gemini_second_opinion"
       ],
       "providers_agree": false,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_500_vulnerability_859_affecting_20260828",
+    "matched_existing_event": true,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-08-28T22:30:53+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/25787",
+    "trigger_source_title": "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [
+      "SOL"
+    ],
+    "evidence": {
+      "title": "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/25787",
+      "reasoning": "The article reports a vulnerability in Avici\u2019s Solana card contract that affected 1,685 users and $500,859, a concrete, project\u2011specific security incident.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_takes_blow_powers_court_20260828",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-08-28T21:28:49+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24421",
+    "trigger_source_title": "[**Kalshi takes legal blow in court ruling confirming state powers over prediction markets**](https:",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "[**Kalshi takes legal blow in court ruling confirming state powers over prediction markets**](https:",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24421",
+      "reasoning": "A U.S. appeals court ruling directly addresses state authority over prediction markets, constituting a concrete regulatory action by a government judicial body.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },

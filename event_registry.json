@@ -7,25 +7,26 @@
     "trigger_source": "https://t.me/wublockchainenglish/25787",
     "trigger_title": "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
     "entity_words": [
+      "859",
+      "card",
+      "avici",
+      "1",
+      "685",
+      "vulnerability",
+      "rain",
+      "users",
+      "500",
+      "affecting",
+      "solana",
       "contract",
       "identifies",
-      "rain",
-      "685",
-      "balan",
-      "card",
-      "859",
-      "affecting",
-      "500",
-      "vulnerability",
-      "1",
-      "solana",
-      "avici",
-      "users"
+      "balan"
     ],
     "symbols_affected": [
       "SOL"
     ],
     "follow_up_titles": [
+      "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
       "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan"
     ]
   },
@@ -38,17 +39,18 @@
     "trigger_title": "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
     "entity_words": [
       "onchain",
-      "central",
-      "bank",
-      "money",
-      "move",
-      "calls",
-      "s",
       "schnabel",
-      "ecb"
+      "money",
+      "central",
+      "s",
+      "ecb",
+      "bank",
+      "move",
+      "calls"
     ],
     "symbols_affected": [],
     "follow_up_titles": [
+      "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
@@ -92,18 +94,45 @@
     "trigger_source": "https://t.me/cointelegraph/71834",
     "trigger_title": "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked ",
     "entity_words": [
-      "cointelegraph",
-      "trump",
-      "gold",
-      "token",
-      "list",
-      "crash",
       "https",
-      "account",
+      "cointelegraph",
       "com",
+      "account",
+      "list",
+      "gold",
+      "linked",
       "news",
+      "crash",
       "update",
-      "linked"
+      "token",
+      "trump"
+    ],
+    "symbols_affected": [],
+    "follow_up_titles": [
+      "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked "
+    ]
+  },
+  "regulatory_takes_blow_powers_court_20260828": {
+    "spec_category": "regulatory shock",
+    "first_seen_timestamp": "2026-08-28T21:28:49+00:00",
+    "last_seen_timestamp": "2026-08-28T21:28:49+00:00",
+    "trigger_timestamp": "2026-08-28T21:28:49+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24421",
+    "trigger_title": "[**Kalshi takes legal blow in court ruling confirming state powers over prediction markets**](https:",
+    "entity_words": [
+      "takes",
+      "blow",
+      "powers",
+      "court",
+      "kalshi",
+      "ruling",
+      "markets",
+      "https",
+      "confirming",
+      "state",
+      "over",
+      "prediction",
+      "legal"
     ],
     "symbols_affected": [],
     "follow_up_titles": []
