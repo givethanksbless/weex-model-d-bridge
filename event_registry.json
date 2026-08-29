@@ -7,25 +7,26 @@
     "trigger_source": "https://t.me/wublockchainenglish/25787",
     "trigger_title": "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
     "entity_words": [
-      "859",
-      "card",
-      "avici",
       "1",
-      "685",
       "vulnerability",
-      "rain",
-      "users",
-      "500",
       "affecting",
       "solana",
+      "users",
+      "685",
+      "859",
+      "card",
+      "balan",
       "contract",
+      "rain",
       "identifies",
-      "balan"
+      "500",
+      "avici"
     ],
     "symbols_affected": [
       "SOL"
     ],
     "follow_up_titles": [
+      "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
       "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
       "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan"
     ]
@@ -38,18 +39,19 @@
     "trigger_source": "https://t.me/wublockchainenglish/25790",
     "trigger_title": "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
     "entity_words": [
+      "bank",
+      "calls",
+      "money",
+      "ecb",
       "onchain",
       "schnabel",
-      "money",
-      "central",
       "s",
-      "ecb",
-      "bank",
-      "move",
-      "calls"
+      "central",
+      "move"
     ],
     "symbols_affected": [],
     "follow_up_titles": [
+      "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
@@ -94,21 +96,22 @@
     "trigger_source": "https://t.me/cointelegraph/71834",
     "trigger_title": "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked ",
     "entity_words": [
-      "https",
-      "cointelegraph",
-      "com",
-      "account",
-      "list",
-      "gold",
+      "trump",
       "linked",
       "news",
-      "crash",
-      "update",
+      "cointelegraph",
+      "list",
       "token",
-      "trump"
+      "crash",
+      "gold",
+      "update",
+      "https",
+      "account",
+      "com"
     ],
     "symbols_affected": [],
     "follow_up_titles": [
+      "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked ",
       "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked "
     ]
   },
@@ -120,19 +123,72 @@
     "trigger_source": "https://t.me/CoinDeskGlobal/24421",
     "trigger_title": "[**Kalshi takes legal blow in court ruling confirming state powers over prediction markets**](https:",
     "entity_words": [
-      "takes",
-      "blow",
-      "powers",
-      "court",
-      "kalshi",
-      "ruling",
-      "markets",
-      "https",
       "confirming",
       "state",
+      "blow",
       "over",
       "prediction",
-      "legal"
+      "ruling",
+      "markets",
+      "court",
+      "takes",
+      "https",
+      "powers",
+      "legal",
+      "kalshi"
+    ],
+    "symbols_affected": [],
+    "follow_up_titles": [
+      "[**Kalshi takes legal blow in court ruling confirming state powers over prediction markets**](https:"
+    ]
+  },
+  "macro_1_5_faces_202_20260829": {
+    "spec_category": "macro/geopolitical shock",
+    "first_seen_timestamp": "2026-08-29T15:00:47+00:00",
+    "last_seen_timestamp": "2026-08-29T15:00:47+00:00",
+    "trigger_timestamp": "2026-08-29T15:00:47+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24424",
+    "trigger_title": "[**Swift\u2019s $1.5 quadrillion network faces a blockchain test**](https://www.coindesk.com/business/202",
+    "entity_words": [
+      "1",
+      "5",
+      "faces",
+      "202",
+      "coindesk",
+      "s",
+      "network",
+      "www",
+      "https",
+      "swift",
+      "business",
+      "test",
+      "quadrillion",
+      "blockchain",
+      "com"
+    ],
+    "symbols_affected": [],
+    "follow_up_titles": []
+  },
+  "macro_220_long_traders_lost_20260828": {
+    "spec_category": "macro/geopolitical shock",
+    "first_seen_timestamp": "2026-08-28T16:41:01+00:00",
+    "last_seen_timestamp": "2026-08-28T16:41:01+00:00",
+    "trigger_timestamp": "2026-08-28T16:41:01+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71830",
+    "trigger_title": "**\ud83d\udea8 ALERT: **Crypto traders lost $220 million in the past hour, mostly from long positions.",
+    "entity_words": [
+      "220",
+      "long",
+      "traders",
+      "lost",
+      "mostly",
+      "from",
+      "positions",
+      "crypto",
+      "hour",
+      "million",
+      "alert",
+      "past"
     ],
     "symbols_affected": [],
     "follow_up_titles": []

@@ -1,0 +1,12 @@
+{
+  "confirmed": true,
+  "relevant": true,
+  "direction": "down",
+  "category": "macro/systemic",
+  "symbols_affected": "systemwide",
+  "note": "The article discusses a potential shift in the global payment infrastructure that could affect the entire Swift network, a macro-level event impacting the broader financial system.",
+  "source": "CoinDeskGlobal",
+  "timestamp": "2026-08-29T15:00:47+00:00",
+  "_event_id": "macro_1_5_faces_202_20260829",
+  "_raw_category": "macro/geopolitical shock"
+}

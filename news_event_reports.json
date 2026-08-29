@@ -1,5 +1,34 @@
 [
   {
+    "event_id": "macro_1_5_faces_202_20260829",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-08-29T15:00:47+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24424",
+    "trigger_source_title": "[**Swift\u2019s $1.5 quadrillion network faces a blockchain test**](https://www.coindesk.com/business/202",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**Swift\u2019s $1.5 quadrillion network faces a blockchain test**](https://www.coindesk.com/business/202",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24424",
+      "reasoning": "The article discusses a potential shift in the global payment infrastructure that could affect the entire Swift network, a macro-level event impacting the broader financial system.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "hack_cointelegraph_trump_gold_token_20260829",
     "matched_existing_event": true,
     "category": "hack/exploit",
@@ -90,7 +119,7 @@
   },
   {
     "event_id": "regulatory_takes_blow_powers_court_20260828",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-08-28T21:28:49+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24421",
@@ -113,6 +142,35 @@
       ],
       "providers_agree": true,
       "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_220_long_traders_lost_20260828",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-08-28T16:41:01+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71830",
+    "trigger_source_title": "**\ud83d\udea8 ALERT: **Crypto traders lost $220 million in the past hour, mostly from long positions.",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**\ud83d\udea8 ALERT: **Crypto traders lost $220 million in the past hour, mostly from long positions.",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/71830",
+      "reasoning": "The article reports a market-wide loss of $220\u202fmillion in a short period, indicating a systemic shock affecting many traders, with no specific project or exchange singled out.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
