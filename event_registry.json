@@ -7,24 +7,47 @@
     "trigger_source": "https://t.me/wublockchainenglish/25787",
     "trigger_title": "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan",
     "entity_words": [
-      "500",
-      "vulnerability",
+      "contract",
+      "identifies",
+      "rain",
+      "685",
+      "balan",
+      "card",
       "859",
       "affecting",
-      "rain",
-      "identifies",
-      "avici",
-      "card",
-      "users",
+      "500",
+      "vulnerability",
       "1",
-      "balan",
       "solana",
-      "contract",
-      "685"
+      "avici",
+      "users"
     ],
     "symbols_affected": [
       "SOL"
     ],
+    "follow_up_titles": [
+      "Rain Identifies Solana Card Contract Vulnerability Affecting 1,685 Avici Users and $500,859 in Balan"
+    ]
+  },
+  "regulatory_s_onchain_move_central_20260829": {
+    "spec_category": "regulatory shock",
+    "first_seen_timestamp": "2026-08-29T00:43:42+00:00",
+    "last_seen_timestamp": "2026-08-29T00:43:42+00:00",
+    "trigger_timestamp": "2026-08-29T00:43:42+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/25790",
+    "trigger_title": "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
+    "entity_words": [
+      "s",
+      "onchain",
+      "move",
+      "central",
+      "schnabel",
+      "bank",
+      "money",
+      "ecb",
+      "calls"
+    ],
+    "symbols_affected": [],
     "follow_up_titles": []
   }
 }
