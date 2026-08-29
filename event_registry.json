@@ -37,18 +37,19 @@
     "trigger_source": "https://t.me/wublockchainenglish/25790",
     "trigger_title": "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
     "entity_words": [
-      "s",
-      "central",
       "onchain",
-      "calls",
+      "central",
       "bank",
-      "ecb",
       "money",
       "move",
-      "schnabel"
+      "calls",
+      "s",
+      "schnabel",
+      "ecb"
     ],
     "symbols_affected": [],
     "follow_up_titles": [
+      "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain",
       "ECB\u2019s Schnabel Calls for Central-Bank Money to Move Onchain"
@@ -82,5 +83,29 @@
     "follow_up_titles": [
       "[**Ripple is preparing XRP Ledger for quantum computers before \u2018Q-Day\u2019 arrives**](https://www.coinde"
     ]
+  },
+  "hack_cointelegraph_trump_gold_token_20260829": {
+    "spec_category": "hack/exploit",
+    "first_seen_timestamp": "2026-08-29T12:29:22+00:00",
+    "last_seen_timestamp": "2026-08-29T12:29:22+00:00",
+    "trigger_timestamp": "2026-08-29T12:29:22+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71834",
+    "trigger_title": "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked ",
+    "entity_words": [
+      "cointelegraph",
+      "trump",
+      "gold",
+      "token",
+      "list",
+      "crash",
+      "https",
+      "account",
+      "com",
+      "news",
+      "update",
+      "linked"
+    ],
+    "symbols_affected": [],
+    "follow_up_titles": []
   }
 }
