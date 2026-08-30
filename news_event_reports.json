@@ -877,7 +877,7 @@
   },
   {
     "event_id": "macro_liquidation_s_largest_out_20260830",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-08-30T17:35:07+00:00",
     "trigger_source": "https://t.me/cointelegraph/71845",
