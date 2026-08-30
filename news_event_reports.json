@@ -558,7 +558,7 @@
   },
   {
     "event_id": "hack_sold_last_months_tokens_20260827",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-08-27T14:40:03+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25765",
@@ -587,7 +587,7 @@
   },
   {
     "event_id": "exchange_highlight_its_operations_bitmex_20260827",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "exchange/counterparty failure",
     "trigger_timestamp": "2026-08-27T14:25:14+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25764",
