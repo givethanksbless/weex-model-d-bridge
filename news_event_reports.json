@@ -500,7 +500,7 @@
   },
   {
     "event_id": "hack_surges_overhaul_https_coindesk_20260827",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-08-27T17:32:42+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24404",
@@ -529,7 +529,7 @@
   },
   {
     "event_id": "regulatory_https_polish_prosecutors_c_20260827",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-08-27T16:12:32+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24403",
