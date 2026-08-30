@@ -819,7 +819,7 @@
   },
   {
     "event_id": "hack_ai_company_own_systems_20260826",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-08-26T21:41:46+00:00",
     "trigger_source": "https://t.me/watcherguru/14823",
