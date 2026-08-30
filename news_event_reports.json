@@ -1,7 +1,7 @@
 [
   {
     "event_id": "hack_fixed_hard_polygon_discloses_20260830",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-08-30T09:01:08+00:00",
     "trigger_source": "https://t.me/cointelegraph/71842",
@@ -703,7 +703,7 @@
   },
   {
     "event_id": "hack_crypto_2_standard_domains_20260827",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-08-27T10:51:57+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24392",
@@ -726,6 +726,64 @@
       ],
       "providers_agree": false,
       "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_innovation_mandate_new_stablecoins_20260827",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-08-27T10:37:57+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71807",
+    "trigger_source_title": "**\ud83c\uddec\ud83c\udde7 JUST IN**: UK to give the Bank of England a new mandate to support innovation in stablecoins an",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**\ud83c\uddec\ud83c\udde7 JUST IN**: UK to give the Bank of England a new mandate to support innovation in stablecoins an",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/71807",
+      "reasoning": "The UK government is directing the Bank of England to adopt a new mandate to support stablecoin and digital asset innovation, which is a concrete regulatory action by a government body.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_formally_stablecoin_order_money_20260827",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-08-27T10:28:35+00:00",
+    "trigger_source": "https://t.me/watcherguru/14829",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddec\ud83c\udde7 UK to formally order Bank of England to advance stablecoin and digital money innovat",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddec\ud83c\udde7 UK to formally order Bank of England to advance stablecoin and digital money innovat",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/14829",
+      "reasoning": "The UK government is directing the Bank of England to take concrete steps to advance stablecoin and digital money innovation, which is a direct regulatory action by a government body.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
