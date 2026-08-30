@@ -4248,5 +4248,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "weex",
+    "source_type": "first_party",
+    "title": "WEEX is about to Launch WXT Staking!",
+    "text": "Dear WEEX Users,  WEEX will officially launch  WXT Staking  on  2026/03/20\u00a0 10:00 UTC+0  .  \u00a0Users can participate in staking directly on the WEEX platform and earn Staking rewards by holding tokens.  Please refer to the on-page information for specific rules and participation details.     \u00a0        WXT Staking Basic Information    Project Name:  WEEX Token   Token Name:  WXT   Staking Type:  Flexible and Fixed   Estimated Annual Percentage Rate (APR): \u00a0  Flexible \uff1a1% Fixed\uff1a2.5%   Supported Platforms:  WEEX App / Web  Through WEEX Staking, users can complete subscription, holding, and reward earning directly on the platform without complex on-chain operations or asset transfers.  \u00a0   About Staking   Staking is an asset value-added service launched by WEEX,  designed to help users manage their assets more steadily and achieve long-term returns in a volatile market.  The launch of  WXT Staking  provides token holders with a more flexible and convenient way to earn rewards.",
+    "timestamp_utc": "2026-03-20T03:05:27Z",
+    "url": "https://weexsupport.zendesk.com/hc/en-us/articles/56183839798425-WEEX-is-about-to-Launch-WXT-Staking",
+    "raw_id": "56183839798425",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "Promotional staking campaign \u2013 excluded from exchange_operational.",
+    "authority_weight": 1.0,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]

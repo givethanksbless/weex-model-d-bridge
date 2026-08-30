@@ -1,7 +1,7 @@
 [
   {
     "event_id": "hack_exploit_estimated_halts_cronos_20260830",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-08-30T20:38:13+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25799",
