@@ -413,7 +413,7 @@
   },
   {
     "event_id": "hack_000_x_it_account_20260828",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-08-28T01:11:07+00:00",
     "trigger_source": "https://t.me/cointelegraph/71822",
@@ -442,7 +442,7 @@
   },
   {
     "event_id": "regulatory_holding_company_world_co_20260827",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-08-27T20:16:39+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25768",
@@ -471,7 +471,7 @@
   },
   {
     "event_id": "regulatory_prediction_market_kalshi_against_20260827",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-08-27T18:30:23+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24405",
