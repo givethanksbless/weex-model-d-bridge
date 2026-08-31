@@ -848,7 +848,7 @@
   },
   {
     "event_id": "macro_look_ht_probability_not_20260831",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-08-31T06:43:10+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24434",
