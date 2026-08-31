@@ -876,6 +876,35 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "macro_over_missile_us_now_20260831",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-08-31T00:27:25+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71852",
+    "trigger_source_title": "\ud83d\udea8 **NOW**: Oil surges over 2%, with Brent back above $90/barrel, after the US struck Iranian missile",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "\ud83d\udea8 **NOW**: Oil surges over 2%, with Brent back above $90/barrel, after the US struck Iranian missile",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/71852",
+      "reasoning": "The article reports a market-wide oil price surge triggered by a geopolitical event (US attack on Iran), which constitutes a macro systemic shock rather than a project, exchange, or regulatory action.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_liquidation_s_largest_out_20260830",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
