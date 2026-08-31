@@ -1,7 +1,7 @@
 [
   {
     "event_id": "macro_projected_interest_now_rates_20260831",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-08-31T17:42:25+00:00",
     "trigger_source": "https://t.me/watcherguru/14861",
@@ -19,9 +19,10 @@
       "url": "https://t.me/watcherguru/14861",
       "reasoning": "The Federal Reserve\u2019s projected rate hike is a concrete macroeconomic action that can influence the broader crypto market, fitting the macro_systemic category with specific details.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": false,
       "internal_category": "macro_systemic",
       "internal_confidence_score": 0.54
     },
@@ -29,7 +30,7 @@
   },
   {
     "event_id": "regulatory_u_hyperliquid_talks_enter_20260831",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-08-31T17:02:37+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25814",
@@ -518,35 +519,6 @@
       ],
       "providers_agree": true,
       "internal_category": "regulatory_action",
-      "internal_confidence_score": 0.54
-    },
-    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
-  },
-  {
-    "event_id": "macro_220_long_traders_lost_20260828",
-    "matched_existing_event": true,
-    "category": "macro/geopolitical shock",
-    "trigger_timestamp": "2026-08-28T16:41:01+00:00",
-    "trigger_source": "https://t.me/cointelegraph/71830",
-    "trigger_source_title": "**\ud83d\udea8 ALERT: **Crypto traders lost $220 million in the past hour, mostly from long positions.",
-    "is_canonical_source": true,
-    "confidence_tier": "LIKELY",
-    "recommended_posture": "Reduce size market-wide, no forced exits",
-    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
-    "live_or_historical": "live",
-    "symbols_affected": "systemwide",
-    "evidence": {
-      "title": "**\ud83d\udea8 ALERT: **Crypto traders lost $220 million in the past hour, mostly from long positions.",
-      "source": "cointelegraph",
-      "source_type": "third_party",
-      "url": "https://t.me/cointelegraph/71830",
-      "reasoning": "The article reports a market-wide loss of $220\u202fmillion in a short period, indicating a systemic shock affecting many traders, with no specific project or exchange singled out.",
-      "providers_checked": [
-        "groq",
-        "gemini_second_opinion"
-      ],
-      "providers_agree": false,
-      "internal_category": "macro_systemic",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
