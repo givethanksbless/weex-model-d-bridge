@@ -331,6 +331,23 @@ def load_route_cache():
     return cache
 
 
+def save_merged_cache(cache, results):
+    """Writes OUTPUT_FILE as the union of the previously-loaded cache and
+    this run's results, keyed by item_key -- so a run that stops early
+    (Groq cooldown, external timeout, or a thin upstream item list) can
+    never destroy cache history for items it didn't touch this cycle.
+    Added 2026-08-31 after a real incident: a run that stopped early
+    wrote only 4 items to disk, wiping 143 previously-cached entries and
+    forcing the next run to reclassify almost everything from scratch,
+    which is what caused it to blow through even a doubled timeout.
+    """
+    merged = dict(cache)
+    for r in results:
+        merged[item_key(r)] = r
+    with open(OUTPUT_FILE, "w") as out_f:
+        json.dump(list(merged.values()), out_f, indent=2)
+
+
 def main():
     groq_key = load_or_prompt_groq_key()
     gemini_keys = load_or_prompt_api_keys()
@@ -435,8 +452,7 @@ def main():
             f"  [{idx}/{len(items)}] {scored['category']:<24} {scored['specificity']:<9} "
             f"conf={scored['confidence_score']:.2f} {confirmed_tag:<9} {item['title'][:50]}"
         )
-        with open(OUTPUT_FILE, "w") as out_f:
-            json.dump(results, out_f, indent=2)
+        save_merged_cache(cache, results)
 
         # Pacing fix (2026-08-24): replaces the old flat 1.5s sleep, which
         # allowed ~40 calls/min -- already over the real 30 RPM cap, and
@@ -527,16 +543,14 @@ def main():
             f"  [{n}/{len(flagged)}] groq_confirmed={results[i]['confirmed']} "
             f"gemini_confirmed={second['confirmed']} {tag} -- {item['title'][:45]}"
         )
-        with open(OUTPUT_FILE, "w") as out_f:
-            json.dump(results, out_f, indent=2)
+        save_merged_cache(cache, results)
         # Pacing (2026-08-24): this loop had no delay at all before --
         # paces against GEMINI_RPM_SAFETY_MARGIN per key, spread across
         # however many keys are still in rotation, same formula as
         # layer2_classifier.py's main().
         time.sleep(60 / (GEMINI_RPM_SAFETY_MARGIN * max(1, len(gemini_available))))
 
-    with open(OUTPUT_FILE, "w") as out_f:
-        json.dump(results, out_f, indent=2)
+    save_merged_cache(cache, results)
 
     final_confirmed_count = sum(1 for r in results if r["final_confirmed"])
     disagree_count = sum(1 for r in results if r.get("providers_agree") is False)
