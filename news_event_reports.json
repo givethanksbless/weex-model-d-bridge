@@ -1,7 +1,7 @@
 [
   {
     "event_id": "regulatory_from_https_coindesk_tax_20260831",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-08-31T13:30:21+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24443",
@@ -726,35 +726,6 @@
       ],
       "providers_agree": true,
       "internal_category": "regulatory_action",
-      "internal_confidence_score": 0.54
-    },
-    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
-  },
-  {
-    "event_id": "hack_surges_overhaul_https_coindesk_20260827",
-    "matched_existing_event": true,
-    "category": "hack/exploit",
-    "trigger_timestamp": "2026-08-27T17:32:42+00:00",
-    "trigger_source": "https://t.me/CoinDeskGlobal/24404",
-    "trigger_source_title": "[**Ethena surges as buyback vote, VC unlock overhaul boost token outlook**](https://www.coindesk.com",
-    "is_canonical_source": true,
-    "confidence_tier": "LIKELY",
-    "recommended_posture": "Pause new entries in affected symbol(s) only",
-    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
-    "live_or_historical": "live",
-    "symbols_affected": [],
-    "evidence": {
-      "title": "[**Ethena surges as buyback vote, VC unlock overhaul boost token outlook**](https://www.coindesk.com",
-      "source": "CoinDeskGlobal",
-      "source_type": "third_party",
-      "url": "https://t.me/CoinDeskGlobal/24404",
-      "reasoning": "The article reports a governance vote and protocol changes (buyback and VC unlock overhaul) specific to the Ethena project, directly impacting its token economics.",
-      "providers_checked": [
-        "groq",
-        "gemini_second_opinion"
-      ],
-      "providers_agree": false,
-      "internal_category": "project_specific",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
