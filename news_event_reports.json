@@ -877,7 +877,7 @@
   },
   {
     "event_id": "macro_over_missile_us_now_20260831",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-08-31T00:27:25+00:00",
     "trigger_source": "https://t.me/cointelegraph/71852",
