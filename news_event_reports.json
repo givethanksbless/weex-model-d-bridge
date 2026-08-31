@@ -1,7 +1,7 @@
 [
   {
     "event_id": "hack_cronos_protocol_com_security_20260831",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-08-31T02:36:16+00:00",
     "trigger_source": "https://t.me/cointelegraph/71854",
