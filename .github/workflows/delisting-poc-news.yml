@@ -27,7 +27,7 @@ concurrency:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -86,7 +86,7 @@ jobs:
       - name: Run classification (Groq primary, Gemini secondary)
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: (yes "" || true) | timeout 300 python3 layer2_route.py
+        run: (yes "" || true) | timeout 600 python3 -u layer2_route.py
 
       - name: Run report translation
         run: |
