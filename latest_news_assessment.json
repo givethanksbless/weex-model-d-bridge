@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article discusses a potential shift in the global payment infrastructure that could affect the entire Swift network, a macro-level event impacting the broader financial system.",
-  "source": "CoinDeskGlobal",
-  "timestamp": "2026-08-29T15:00:47+00:00",
-  "_event_id": "macro_1_5_faces_202_20260829",
+  "note": "The Federal Reserve\u2019s projected rate hike is a concrete macroeconomic action that can influence the broader crypto market, fitting the macro_systemic category with specific details.",
+  "source": "watcherguru",
+  "timestamp": "2026-08-31T17:42:25+00:00",
+  "_event_id": "macro_projected_interest_now_rates_20260831",
   "_raw_category": "macro/geopolitical shock"
 }
