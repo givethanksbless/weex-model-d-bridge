@@ -645,7 +645,7 @@
   },
   {
     "event_id": "regulatory_no_reserves_100_interest_20260901",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-01T05:28:31+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25820",
