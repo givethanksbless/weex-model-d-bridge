@@ -1,7 +1,7 @@
 [
   {
     "event_id": "regulatory_lazarus_as_explores_through_20260831",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-08-31T21:17:13+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25815",
@@ -32,7 +32,7 @@
   },
   {
     "event_id": "hack_as_millions_tens_onshore_20260831",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-08-31T20:53:32+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24445",
@@ -61,7 +61,7 @@
   },
   {
     "event_id": "macro_after_hike_s_jumped_20260831",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-08-31T20:40:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/71872",
@@ -437,6 +437,35 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "hack_cointelegraph_trump_gold_token_20260829",
+    "matched_existing_event": true,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-08-29T12:29:22+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71834",
+    "trigger_source_title": "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked ",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "\ud83d\udea8 [UPDATE](https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash): Trump-linked ",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/71834",
+      "reasoning": "The article reports a significant dump of $330,000 worth of the GOLD token by team-linked wallets, a negative event tied to a specific crypto asset.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
@@ -467,7 +496,7 @@
   },
   {
     "event_id": "macro_as_holds_yen_160_20260831",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-08-31T08:18:17+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24436",
