@@ -763,7 +763,7 @@
   },
   {
     "event_id": "regulatory_freezes_premier_account_uk_20260901",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-01T12:37:42+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24456",
@@ -990,6 +990,34 @@
       "providers_agree": true,
       "internal_category": "macro_systemic",
       "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_threaten_enters_august_rally_20260901",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-01T13:55:48+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24458",
+    "trigger_source_title": "[**Bitcoin enters \u2018Rektember\u2019 as rate-hike risks threaten its August rally**](https://www.coindesk.c",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**Bitcoin enters \u2018Rektember\u2019 as rate-hike risks threaten its August rally**](https://www.coindesk.c",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24458",
+      "reasoning": "General market commentary about rate-hike risks affecting Bitcoin, no specific event or concrete action.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.12
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   }
