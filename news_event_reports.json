@@ -703,7 +703,7 @@
   },
   {
     "event_id": "hack_by_block_exploit_hit_20260901",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-01T08:15:30+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25822",
