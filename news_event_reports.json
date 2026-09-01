@@ -850,7 +850,7 @@
   },
   {
     "event_id": "regulatory_new_use_sec_blockchain_20260901",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-01T16:59:27+00:00",
     "trigger_source": "https://t.me/watcherguru/14874",
