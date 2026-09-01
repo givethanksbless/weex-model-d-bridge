@@ -1,6 +1,6 @@
 {
-  "cooldown_until": "2026-09-01T05:13:19.222130+00:00",
-  "requested_wait_s": 662.0,
-  "reason": "Groq asked for a 662s wait -- over the 60s threshold, stopping instead of retrying.",
-  "saved_at": "2026-09-01T05:02:17.222273+00:00"
+  "cooldown_until": "2026-09-01T06:08:08.452073+00:00",
+  "requested_wait_s": 323.0,
+  "reason": "Groq asked for a 323s wait -- over the 60s threshold, stopping instead of retrying.",
+  "saved_at": "2026-09-01T06:02:45.452207+00:00"
 }

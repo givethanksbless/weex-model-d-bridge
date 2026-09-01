@@ -616,7 +616,7 @@
   },
   {
     "event_id": "regulatory_cryptocurrency_russian_effect_officially_20260901",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-01T04:34:16+00:00",
     "trigger_source": "https://t.me/watcherguru/14866",
@@ -633,6 +633,35 @@
       "source_type": "third_party",
       "url": "https://t.me/watcherguru/14866",
       "reasoning": "The Russian government has enacted a law regulating cryptocurrency, which is a concrete regulatory action by a government body.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_no_reserves_100_interest_20260901",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-01T05:28:31+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/25820",
+    "trigger_source_title": "Singapore Proposes Stablecoin License With 100% Reserves, No Holder Interest",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "Singapore Proposes Stablecoin License With 100% Reserves, No Holder Interest",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/25820",
+      "reasoning": "The Monetary Authority of Singapore, a government regulator, is proposing concrete amendments to the Payment Services Act to create a stablecoin issuance license with specific requirements, which constitutes a regulatory action.",
       "providers_checked": [
         "groq",
         "gemini_second_opinion"
