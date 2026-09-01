@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article discusses Fed rate hike odds, a macroeconomic factor affecting the crypto market, but it does not involve a specific crypto project, exchange, or regulatory action.",
-  "source": "cointelegraph",
-  "timestamp": "2026-08-31T20:40:01+00:00",
-  "_event_id": "macro_after_hike_s_jumped_20260831",
+  "note": "The post reports a concrete, scheduled Bitcoin halving event, a market-wide supply shock affecting all Bitcoin holders.",
+  "source": "watcherguru",
+  "timestamp": "2026-09-01T07:48:54+00:00",
+  "_event_id": "macro_000_next_bitcoin_blocks_20260901",
   "_raw_category": "macro/geopolitical shock"
 }
