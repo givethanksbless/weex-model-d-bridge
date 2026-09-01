@@ -995,7 +995,7 @@
   },
   {
     "event_id": "macro_threaten_enters_august_rally_20260901",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-01T13:55:48+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24458",
