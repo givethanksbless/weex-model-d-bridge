@@ -966,7 +966,7 @@
   },
   {
     "event_id": "exchange_allegedly_freezing_us_request_20260902",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "exchange/counterparty failure",
     "trigger_timestamp": "2026-09-02T03:13:00+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25836",
