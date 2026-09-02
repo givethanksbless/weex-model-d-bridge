@@ -5637,5 +5637,72 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**OpenAI says its new 'Astra' AI can build attacks without human help**](https://www.coindesk.com/t",
+    "text": "[**OpenAI says its new 'Astra' AI can build attacks without human help**](https://www.coindesk.com/tech/2026/09/02/openai-says-its-new-astra-ai-can-build-attacks-without-human-help)\n\nAstra is the first OpenAI model to reach its \u201cCritical\u201d cybersecurity threshold, meaning it can find previously unknown vulnerabilities and develop ways to exploit them across hardened systems.",
+    "timestamp_utc": "2026-09-02T05:29:15+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24466",
+    "raw_id": "24466",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "OpenAI announced a new AI model\u2019s capabilities; no concrete regulatory action, exchange change, hack, or market-wide shock.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff**](https://www.co",
+    "text": "[**Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff**](https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff)\n\nEvery large-cap token fell over the past 24 hours, and the high-beta majors gave up roughly triple what bitcoin did.",
+    "timestamp_utc": "2026-09-02T05:02:20+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24465",
+    "raw_id": "24465",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "macro_systemic",
+    "specificity": "moderate",
+    "reasoning": "The article describes a market-wide selloff triggered by Iran strikes, a macro geopolitical event affecting multiple large-cap tokens, fitting the macro_systemic category with moderate specificity due to the named cause but no precise dates or figures.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.5,
+    "confidence_score": 0.3,
+    "confirmed": false,
+    "symbols_affected": [
+      "SOL"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "title": "[**Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff**](https://www.co",
+      "text": "[**Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff**](https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff)\n\nEvery large-cap token fell over the past 24 hours, and the high-beta majors gave up roughly triple what bitcoin did.",
+      "timestamp_utc": "2026-09-02T05:02:20+00:00",
+      "url": "https://t.me/CoinDeskGlobal/24465",
+      "raw_id": "24465",
+      "layer1_reason": "no junk pattern matched (default pass)",
+      "category": "macro_systemic",
+      "specificity": "specific",
+      "reasoning": "The text describes a market-wide selloff affecting major crypto assets (Solana, ether, XRP) driven by a specific geopolitical macro event (Iran strikes).",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [
+        "SOL"
+      ],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": false
   }
 ]

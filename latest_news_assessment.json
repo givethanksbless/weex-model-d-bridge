@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The post reports a concrete, scheduled Bitcoin halving event, a market-wide supply shock affecting all Bitcoin holders.",
-  "source": "watcherguru",
-  "timestamp": "2026-09-01T07:48:54+00:00",
-  "_event_id": "macro_000_next_bitcoin_blocks_20260901",
+  "note": "The article describes a market-wide selloff triggered by Iran strikes, a macro geopolitical event affecting multiple large-cap tokens, fitting the macro_systemic category with moderate specificity due to the named cause but no precise dates or figures.",
+  "source": "CoinDeskGlobal",
+  "timestamp": "2026-09-02T05:02:20+00:00",
+  "_event_id": "macro_solana_broad_iran_xrp_20260902",
   "_raw_category": "macro/geopolitical shock"
 }
