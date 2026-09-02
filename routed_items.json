@@ -5853,5 +5853,51 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Remixpoint, Japan\u2019s Second-Largest DAT Company After Metaplanet, Sells All Altcoins and Retains Only",
+    "text": "Remixpoint, Japan\u2019s Second-Largest DAT Company After Metaplanet, Sells All Altcoins and Retains Only Bitcoin\n\nJapanese listed company Remixpoint announced that it sold all of its altcoin holdings on September 1, including approximately 901.45 ETH, 13,920 SOL, 1.1912 million XRP, and 2.8023 million DOGE. The sales totaled approximately JPY 879 million and generated a profit of about JPY 118 million. Following the sales, Bitcoin is the company\u2019s only remaining crypto asset, with holdings of approximately 1,506 BTC. Remixpoint said the move aims to consolidate its crypto asset portfolio and adopt a Bitcoin-centered holding and operations strategy going forward. \u2014 [link](https://wublockchain.xyz/news/news-20665)",
+    "timestamp_utc": "2026-09-02T09:36:08+00:00",
+    "url": "https://t.me/wublockchainenglish/25844",
+    "raw_id": "25844",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "Remixpoint\u2019s decision to sell all altcoins and hold only Bitcoin is a corporate asset management move, not an exchange delisting, regulatory action, project-specific incident, macro shock, or exchange operational change.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [
+      "SOL",
+      "XRP",
+      "DOGE"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "**\u26a1\ufe0f INSIGHT:** Bitcoin cycle momentum is signaling a potential bear market reversal, per CryptoQuan",
+    "text": "**\u26a1\ufe0f INSIGHT:** Bitcoin cycle momentum is signaling a potential bear market reversal, per CryptoQuant analyst. \n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-02T09:04:43+00:00",
+    "url": "https://t.me/cointelegraph/71898",
+    "raw_id": "71898",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The item is a market insight/analysis about Bitcoin\u2019s potential reversal, lacking any concrete event, regulatory action, or project-specific incident.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
