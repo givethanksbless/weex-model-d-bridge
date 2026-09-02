@@ -6892,5 +6892,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Glassnode: BTC Still Faces $83K\u2013$86K Overhead Supply Pressure, Remains Range-Bound in the Near Term",
+    "text": "Glassnode: BTC Still Faces $83K\u2013$86K Overhead Supply Pressure, Remains Range-Bound in the Near Term\n\nGlassnode said the August 19 short squeeze pushed BTC above $80,000, but the rally stalled below the $83,000\u2013$86,000 long-term holder supply zone before retreating to around $76,000. When BTC traded near $78,000, the share of supply in profit had risen to 68% from 65% in May, indicating greater potential sell-side pressure. The $62,000\u2013$65,000 area remains the key support zone, while $83,000\u2013$86,000 remains the main resistance zone.\n\nIn options, 7-day 25-delta skew rose sharply during the short squeeze as traders chased upside calls before reverting toward neutral, while 180-day skew remained stable, indicating cooling short-term bullish sentiment but broadly unchanged longer-term demand for optionality. The September 25 quarter-end expiry carries roughly $14 billion in open interest across Deribit and IBIT, with substantial positioning above $80,000. Glassnode said BTC remains range-bound until the overhead supply is absorbed. \u2014 [link](https://wublockchain.xyz/news/news-20673)",
+    "timestamp_utc": "2026-09-02T19:55:45+00:00",
+    "url": "https://t.me/wublockchainenglish/25852",
+    "raw_id": "25852",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article provides market analysis and price commentary on BTC, with no concrete regulatory, exchange, project, or macro systemic action reported.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Chairman Paul Atkins says the \"Regulation Crypto Assets proposal\" is the SEC's most ",
+    "text": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Chairman Paul Atkins says the \"Regulation Crypto Assets proposal\" is the SEC's most historic step to cement America as the crypto capital of the world.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-02T19:44:54+00:00",
+    "url": "https://t.me/watcherguru/14901",
+    "raw_id": "14901",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The statement is an opinion by SEC Chairman Paul Atkins about a proposal; no concrete regulatory action has been taken.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
