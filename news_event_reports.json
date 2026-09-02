@@ -995,7 +995,7 @@
   },
   {
     "event_id": "macro_solana_broad_iran_xrp_20260902",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-02T05:02:20+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24465",
@@ -1252,6 +1252,35 @@
       "providers_agree": null,
       "internal_category": "macro_systemic",
       "internal_confidence_score": 0.12
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_risk_stocks_that_flashing_20260902",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-02T06:53:51+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24467",
+    "trigger_source_title": "[**A China indicator that greases risk-taking in stocks and bitcoin is flashing red**](https://www.c",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**A China indicator that greases risk-taking in stocks and bitcoin is flashing red**](https://www.c",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24467",
+      "reasoning": "The article discusses a China macroeconomic indicator (credit impulse) signaling risk aversion across risk assets, including bitcoin, which is a market-wide shock rather than a project- or exchange-specific event.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   }
