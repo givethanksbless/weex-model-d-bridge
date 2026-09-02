@@ -5466,5 +5466,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Two Thai Businessmen Sue Tether for Allegedly Illegally Freezing $42.4M USDT at US Request and Trans",
+    "text": "Two Thai Businessmen Sue Tether for Allegedly Illegally Freezing $42.4M USDT at US Request and Transferring Funds to Government Wallet\n\nAccording to attorney Ariel Givner, two Thai businessmen filed a lawsuit against Tether in the US District Court for the Southern District of New York over ~$42.4 million in frozen USDT. The plaintiffs allege Tether froze their wallets in October 2025 based merely on an informal request from Homeland Security Investigations (HSI) without a warrant or court order.\n\nA seizure warrant was only issued by the Eastern District of North Carolina in February 2026 directing the burn and reissue of the tokens to a government wallet. The funds are allegedly tied to a $61M \"pig butchering\" laundering case. While not disputing the underlying criminal allegations, the suit challenges Tether authority to freeze assets without prior court orders and questions whether the subsequent warrant authorized burning and reissuing the USDT. \u2014 [link](https://wublockchain.xyz/news/news-20657)",
+    "timestamp_utc": "2026-09-02T03:13:00+00:00",
+    "url": "https://t.me/wublockchainenglish/25836",
+    "raw_id": "25836",
+    "layer1_reason": "event-keyword override",
+    "category": "project_specific",
+    "specificity": "specific",
+    "reasoning": "A lawsuit filed by private parties against Tether for freezing USDT is a fundamental negative event specific to the Tether project.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "title": "Two Thai Businessmen Sue Tether for Allegedly Illegally Freezing $42.4M USDT at US Request and Trans",
+      "text": "Two Thai Businessmen Sue Tether for Allegedly Illegally Freezing $42.4M USDT at US Request and Transferring Funds to Government Wallet\n\nAccording to attorney Ariel Givner, two Thai businessmen filed a lawsuit against Tether in the US District Court for the Southern District of New York over ~$42.4 million in frozen USDT. The plaintiffs allege Tether froze their wallets in October 2025 based merely on an informal request from Homeland Security Investigations (HSI) without a warrant or court order.\n\nA seizure warrant was only issued by the Eastern District of North Carolina in February 2026 directing the burn and reissue of the tokens to a government wallet. The funds are allegedly tied to a $61M \"pig butchering\" laundering case. While not disputing the underlying criminal allegations, the suit challenges Tether authority to freeze assets without prior court orders and questions whether the subsequent warrant authorized burning and reissuing the USDT. \u2014 [link](https://wublockchain.xyz/news/news-20657)",
+      "timestamp_utc": "2026-09-02T03:13:00+00:00",
+      "url": "https://t.me/wublockchainenglish/25836",
+      "raw_id": "25836",
+      "layer1_reason": "event-keyword override",
+      "category": "regulatory_action",
+      "specificity": "specific",
+      "reasoning": "The news details a concrete regulatory action where Homeland Security Investigations (HSI) and the US District Court for the Eastern District of North Carolina issued a seizure warrant to freeze and transfer $42.4M USDT.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   }
 ]
