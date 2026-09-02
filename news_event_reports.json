@@ -1142,7 +1142,7 @@
   },
   {
     "event_id": "regulatory_https_jersey_ask_court_20260902",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-02T17:24:10+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24479",
