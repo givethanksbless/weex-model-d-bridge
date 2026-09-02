@@ -1025,6 +1025,35 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "macro_below_s_bitcoin_strikes_20260902",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-02T10:51:16+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24471",
+    "trigger_source_title": "[**Bitcoin slips below $76,500 as U.S. strikes on Iran send oil above $93**](https://www.coindesk.co",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**Bitcoin slips below $76,500 as U.S. strikes on Iran send oil above $93**](https://www.coindesk.co",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24471",
+      "reasoning": "The article reports a market-wide price movement of Bitcoin triggered by a macro event (U.S. strikes on Iran causing oil prices to rise), which fits the macro_systemic category with moderate specificity.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
@@ -1274,6 +1303,35 @@
       "source_type": "third_party",
       "url": "https://t.me/CoinDeskGlobal/24467",
       "reasoning": "The article discusses a China macroeconomic indicator (credit impulse) signaling risk aversion across risk assets, including bitcoin, which is a market-wide shock rather than a project- or exchange-specific event.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_today_yields_push_multi_20260902",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-02T11:00:01+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71899",
+    "trigger_source_title": "**\ud83d\udea8 TODAY:** Global bonds sell off as inflation fears push yields to multi-decade highs, per Reuters",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**\ud83d\udea8 TODAY:** Global bonds sell off as inflation fears push yields to multi-decade highs, per Reuters",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/71899",
+      "reasoning": "The article reports a broad market-wide bond sell\u2011off driven by inflation fears, a macroeconomic shock affecting the entire fixed\u2011income market rather than a specific crypto project or regulatory action.",
       "providers_checked": [
         "groq",
         "gemini_second_opinion"

@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article describes a market-wide selloff triggered by Iran strikes, a macro geopolitical event affecting multiple large-cap tokens, fitting the macro_systemic category with moderate specificity due to the named cause but no precise dates or figures.",
+  "note": "The article reports a market-wide price movement of Bitcoin triggered by a macro event (U.S. strikes on Iran causing oil prices to rise), which fits the macro_systemic category with moderate specificity.",
   "source": "CoinDeskGlobal",
-  "timestamp": "2026-09-02T05:02:20+00:00",
-  "_event_id": "macro_solana_broad_iran_xrp_20260902",
+  "timestamp": "2026-09-02T10:51:16+00:00",
+  "_event_id": "macro_below_s_bitcoin_strikes_20260902",
   "_raw_category": "macro/geopolitical shock"
 }
