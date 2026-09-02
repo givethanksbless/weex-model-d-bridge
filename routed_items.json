@@ -5832,5 +5832,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow**](https://www.coindesk.co",
+    "text": "[**Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow**](https://www.coindesk.com/business/2026/09/02/live-updates-blackrock-s-ibit-drives-usd236-million-bitcoin-etf-outflow)\n\nBitcoin slipped below $77,500 and every major is red on the day. The smaller crypto ETFs kept taking money while the bitcoin funds gave some back.",
+    "timestamp_utc": "2026-09-02T08:31:49+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24469",
+    "raw_id": "24469",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports a market outflow from a specific ETF and general price movement, which is generic market commentary rather than a regulatory, operational, or project-specific event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
