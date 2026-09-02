@@ -6130,5 +6130,72 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**The token supercycle: everything of value is becoming programmable**](https://www.coindesk.com/op",
+    "text": "[**The token supercycle: everything of value is becoming programmable**](https://www.coindesk.com/opinion/2026/09/02/the-token-supercycle-everything-of-value-is-becoming-programmable)\n\nTokenization is not just about increasing access to tokens, whatever they may represent, but a fundamental shift in how value is created, owned, financed and moved, argues Solana Foundation\u2019s Lily Liu.",
+    "timestamp_utc": "2026-09-02T13:00:47+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24476",
+    "raw_id": "24476",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Opinion article about tokenization, no concrete action or event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [
+      "SOL"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "U.S. Private Sector Added 38k Jobs in August, the Smallest Increase Since January",
+    "text": "U.S. Private Sector Added 38k Jobs in August, the Smallest Increase Since January\n\nPrivate businesses in the US added 38K jobs in August 2026, the least since January, following an upwardly revised 46K in July and below forecasts of 47K, reflecting a broader slowdown in the labor market. \u2014 [link](https://wublockchain.xyz/news/news-20667)",
+    "timestamp_utc": "2026-09-02T12:21:02+00:00",
+    "url": "https://t.me/wublockchainenglish/25846",
+    "raw_id": "25846",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "General U.S. labor market data, not related to crypto or blockchain; thus it falls under the 'none' category.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**XRP and bitcoin may be forming the 'Bart Simpson pattern' as prices pull back**](https://www.coin",
+    "text": "[**XRP and bitcoin may be forming the 'Bart Simpson pattern' as prices pull back**](https://www.coindesk.com/markets/2026/09/02/bitcoin-flashes-the-bart-simpsom-pattern-analyst-debate-whether-it-will-actually-form)\n\nAnalysts discuss the cartoon-themed price action as prices for major cryptocurrencies wilt.",
+    "timestamp_utc": "2026-09-02T12:13:54+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24475",
+    "raw_id": "24475",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The article discusses a chart pattern and price pullbacks for XRP and Bitcoin, which is general market commentary without any concrete regulatory, exchange, or project-specific action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [
+      "XRP"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
