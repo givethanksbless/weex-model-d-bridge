@@ -7060,5 +7060,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "$1,000 invested 15 years ago today would be worth:",
+    "text": "$1,000 invested 15 years ago today would be worth:\n\n\u2022 Bitcoin: $8,970,000\n\u2022 Nvidia: $735,000\n\u2022 Tesla: $231,000\n\u2022 Apple: $29,000\n\u2022 S&P: $8,400\n\u2022 Gold: $2,150\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-02T22:55:22+00:00",
+    "url": "https://t.me/watcherguru/14903",
+    "raw_id": "14903",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "Price comparison of investment returns, no regulatory or operational action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
