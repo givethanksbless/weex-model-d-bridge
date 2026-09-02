@@ -1257,7 +1257,7 @@
   },
   {
     "event_id": "macro_risk_stocks_that_flashing_20260902",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-02T06:53:51+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24467",
