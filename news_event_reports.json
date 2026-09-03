@@ -1403,7 +1403,7 @@
   },
   {
     "event_id": "hack_data_affected_400_august_20260903",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-03T16:01:10+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25870",
@@ -1432,7 +1432,7 @@
   },
   {
     "event_id": "regulatory_bank_revolut_approval_20_20260903",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-03T15:40:03+00:00",
     "trigger_source": "https://t.me/cointelegraph/71928",
@@ -1461,7 +1461,7 @@
   },
   {
     "event_id": "macro_minutes_liquidated_past_ethereum_20260903",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-03T15:05:00+00:00",
     "trigger_source": "https://t.me/watcherguru/14908",

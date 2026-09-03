@@ -8460,5 +8460,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "**\ud83c\udde8\ud83c\udde6 JUST IN: **Canada\u2019s Mark Carney says trade talks with the U.S. can resume \u201cwhen the Americans a",
+    "text": "**\ud83c\udde8\ud83c\udde6 JUST IN: **Canada\u2019s Mark Carney says trade talks with the U.S. can resume \u201cwhen the Americans are ready,\u201d as tensions escalate ahead of new tariffs, per CNBC.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-03T16:35:01+00:00",
+    "url": "https://t.me/cointelegraph/71930",
+    "raw_id": "71930",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Mark Carney is a private individual, not a government regulator, and his statement concerns trade talks and tariffs, not a concrete regulatory or crypto-specific action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
