@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a $170M liquidation of shorts over the past 24 hours, indicating a market-wide shock rather than a project- or exchange-specific event.",
-  "source": "cointelegraph",
-  "timestamp": "2026-09-03T14:08:35+00:00",
-  "_event_id": "macro_today_past_hours_over_20260903",
+  "note": "The post reports a concrete market event\u2014$140M worth of Bitcoin and Ethereum shorts liquidated within 60 minutes\u2014representing a broad market shock rather than a project\u2011specific or regulatory action.",
+  "source": "watcherguru",
+  "timestamp": "2026-09-03T15:05:00+00:00",
+  "_event_id": "macro_minutes_liquidated_past_ethereum_20260903",
   "_raw_category": "macro/geopolitical shock"
 }
