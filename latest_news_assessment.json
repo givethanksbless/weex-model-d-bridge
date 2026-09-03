@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The post reports a concrete market event\u2014$140M worth of Bitcoin and Ethereum shorts liquidated within 60 minutes\u2014representing a broad market shock rather than a project\u2011specific or regulatory action.",
-  "source": "watcherguru",
-  "timestamp": "2026-09-03T15:05:00+00:00",
-  "_event_id": "macro_minutes_liquidated_past_ethereum_20260903",
+  "note": "The U.S. Treasury\u2019s $12.5\u202fbillion buyback is a macro\u2011level action by a government body that can influence overall financial markets, including crypto, but it is not a regulatory action targeting crypto assets.",
+  "source": "cointelegraph",
+  "timestamp": "2026-09-03T19:55:01+00:00",
+  "_event_id": "macro_12_5_treasury_its_20260903",
   "_raw_category": "macro/geopolitical shock"
 }
