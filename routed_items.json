@@ -7450,5 +7450,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**Bitcoin\u2019s fabled golden cross is coming. And USDT may be the real signal this time**](https://www",
+    "text": "[**Bitcoin\u2019s fabled golden cross is coming. And USDT may be the real signal this time**](https://www.coindesk.com/markets/2026/09/03/bitcoin-s-fabled-golden-cross-is-coming-and-usdt-may-be-the-real-signal-this-time)\n\nBTC is nearing a bullish golden cross, a widely tracked signal with a mixed record of success in crypto markets. But this time, USDT is supporting the bullish read.",
+    "timestamp_utc": "2026-09-03T07:01:55+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24485",
+    "raw_id": "24485",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The article is purely market commentary on a technical indicator, with no concrete action or event affecting a specific asset, exchange, or regulator.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
