@@ -1519,7 +1519,7 @@
   },
   {
     "event_id": "macro_12_5_treasury_its_20260903",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-03T19:55:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/71933",
