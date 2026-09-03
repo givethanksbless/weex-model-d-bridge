@@ -1200,7 +1200,7 @@
   },
   {
     "event_id": "regulatory_moves_perpetual_lawsuit_over_20260903",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-03T01:00:14+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25854",
