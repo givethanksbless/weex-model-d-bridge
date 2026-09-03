@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article discusses a macro\u2011level currency movement (yen surge) that is affecting Bitcoin and gold, which is a market\u2011wide shock rather than a project\u2011specific or regulatory event.",
-  "source": "CoinDeskGlobal",
-  "timestamp": "2026-09-03T11:20:22+00:00",
-  "_event_id": "macro_s_yen_helping_it_20260903",
+  "note": "The article reports a $170M liquidation of shorts over the past 24 hours, indicating a market-wide shock rather than a project- or exchange-specific event.",
+  "source": "cointelegraph",
+  "timestamp": "2026-09-03T14:08:35+00:00",
+  "_event_id": "macro_today_past_hours_over_20260903",
   "_raw_category": "macro/geopolitical shock"
 }
