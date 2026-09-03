@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a market-wide price movement of Bitcoin triggered by a macro event (U.S. strikes on Iran causing oil prices to rise), which fits the macro_systemic category with moderate specificity.",
+  "note": "The article discusses a macro\u2011level currency movement (yen surge) that is affecting Bitcoin and gold, which is a market\u2011wide shock rather than a project\u2011specific or regulatory event.",
   "source": "CoinDeskGlobal",
-  "timestamp": "2026-09-02T10:51:16+00:00",
-  "_event_id": "macro_below_s_bitcoin_strikes_20260902",
+  "timestamp": "2026-09-03T11:20:22+00:00",
+  "_event_id": "macro_s_yen_helping_it_20260903",
   "_raw_category": "macro/geopolitical shock"
 }
