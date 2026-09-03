@@ -1548,7 +1548,7 @@
   },
   {
     "event_id": "regulatory_advisers_rule_comp_its_20260903",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-03T21:20:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/71934",
@@ -1572,6 +1572,35 @@
       "providers_agree": false,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_added_hours_market_135_20260903",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-03T22:20:43+00:00",
+    "trigger_source": "https://t.me/watcherguru/14922",
+    "trigger_source_title": "**JUST IN:** $135,000,000,000 added to the crypto market cap in the past 24 hours.",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**JUST IN:** $135,000,000,000 added to the crypto market cap in the past 24 hours.",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/14922",
+      "reasoning": "The post reports a market-wide change in total crypto market capitalization, which is a macro systemic event, and it includes a concrete dollar figure, qualifying it as specific.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },

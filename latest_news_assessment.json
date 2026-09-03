@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The U.S. Treasury\u2019s $12.5\u202fbillion buyback is a macro\u2011level action by a government body that can influence overall financial markets, including crypto, but it is not a regulatory action targeting crypto assets.",
-  "source": "cointelegraph",
-  "timestamp": "2026-09-03T19:55:01+00:00",
-  "_event_id": "macro_12_5_treasury_its_20260903",
+  "note": "The post reports a market-wide change in total crypto market capitalization, which is a macro systemic event, and it includes a concrete dollar figure, qualifying it as specific.",
+  "source": "watcherguru",
+  "timestamp": "2026-09-03T22:20:43+00:00",
+  "_event_id": "macro_added_hours_market_135_20260903",
   "_raw_category": "macro/geopolitical shock"
 }
