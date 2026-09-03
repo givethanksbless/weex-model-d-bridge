@@ -8649,5 +8649,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 $META CEO Mark Zuckerberg tells President Trump he is against a national AI regulato",
+    "text": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 $META CEO Mark Zuckerberg tells President Trump he is against a national AI regulator.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-03T18:50:28+00:00",
+    "url": "https://t.me/watcherguru/14918",
+    "raw_id": "14918",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The statement is an opinion from a private CEO to a president, not a concrete regulatory action by a government body.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "**\ud83d\udea8 ALERT: **Safety experts warn OpenAI\u2019s upcoming Astra model could make future AI agents\u2019 reasonin",
+    "text": "**\ud83d\udea8 ALERT: **Safety experts warn OpenAI\u2019s upcoming Astra model could make future AI agents\u2019 reasoning harder for humans to monitor, despite cutting compute costs.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-03T18:05:01+00:00",
+    "url": "https://t.me/cointelegraph/71932",
+    "raw_id": "71932",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The article reports a warning from safety experts about a future OpenAI model; it does not describe a concrete regulatory action, exchange event, hack, or market-wide shock.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
