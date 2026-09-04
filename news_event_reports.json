@@ -1838,7 +1838,7 @@
   },
   {
     "event_id": "regulatory_listing_platform_from_access_20260904",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-04T14:23:53+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24510",
@@ -1867,7 +1867,7 @@
   },
   {
     "event_id": "hack_provider_trezor_exposing_000_20260904",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-04T14:17:19+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25887",
