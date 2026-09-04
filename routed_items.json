@@ -10608,5 +10608,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** Michael Saylor's 'Strategy' Bitcoin investment is currently at a $4,930,000,000 unreali",
+    "text": "**JUST IN:** Michael Saylor's 'Strategy' Bitcoin investment is currently at a $4,930,000,000 unrealized gain.\n\n$MSTR gains since the company began its BTC investment in 2020:\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-04T22:22:18+00:00",
+    "url": "https://t.me/watcherguru/14937",
+    "raw_id": "14937",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The item reports a private company's investment performance, which is a price commentary and not a regulatory, operational, or project-specific event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
