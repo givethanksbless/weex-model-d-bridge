@@ -10037,5 +10037,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 White House Hassett says the case for the Federal Reserve to keep interest rates unc",
+    "text": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 White House Hassett says the case for the Federal Reserve to keep interest rates unchanged is \"very strong.\"\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-04T13:31:53+00:00",
+    "url": "https://t.me/watcherguru/14927",
+    "raw_id": "14927",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The statement is an opinion from a White House official about Fed policy, with no concrete regulatory or operational action taken.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Robinhood Chain Suspected of Outage After No New Blocks for Over 6 Minutes",
+    "text": "Robinhood Chain Suspected of Outage After No New Blocks for Over 6 Minutes\n\nAccording to the Robinhood Chain block explorer, the network appears to have experienced an outage, with no new blocks produced for more than six minutes.\n\nAs of 21:08 UTC+8, block production had intermittently resumed, with the latest block shown on the explorer timestamped at 21:06. \u2014 [link](https://wublockchain.xyz/news/news-20710)",
+    "timestamp_utc": "2026-09-04T13:05:41+00:00",
+    "url": "https://t.me/wublockchainenglish/25886",
+    "raw_id": "25886",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "project_specific",
+    "specificity": "specific",
+    "reasoning": "The article reports a network outage affecting the Robinhood Chain, a specific blockchain project, indicating a fundamental negative event tied to that protocol.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true
   }
 ]

@@ -1751,7 +1751,7 @@
   },
   {
     "event_id": "macro_162_by_above_far_20260904",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-04T12:40:35+00:00",
     "trigger_source": "https://t.me/cointelegraph/71945",
@@ -1780,7 +1780,7 @@
   },
   {
     "event_id": "macro_jobs_breaking_162_expectations_20260904",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-04T12:34:23+00:00",
     "trigger_source": "https://t.me/watcherguru/14925",
@@ -1803,6 +1803,34 @@
       ],
       "providers_agree": false,
       "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_suspected_over_6_minutes_20260904",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-04T13:05:41+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/25886",
+    "trigger_source_title": "Robinhood Chain Suspected of Outage After No New Blocks for Over 6 Minutes",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "Robinhood Chain Suspected of Outage After No New Blocks for Over 6 Minutes",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/25886",
+      "reasoning": "The article reports a network outage affecting the Robinhood Chain, a specific blockchain project, indicating a fundamental negative event tied to that protocol.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "project_specific",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
