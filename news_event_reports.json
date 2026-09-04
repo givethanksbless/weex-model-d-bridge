@@ -1635,7 +1635,7 @@
   },
   {
     "event_id": "regulatory_rally_unclear_strong_bear_20260904",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-04T03:27:15+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25879",
@@ -1664,7 +1664,7 @@
   },
   {
     "event_id": "regulatory_https_openreserve_bank_blockchain_20260904",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-04T03:27:12+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24498",
