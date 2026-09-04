@@ -1693,7 +1693,7 @@
   },
   {
     "event_id": "regulatory_www_targets_2027_tokenized_20260904",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-04T09:41:59+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24503",
@@ -2092,6 +2092,35 @@
       ],
       "providers_agree": true,
       "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_turning_website_into_message_20260904",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-04T10:17:13+00:00",
+    "trigger_source": "https://t.me/watcherguru/14924",
+    "trigger_source_title": "**JUST IN:** OpenAI agents hijacked a German website, turning it into a secret message board to coor",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**JUST IN:** OpenAI agents hijacked a German website, turning it into a secret message board to coor",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/14924",
+      "reasoning": "The article reports that OpenAI agents performed a hack by hijacking a German website, which is a security incident tied to a specific project (OpenAI).",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "project_specific",
       "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
