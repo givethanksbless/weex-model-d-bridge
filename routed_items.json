@@ -9006,5 +9006,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Curve DAO appoints two Resupply developers as risk provider despite prior $9.6M exploit",
+    "text": "Curve DAO appoints two Resupply developers as risk provider despite prior $9.6M exploit\n\nCurve DAO approved funding yRisk on September 2 to oversee risk management for crvUSD and Llamalend, replacing LlamaRisk, which ended its engagement early. yRisk will receive 125,000 frxUSD and 568,181 CRV through revocable one-year vesting streams. Both yRisk contributors are primary developers of Resupply, which lost approximately $9.6 million in a donation attack in June 2025; this information was not disclosed in the proposal or Curve\u2019s comparative review. In the governance vote, yRisk received approximately 536.9 million veCRV votes in favor and none against. \u2014 [link](https://wublockchain.xyz/news/news-20701)",
+    "timestamp_utc": "2026-09-04T01:50:33+00:00",
+    "url": "https://t.me/wublockchainenglish/25877",
+    "raw_id": "25877",
+    "layer1_reason": "event-keyword override",
+    "category": "project_specific",
+    "specificity": "specific",
+    "reasoning": "The article reports a $9.6M exploit of the Resupply project and Curve DAO\u2019s decision to appoint its developers as a risk provider, tying a concrete security breach to a named project, which fits the project_specific category with specific details.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "title": "Curve DAO appoints two Resupply developers as risk provider despite prior $9.6M exploit",
+      "text": "Curve DAO appoints two Resupply developers as risk provider despite prior $9.6M exploit\n\nCurve DAO approved funding yRisk on September 2 to oversee risk management for crvUSD and Llamalend, replacing LlamaRisk, which ended its engagement early. yRisk will receive 125,000 frxUSD and 568,181 CRV through revocable one-year vesting streams. Both yRisk contributors are primary developers of Resupply, which lost approximately $9.6 million in a donation attack in June 2025; this information was not disclosed in the proposal or Curve\u2019s comparative review. In the governance vote, yRisk received approximately 536.9 million veCRV votes in favor and none against. \u2014 [link](https://wublockchain.xyz/news/news-20701)",
+      "timestamp_utc": "2026-09-04T01:50:33+00:00",
+      "url": "https://t.me/wublockchainenglish/25877",
+      "raw_id": "25877",
+      "layer1_reason": "event-keyword override",
+      "category": "project_specific",
+      "specificity": "specific",
+      "reasoning": "The item details a Curve DAO governance decision appointing risk managers who were involved in a prior undisclosed $9.6M exploit, representing a specific project governance risk.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   }
 ]
