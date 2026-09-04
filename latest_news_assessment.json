@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The post reports a market-wide change in total crypto market capitalization, which is a macro systemic event, and it includes a concrete dollar figure, qualifying it as specific.",
-  "source": "watcherguru",
-  "timestamp": "2026-09-03T22:20:43+00:00",
-  "_event_id": "macro_added_hours_market_135_20260903",
+  "note": "The article reports a concrete macroeconomic data release (US payrolls) that can influence market-wide conditions, fitting the macro_systemic category with specific figures.",
+  "source": "cointelegraph",
+  "timestamp": "2026-09-04T12:40:35+00:00",
+  "_event_id": "macro_162_by_above_far_20260904",
   "_raw_category": "macro/geopolitical shock"
 }

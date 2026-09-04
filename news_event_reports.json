@@ -1721,6 +1721,93 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "macro_minutes_liquidated_past_ethereum_20260903",
+    "matched_existing_event": true,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-03T15:05:00+00:00",
+    "trigger_source": "https://t.me/watcherguru/14908",
+    "trigger_source_title": "**JUST IN:** $140,000,000 worth of Bitcoin & Ethereum shorts liquidated in the past 60 minutes.",
+    "is_canonical_source": false,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**JUST IN:** $200,000,000 worth of crypto longs liquidated in the past 15 minutes.",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/14926",
+      "reasoning": "The post reports a market-wide liquidation of $200M in crypto longs, a concrete shock affecting the broader market rather than a single project or exchange.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_162_by_above_far_20260904",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-04T12:40:35+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71945",
+    "trigger_source_title": "**\ud83c\uddfa\ud83c\uddf8 JUST IN: **US payrolls rose by 162,000 in August, far above the 56,000 expected.",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**\ud83c\uddfa\ud83c\uddf8 JUST IN: **US payrolls rose by 162,000 in August, far above the 56,000 expected.",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/71945",
+      "reasoning": "The article reports a concrete macroeconomic data release (US payrolls) that can influence market-wide conditions, fitting the macro_systemic category with specific figures.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_jobs_breaking_162_expectations_20260904",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-04T12:34:23+00:00",
+    "trigger_source": "https://t.me/watcherguru/14925",
+    "trigger_source_title": "**BREAKING:** \ud83c\uddfa\ud83c\uddf8 US economy adds 162,000 jobs in August, higher than expectations.",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**BREAKING:** \ud83c\uddfa\ud83c\uddf8 US economy adds 162,000 jobs in August, higher than expectations.",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/14925",
+      "reasoning": "The article reports a concrete macroeconomic data release (US job growth) that can influence market sentiment broadly, fitting the macro_systemic category.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
