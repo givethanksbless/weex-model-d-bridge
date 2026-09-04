@@ -10499,5 +10499,51 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Grayscale: Tokenized Equity Weekly Spot Volume Nears $3B, Only 5% Used in Onchain Finance",
+    "text": "Grayscale: Tokenized Equity Weekly Spot Volume Nears $3B, Only 5% Used in Onchain Finance\n\nGrayscale said tokenized equity trading reached record highs in August, with weekly spot volume peaking near $3 billion, while only about 5% of the market is currently deployed in onchain finance. Robinhood Chain, BNB Chain and Solana accounted for most trading activity. Use of tokenized equities in lending protocols such as Kamino and Jupiter has grown about tenfold over the past year, but lending, collateral and other financial applications remain limited. Grayscale said further U.S. regulatory clarity could expand tokenized stocks from global, around-the-clock trading products into productive onchain financial assets. \u2014 [link](https://wublockchain.xyz/news/news-20714)",
+    "timestamp_utc": "2026-09-04T19:27:56+00:00",
+    "url": "https://t.me/wublockchainenglish/25890",
+    "raw_id": "25890",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports on tokenized equity trading volume and usage statistics, which is market commentary without any regulatory, exchange, or project-specific action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [
+      "SOL"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 President Trump when asked about solana:6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+    "text": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 President Trump when asked about solana:6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN  coin:\n\n\"I don't run it\u2026I don't focus on that, but somebody told me it sells very well.\"\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-04T19:05:11+00:00",
+    "url": "https://t.me/watcherguru/14936",
+    "raw_id": "14936",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "President Trump is merely giving an opinion about Solana; no government body has taken any regulatory or operational action, so it falls under none with vague specificity.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [
+      "SOL"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
