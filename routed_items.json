@@ -10478,5 +10478,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 President Trump says economic growth does not cause inflation, \"stupidity\" does.",
+    "text": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 President Trump says economic growth does not cause inflation, \"stupidity\" does.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-04T18:43:57+00:00",
+    "url": "https://t.me/watcherguru/14935",
+    "raw_id": "14935",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "President Trump is giving an opinion; no concrete regulatory or operational action is described.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
