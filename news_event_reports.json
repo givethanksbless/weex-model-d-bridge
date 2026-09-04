@@ -1606,7 +1606,7 @@
   },
   {
     "event_id": "hack_appoints_two_as_9_20260904",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-04T01:50:33+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25877",

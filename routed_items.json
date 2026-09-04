@@ -9048,5 +9048,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "IMF: El Salvador Has Not Used Public Funds to Buy Bitcoin Since June 2025, No Further Accumulation E",
+    "text": "IMF: El Salvador Has Not Used Public Funds to Buy Bitcoin Since June 2025, No Further Accumulation Expected\n\nThe IMF said El Salvador has provided documentation verifying that all Bitcoin accumulated since its first EFF review on June 27, 2025 came from private donations, with no public resources used. The IMF added that no further Bitcoin accumulation beyond the documented donations is expected.\n\nThe disclosure came as IMF staff reached an agreement with El Salvador on the combined second and third reviews of its EFF program. Subject to IMF Executive Board approval and completion of agreed prior actions, El Salvador would gain access to approximately $140 million in additional funding. \u2014 [link](https://wublockchain.xyz/news/news-20702)",
+    "timestamp_utc": "2026-09-04T02:39:42+00:00",
+    "url": "https://t.me/wublockchainenglish/25878",
+    "raw_id": "25878",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The IMF\u2019s statement is a factual disclosure about public fund usage, not a regulatory action, exchange event, or project-specific incident, so it falls under the none category.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83c\uddfa\ud83c\uddf8 **TODAY**: President Trump says AI will \u201ccreate millions of jobs because it's going to create bus",
+    "text": "\ud83c\uddfa\ud83c\uddf8 **TODAY**: President Trump says AI will \u201ccreate millions of jobs because it's going to create business.\"\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-04T02:11:29+00:00",
+    "url": "https://t.me/cointelegraph/71935",
+    "raw_id": "71935",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "President Trump is merely expressing an opinion about AI; no government body has taken concrete action, so it does not fit any risk category.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
