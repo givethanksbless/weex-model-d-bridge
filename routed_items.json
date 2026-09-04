@@ -9323,5 +9323,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**Live updates: Bitcoin ETFs take $731 million, their biggest day since January**](https://www.coin",
+    "text": "[**Live updates: Bitcoin ETFs take $731 million, their biggest day since January**](https://www.coindesk.com/business/2026/09/04/live-updates-bitcoin-etfs-take-usd731-million-their-biggest-day-since-january)\n\nEvery fund in the complex rose almost 6% on Thursday and net assets crossed $103 billion for the first time. BlackRock's IBIT accounted for well over half the money.",
+    "timestamp_utc": "2026-09-04T07:34:27+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24502",
+    "raw_id": "24502",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports on Bitcoin ETF performance and asset growth, which is market commentary and not a regulatory, exchange, or project-specific event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
