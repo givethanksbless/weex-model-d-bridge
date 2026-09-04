@@ -9260,5 +9260,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**OpenAI puts $1 billion behind cyber defense after unveiling AI that can find zero-days**](https:/",
+    "text": "[**OpenAI puts $1 billion behind cyber defense after unveiling AI that can find zero-days**](https://www.coindesk.com/tech/2026/09/04/openai-puts-usd1-billion-behind-cyber-defense-after-unveiling-ai-that-can-find-zero-days)\n\nThe company is subsidizing access to its Daybreak security platform after saying Astra can independently find previously unknown software flaws and turn them into working attacks.",
+    "timestamp_utc": "2026-09-04T05:50:10+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24501",
+    "raw_id": "24501",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "OpenAI is a private company announcing a new investment and platform; no regulatory body or exchange is taking action, so it falls under none.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**One full bitcoin now buys a little more than 18 ounces of gold, the most since January**](https:/",
+    "text": "[**One full bitcoin now buys a little more than 18 ounces of gold, the most since January**](https://www.coindesk.com/markets/2026/09/04/one-full-bitcoin-now-buys-a-little-more-than-18-ounces-of-gold-the-most-since-january)\n\nBitcoin is pulling ahead of gold even as both hard assets rally together, driven by fears that governments will inflate away their debt rather than by bond yields.",
+    "timestamp_utc": "2026-09-04T05:10:59+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24500",
+    "raw_id": "24500",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The article merely reports a market comparison between Bitcoin and gold prices, with no concrete regulatory, operational, or project-specific event described.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
