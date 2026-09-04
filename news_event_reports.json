@@ -1924,7 +1924,7 @@
   },
   {
     "event_id": "macro_theenergymag_by_bitcoin_miners_20260903",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-03T23:20:48+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25875",
