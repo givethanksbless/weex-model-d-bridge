@@ -2037,5 +2037,34 @@
       "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_includi_tokenizing_unveils_korea_20260904",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-04T08:34:31+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71940",
+    "trigger_source_title": "**\ud83c\uddf0\ud83c\uddf7 JUST IN:** South Korea unveils plans to build infrastructure for tokenizing securities, includi",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**\ud83c\uddf0\ud83c\uddf7 JUST IN:** South Korea unveils plans to build infrastructure for tokenizing securities, includi",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/71940",
+      "reasoning": "South Korea, a government body, is announcing a concrete plan to build infrastructure for tokenizing securities, which constitutes a regulatory action affecting the crypto ecosystem.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   }
 ]
