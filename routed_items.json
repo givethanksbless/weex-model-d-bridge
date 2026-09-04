@@ -9302,5 +9302,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83c\uddf8\ud83c\uddfb **NEW:** The IMF says El Salvador has reached staff-level agreement on its extended fund facility",
+    "text": "\ud83c\uddf8\ud83c\uddfb **NEW:** The IMF says El Salvador has reached staff-level agreement on its extended fund facility reviews, confirming no further Bitcoin accumulation beyond documented private donations.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-04T06:39:31+00:00",
+    "url": "https://t.me/cointelegraph/71938",
+    "raw_id": "71938",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The IMF\u2019s staff-level agreement with El\u202fSalvador is a country\u2011level policy decision, not a regulatory action by a government body on crypto, nor a project or exchange event, so it falls outside the defined categories.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
