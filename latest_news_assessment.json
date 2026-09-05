@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a market-wide shock\u2014oil prices rising due to Middle East tensions\u2014affecting U.S. gas prices, which is a macro systemic event unrelated to any specific crypto project or exchange.",
-  "source": "cointelegraph",
-  "timestamp": "2026-09-05T16:46:04+00:00",
-  "_event_id": "macro_gallon_4_u_break_20260905",
+  "note": "The post reports a macroeconomic fact\u2014US dollar inflation over time\u2014affecting the entire market, not a specific project, exchange, or regulatory action.",
+  "source": "watcherguru",
+  "timestamp": "2026-09-05T21:51:34+00:00",
+  "_event_id": "macro_purchasing_created_us_has_20260905",
   "_raw_category": "macro/geopolitical shock"
 }
