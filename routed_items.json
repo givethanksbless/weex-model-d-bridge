@@ -10904,5 +10904,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udea8 NEW: LeBron James has officially partnered with Polymarket.",
+    "text": "\ud83d\udea8 NEW: LeBron James has officially partnered with Polymarket.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-05T15:59:33+00:00",
+    "url": "https://t.me/cointelegraph/71955",
+    "raw_id": "71955",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "A celebrity partnership announcement is a promotional event, not a regulatory, exchange, or project-specific risk.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
