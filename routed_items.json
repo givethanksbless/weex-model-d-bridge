@@ -10778,5 +10778,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\u26a1 HUGE: Elon Musk confirms that you'll be able to plug you Play Station or Xbox into your Tesla.",
+    "text": "\u26a1 HUGE: Elon Musk confirms that you'll be able to plug you Play Station or Xbox into your Tesla.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-05T08:25:28+00:00",
+    "url": "https://t.me/cointelegraph/71953",
+    "raw_id": "71953",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "Elon Musk\u2019s statement about a new Tesla feature is a product announcement, not a regulatory action, exchange change, or project-specific incident.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
