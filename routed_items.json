@@ -10734,5 +10734,28 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**XRP Ledger has fewer active accounts, but bigger trades and more value**](https://www.coindesk.co",
+    "text": "[**XRP Ledger has fewer active accounts, but bigger trades and more value**](https://www.coindesk.com/markets/2026/09/05/xrp-ledger-has-fewer-active-accounts-but-bigger-trades-and-more-value)\n\nDaily order-book traders fell about 40% from a year ago while volume rose 79%, as the value held on XRPL climbed above $4 billion.",
+    "timestamp_utc": "2026-09-05T05:31:10+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24513",
+    "raw_id": "24513",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports market statistics about XRP ledger activity, with no regulatory, exchange, or project-specific action described.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [
+      "XRP"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
