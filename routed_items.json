@@ -11282,5 +11282,28 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udd25 HUGE: Robinhood flipped SOL in 24h DEX Volume.",
+    "text": "\ud83d\udd25 HUGE: Robinhood flipped SOL in 24h DEX Volume.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-05T22:34:35+00:00",
+    "url": "https://t.me/cointelegraph/71965",
+    "raw_id": "71965",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The headline reports a market activity (Robinhood\u2019s DEX volume for SOL) but does not describe a concrete regulatory, operational, or project-specific event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [
+      "SOL"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
