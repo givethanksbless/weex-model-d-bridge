@@ -10671,5 +10671,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** Elon Musk says you will be able to plug PlayStation or Xbox consoles directly into your",
+    "text": "**JUST IN:** Elon Musk says you will be able to plug PlayStation or Xbox consoles directly into your Tesla.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-05T03:21:48+00:00",
+    "url": "https://t.me/watcherguru/14938",
+    "raw_id": "14938",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Elon Musk\u2019s statement is a private individual\u2019s claim about a future feature, with no concrete action taken by a government body, exchange, or project.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
