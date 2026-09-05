@@ -11135,5 +11135,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83c\uddf8\ud83c\uddfb NEW: Bukele denies claims that El Salvador transferred its strategic Bitcoin reserves, saying onl",
+    "text": "\ud83c\uddf8\ud83c\uddfb NEW: Bukele denies claims that El Salvador transferred its strategic Bitcoin reserves, saying only Chivo shares were transferred.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-05T19:30:57+00:00",
+    "url": "https://t.me/cointelegraph/71962",
+    "raw_id": "71962",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The article reports President Bukele\u2019s denial of a claim about El\u202fSalvador\u2019s Bitcoin reserves, which is an opinion/statement rather than a concrete regulatory or operational action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
