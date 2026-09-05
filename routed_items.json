@@ -10757,5 +10757,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "UNI Burn Value Tops $1M for First Time as Robinhood Chain Activity Surges",
+    "text": "UNI Burn Value Tops $1M for First Time as Robinhood Chain Activity Surges\n\nAccording to Wu Blockchain Data Center, the value of UNI burned on September 4 reached $1.15 million, surpassing $1 million in a single day for the first time. A total of 184k UNI was burned, the second-highest daily amount on record, with Robinhood Chain accounting for 150k UNI. The surge was primarily driven by heightened trading activity on Robinhood Chain. On the same day, Robinhood Chain\u2019s daily DEX volume exceeded $3 billion for the first time, with Uniswap accounting for as much as 98% of the total. \u2014 [link](https://wublockchain.xyz/news/news-20720)",
+    "timestamp_utc": "2026-09-05T06:17:56+00:00",
+    "url": "https://t.me/wublockchainenglish/25896",
+    "raw_id": "25896",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports a specific token burn event for UNI on a particular date, which is a market activity rather than a regulatory, exchange, or project failure action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
