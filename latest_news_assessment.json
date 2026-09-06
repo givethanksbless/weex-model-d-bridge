@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article cites a concrete U.S. Treasury policy change\u2014doubling the Treasury buyback limit\u2014which is a macro-level action that can influence crypto markets, fitting the macro_systemic category.",
+  "note": "The article reports a market-wide liquidation event affecting multiple assets, with concrete figures, indicating a systemic market shock rather than a project- or exchange-specific incident.",
   "source": "wublockchainenglish",
-  "timestamp": "2026-09-06T02:39:15+00:00",
-  "_event_id": "macro_nearly_correlation_bitcoin_nasdaq_20260906",
+  "timestamp": "2026-09-06T13:07:13+00:00",
+  "_event_id": "macro_crypto_leads_15_zec_20260906",
   "_raw_category": "macro/geopolitical shock"
 }
