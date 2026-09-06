@@ -2157,7 +2157,7 @@
   },
   {
     "event_id": "exchange_exchange_crypto_down_shortfall_20260906",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "exchange/counterparty failure",
     "trigger_timestamp": "2026-09-06T11:08:35+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25906",

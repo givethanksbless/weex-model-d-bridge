@@ -11626,5 +11626,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udd25 LATEST: OPEC+ holds output quotas steady through year-end despite the Iran war disrupting Middle E",
+    "text": "\ud83d\udd25 LATEST: OPEC+ holds output quotas steady through year-end despite the Iran war disrupting Middle East supply.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-06T12:21:47+00:00",
+    "url": "https://t.me/cointelegraph/71969",
+    "raw_id": "71969",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports on OPEC+ maintaining oil output quotas, a macroeconomic event unrelated to crypto projects, exchanges, or regulatory actions, so it falls outside the risk categories.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
