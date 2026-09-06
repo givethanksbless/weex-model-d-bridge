@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a market-wide liquidation event affecting multiple assets, with concrete figures, indicating a systemic market shock rather than a project- or exchange-specific incident.",
-  "source": "wublockchainenglish",
-  "timestamp": "2026-09-06T13:07:13+00:00",
-  "_event_id": "macro_crypto_leads_15_zec_20260906",
+  "note": "China\u2019s finance ministry injected large sums into state banks and insurers, a macro-level government action affecting the broader financial system, not a crypto-specific regulatory or project event.",
+  "source": "cointelegraph",
+  "timestamp": "2026-09-06T20:34:35+00:00",
+  "_event_id": "macro_ministry_into_insurers_new_20260906",
   "_raw_category": "macro/geopolitical shock"
 }
