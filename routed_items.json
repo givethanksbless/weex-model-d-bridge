@@ -11538,5 +11538,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Asia's weekly TOP10 crypto news",
+    "text": "Asia's weekly TOP10 crypto news\n\nSingapore Proposes a Dedicated Stablecoin Licence and Interest Ban, Southeast Asia Crypto Funding Rebounds to $680M, South Korea Advances Tokenized Stock Pilots, Thailand Tightens Self-Custody Wallet Checks, and Kyrgyzstan Pushes Crypto Regulation and Digital Som Testing. For the complete article and weekly curated reports, subscribe to our Substack: \u2014 [link](https://wublockchain.xyz/news/news-20729)",
+    "timestamp_utc": "2026-09-06T10:47:45+00:00",
+    "url": "https://t.me/wublockchainenglish/25905",
+    "raw_id": "25905",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Weekly roundup bundling multiple separate stories; not a single verified action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
