@@ -11559,5 +11559,72 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83c\uddfa\ud83c\uddf8 NEW: The number of millionaires made from 401k's has hit a new all time high of 769,000.",
+    "text": "\ud83c\uddfa\ud83c\uddf8 NEW: The number of millionaires made from 401k's has hit a new all time high of 769,000.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-06T11:30:26+00:00",
+    "url": "https://t.me/cointelegraph/71968",
+    "raw_id": "71968",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports a general market statistic about 401k wealth, not a crypto-related event or action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Tether-Backed Chilean Crypto Exchange Orionx Shuts Down After $7M+ Asset Shortfall",
+    "text": "Tether-Backed Chilean Crypto Exchange Orionx Shuts Down After $7M+ Asset Shortfall\n\nChilean crypto exchange Orionx has begun a permanent shutdown after a forensic audit found that more than $7 million in customer assets had been transferred to wallets outside the company\u2019s control. Withdrawals are suspended, and Orionx has filed criminal complaints against co-founders Roberto Zibert and Joaqu\u00edn D\u00edaz over alleged transfers of BTC, ETH, XRP and POL between 2018 and 2021; both deny wrongdoing.\n\nChile\u2019s financial regulator rejected Orionx\u2019s registration application in June 2026. Tether invested in Orionx in June 2025, exclusively leading its Series A round, though the original announcement is no longer available on Tether\u2019s website. \u2014 [link](https://wublockchain.xyz/news/news-20730)",
+    "timestamp_utc": "2026-09-06T11:08:35+00:00",
+    "url": "https://t.me/wublockchainenglish/25906",
+    "raw_id": "25906",
+    "layer1_reason": "event-keyword override",
+    "category": "project_specific",
+    "specificity": "specific",
+    "reasoning": "The article reports a permanent shutdown of the Chilean exchange Orionx due to a $7M+ asset shortfall, withdrawals suspended, and criminal complaints\u2014an insolvency/fundamental failure specific to that project.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [
+      "XRP"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "title": "Tether-Backed Chilean Crypto Exchange Orionx Shuts Down After $7M+ Asset Shortfall",
+      "text": "Tether-Backed Chilean Crypto Exchange Orionx Shuts Down After $7M+ Asset Shortfall\n\nChilean crypto exchange Orionx has begun a permanent shutdown after a forensic audit found that more than $7 million in customer assets had been transferred to wallets outside the company\u2019s control. Withdrawals are suspended, and Orionx has filed criminal complaints against co-founders Roberto Zibert and Joaqu\u00edn D\u00edaz over alleged transfers of BTC, ETH, XRP and POL between 2018 and 2021; both deny wrongdoing.\n\nChile\u2019s financial regulator rejected Orionx\u2019s registration application in June 2026. Tether invested in Orionx in June 2025, exclusively leading its Series A round, though the original announcement is no longer available on Tether\u2019s website. \u2014 [link](https://wublockchain.xyz/news/news-20730)",
+      "timestamp_utc": "2026-09-06T11:08:35+00:00",
+      "url": "https://t.me/wublockchainenglish/25906",
+      "raw_id": "25906",
+      "layer1_reason": "event-keyword override",
+      "category": "project_specific",
+      "specificity": "specific",
+      "reasoning": "The Chilean crypto exchange Orionx is shutting down permanently following a $7M+ asset shortfall and has suspended withdrawals, which represents a fundamental negative event and insolvency specific to this entity.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [
+        "XRP"
+      ],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   }
 ]
