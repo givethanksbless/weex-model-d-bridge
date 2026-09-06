@@ -11517,5 +11517,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Bitwise\u2019s BHYP Emerges as Largest HYPE ETF With $166M in Tracked Holdings",
+    "text": "Bitwise\u2019s BHYP Emerges as Largest HYPE ETF With $166M in Tracked Holdings\n\nAccording to Arkham, addresses associated with Bitwise\u2019s Hyperliquid ETF BHYP now hold about $166.3 million worth of HYPE, making it the largest HYPE ETF by tracked holdings. The fund purchased roughly $10.5 million of HYPE on Friday after four consecutive days without buying, its largest single-day purchase since a $23.2 million buy on August 27. \u2014 [link](https://wublockchain.xyz/news/news-20728)",
+    "timestamp_utc": "2026-09-06T09:40:03+00:00",
+    "url": "https://t.me/wublockchainenglish/25904",
+    "raw_id": "25904",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports on the holdings of Bitwise\u2019s BHYP ETF, which is a market commentary about an investment product, not a regulatory action, exchange operation, hack, or macro shock.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
