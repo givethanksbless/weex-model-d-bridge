@@ -2188,7 +2188,7 @@
   },
   {
     "event_id": "macro_crypto_leads_15_zec_20260906",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-06T13:07:13+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25907",

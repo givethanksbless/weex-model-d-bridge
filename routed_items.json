@@ -11731,5 +11731,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\u26a1 WILD: Nike will be removed from the SnP500 after falling to it's lowest price since 2014.",
+    "text": "\u26a1 WILD: Nike will be removed from the SnP500 after falling to it's lowest price since 2014.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-06T14:07:31+00:00",
+    "url": "https://t.me/cointelegraph/71971",
+    "raw_id": "71971",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "Nike is a non\u2011crypto company; its removal from the S&P 500 is unrelated to crypto markets, so it does not fit any risk category.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
