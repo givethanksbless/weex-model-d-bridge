@@ -2304,7 +2304,7 @@
   },
   {
     "event_id": "macro_ministry_into_insurers_new_20260906",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-06T20:34:35+00:00",
     "trigger_source": "https://t.me/cointelegraph/71978",
@@ -2333,7 +2333,7 @@
   },
   {
     "event_id": "stablecoin_out_4_claim_liquid_20260906",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "stablecoin/peg failure",
     "trigger_timestamp": "2026-09-06T20:23:30+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25912",
