@@ -12153,5 +12153,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udea8 [WHALES](https://cointelegraph.com/news/satoshi-era-bitcoin-wakes-16-years-600-btc-moves): 600 BTC",
+    "text": "\ud83d\udea8 [WHALES](https://cointelegraph.com/news/satoshi-era-bitcoin-wakes-16-years-600-btc-moves): 600 BTC mined in 2010, worth around $48M, just moved after 16 years of dormancy, with no link to Satoshi found.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-06T22:33:02+00:00",
+    "url": "https://t.me/cointelegraph/71979",
+    "raw_id": "71979",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "moderate",
+    "reasoning": "The article reports a large movement of 600 BTC that was dormant for 16 years, which is a market event but does not involve a regulatory action, exchange policy change, project hack, or macro systemic shock, so it falls under the 'none' category.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.5,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false,
+    "second_opinion": {
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "title": "\ud83d\udea8 [WHALES](https://cointelegraph.com/news/satoshi-era-bitcoin-wakes-16-years-600-btc-moves): 600 BTC",
+      "text": "\ud83d\udea8 [WHALES](https://cointelegraph.com/news/satoshi-era-bitcoin-wakes-16-years-600-btc-moves): 600 BTC mined in 2010, worth around $48M, just moved after 16 years of dormancy, with no link to Satoshi found.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+      "timestamp_utc": "2026-09-06T22:33:02+00:00",
+      "url": "https://t.me/cointelegraph/71979",
+      "raw_id": "71979",
+      "layer1_reason": "no junk pattern matched (default pass)",
+      "category": "none",
+      "specificity": "specific",
+      "reasoning": "This is on-chain movement trivia regarding dormant Bitcoin, which does not represent a regulatory, operational, or project-specific risk event.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.0,
+      "confirmed": false,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   }
 ]
