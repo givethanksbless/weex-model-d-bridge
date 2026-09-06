@@ -12027,5 +12027,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udd25 [TODAY](https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets): Tether-ba",
+    "text": "\ud83d\udd25 [TODAY](https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets): Tether-backed Orionx is shutting down after an audit uncovered a $7M+ custody shortfall.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-06T19:32:04+00:00",
+    "url": "https://t.me/cointelegraph/71977",
+    "raw_id": "71977",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "project_specific",
+    "specificity": "specific",
+    "reasoning": "Orionx, a Tether-backed custody platform, is shutting down after a $7M+ shortfall was discovered, indicating a project-specific security failure.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "title": "\ud83d\udd25 [TODAY](https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets): Tether-ba",
+      "text": "\ud83d\udd25 [TODAY](https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets): Tether-backed Orionx is shutting down after an audit uncovered a $7M+ custody shortfall.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+      "timestamp_utc": "2026-09-06T19:32:04+00:00",
+      "url": "https://t.me/cointelegraph/71977",
+      "raw_id": "71977",
+      "layer1_reason": "no junk pattern matched (default pass)",
+      "category": "project_specific",
+      "specificity": "specific",
+      "reasoning": "Orionx is shutting down due to a $7M+ custody shortfall, which represents a fundamental negative event and insolvency specific to this entity.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   }
 ]
