@@ -11305,5 +11305,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "30 Known Institutions Hold $74.9 Million in Hyperliquid ETF Exposure, 13F Data Shows",
+    "text": "30 Known Institutions Hold $74.9 Million in Hyperliquid ETF Exposure, 13F Data Shows\n\nBloomberg ETF analyst James Seyffart compiled 13F data showing that, as of June 30, 30 known institutional holders had exposure to the three Hyperliquid ETFs, with combined exposure of $74,882,768, equivalent to approximately 1,151,386 HYPE. Wealth High Governance Asset Management ranked first with $23,948,236 in exposure, followed by OLP Capital Management with $10,495,651, UBS with $7,525,757, Bank of Montreal with $6,693,261, and Jane Street with $4,381,110. The top five holders had combined exposure of $53,044,015, accounting for approximately 70.84% of the total disclosed exposure. \u2014 [link](https://wublockchain.xyz/news/news-20722)",
+    "timestamp_utc": "2026-09-05T23:14:18+00:00",
+    "url": "https://t.me/wublockchainenglish/25898",
+    "raw_id": "25898",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports 13F holdings data for Hyperliquid ETFs, which is market data and not a regulatory action, exchange change, or project-specific event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
