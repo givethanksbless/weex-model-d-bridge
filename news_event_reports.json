@@ -2127,6 +2127,35 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "macro_nearly_correlation_bitcoin_nasdaq_20260906",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-06T02:39:15+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/25900",
+    "trigger_source_title": "Bitcoin-Gold Correlation Rises to Nearly Six-Year High as Nasdaq Correlation Falls to One-Year Low",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "Bitcoin-Gold Correlation Rises to Nearly Six-Year High as Nasdaq Correlation Falls to One-Year Low",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/25900",
+      "reasoning": "The article cites a concrete U.S. Treasury policy change\u2014doubling the Treasury buyback limit\u2014which is a macro-level action that can influence crypto markets, fitting the macro_systemic category.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
