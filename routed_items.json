@@ -11857,5 +11857,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Bitcoin Policy Institute: MENA Crypto Transaction Volume Reaches $350 Billion as Saudi Arabia Leads ",
+    "text": "Bitcoin Policy Institute: MENA Crypto Transaction Volume Reaches $350 Billion as Saudi Arabia Leads Growth\n\nThe Bitcoin Policy Institute said the Middle East and North Africa has become one of the world\u2019s fastest-growing crypto markets, with annual on-chain transaction volume rising from about $100 billion in 2022 to roughly $350 billion in 2025\u20132026. Turkey remains the region\u2019s largest market, with annual transaction volume approaching $200 billion, while the UAE recorded about $150 billion in crypto transaction volume in 2025. Saudi Arabia was the fastest-growing market, up 154% year over year, followed by Qatar at 120%. The report said conflict and currency depreciation have increased the use of BTC and U.S. dollar-backed stablecoins as hedges in some markets, while Gulf states have emerged as regional digital-asset growth hubs through regulation and greater institutional participation. \u2014 [link](https://wublockchain.xyz/news/news-20735)",
+    "timestamp_utc": "2026-09-06T16:46:27+00:00",
+    "url": "https://t.me/wublockchainenglish/25911",
+    "raw_id": "25911",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports on market volume statistics from a research institute, not a regulatory action, exchange operation, or project-specific event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udea8 ALERT: High-severity CVEs went parabolic with over 2,200 flagged in 2026 alone, more than 6x the 2",
+    "text": "\ud83d\udea8 ALERT: High-severity CVEs went parabolic with over 2,200 flagged in 2026 alone, more than 6x the 2022-2025 average.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-06T16:33:27+00:00",
+    "url": "https://t.me/cointelegraph/71974",
+    "raw_id": "71974",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports a general increase in high\u2011severity CVEs, a broad security trend, not tied to a specific project, exchange, or regulatory action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
