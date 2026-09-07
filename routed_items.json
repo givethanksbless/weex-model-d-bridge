@@ -12531,5 +12531,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Capital B Completes \u20ac28.7M Private Placement and Acquires 376 BTC, Bringing Holdings to 3,521 BTC",
+    "text": "Capital B Completes \u20ac28.7M Private Placement and Acquires 376 BTC, Bringing Holdings to 3,521 BTC\n\nCapital B announced the completion of a \u20ac1.44 million ATM offering and a \u20ac28.7 million private placement, and acquired 376 BTC for \u20ac25.3 million. The company and its subsidiary now hold a total of 3,521 BTC, with an aggregate acquisition cost of \u20ac309.4 million and an average cost of \u20ac87,878 per BTC. \u2014 [link](https://wublockchain.xyz/news/news-20742)",
+    "timestamp_utc": "2026-09-07T06:31:50+00:00",
+    "url": "https://t.me/wublockchainenglish/25918",
+    "raw_id": "25918",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "Capital B\u2019s private placement and BTC acquisition is a corporate transaction, not a regulatory action, exchange delisting, project hack, macro shock, or exchange policy change.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
