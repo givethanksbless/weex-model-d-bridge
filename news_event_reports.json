@@ -2739,7 +2739,7 @@
   },
   {
     "event_id": "regulatory_polish_https_coindesk_suspect_20260907",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-07T15:29:15+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24537",
