@@ -12195,5 +12195,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Senator Lummis: Failure to Pass the CLARITY Act This Congress Could Delay the Next Opportunity Until",
+    "text": "Senator Lummis: Failure to Pass the CLARITY Act This Congress Could Delay the Next Opportunity Until 2030\n\nU.S. Senator Cynthia Lummis said that if the CLARITY Act does not pass during the current Congress, the next real opportunity to advance market structure legislation may not come until 2030. She said completing the legislation now could help avoid years of lost jobs, investment, and tax revenue. \u2014 [link](https://wublockchain.xyz/news/news-20738)",
+    "timestamp_utc": "2026-09-07T01:45:29+00:00",
+    "url": "https://t.me/wublockchainenglish/25914",
+    "raw_id": "25914",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The senator is expressing an opinion about the timing of future legislation, not an actual regulatory action taken by a government body.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udd25 **NOW**: Nvidia CEO Jensen Huang says \"AGI has arrived\" as OpenAI releases GPT-6 Astra.",
+    "text": "\ud83d\udd25 **NOW**: Nvidia CEO Jensen Huang says \"AGI has arrived\" as OpenAI releases GPT-6 Astra.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-07T01:38:21+00:00",
+    "url": "https://t.me/cointelegraph/71980",
+    "raw_id": "71980",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The article reports a private CEO\u2019s statement about AGI and a new OpenAI model; no concrete regulatory or project-specific action is described.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
