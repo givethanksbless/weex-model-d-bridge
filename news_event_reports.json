@@ -2594,7 +2594,7 @@
   },
   {
     "event_id": "hack_attack_million_bitcoin_third_20260907",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-07T09:36:59+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24527",
@@ -2617,6 +2617,64 @@
       ],
       "providers_agree": true,
       "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_control_91_usdt_key_20260907",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-07T10:36:01+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24530",
+    "trigger_source_title": "[**A two-key breach could hand control of $91 billion in USDT to hackers, report finds**](https://ww",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "[**A two-key breach could hand control of $91 billion in USDT to hackers, report finds**](https://ww",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24530",
+      "reasoning": "The report identifies a two-key security breach that could allow hackers to control $91\u202fbillion in USDT, directly targeting the Tether project.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_registrations_proposes_philippines_month_20260907",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-07T10:14:57+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71987",
+    "trigger_source_title": "**\ud83c\uddf5\ud83c\udded NEW: **The Philippines proposes a 12-month freeze on new payment operator registrations and tig",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**\ud83c\uddf5\ud83c\udded NEW: **The Philippines proposes a 12-month freeze on new payment operator registrations and tig",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/71987",
+      "reasoning": "The Philippine government is proposing a concrete regulatory measure\u2014a 12\u2011month freeze on new payment operator registrations and tighter crypto checks\u2014making it a specific regulatory action.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
@@ -3051,6 +3109,35 @@
       ],
       "providers_agree": true,
       "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_market_www_easing_weighs_20260907",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-07T10:50:52+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24531",
+    "trigger_source_title": "[**UK regulator weighs easing financial prediction market ban: Times**](https://www.coindesk.com/pol",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**UK regulator weighs easing financial prediction market ban: Times**](https://www.coindesk.com/pol",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24531",
+      "reasoning": "The UK Financial Conduct Authority, a government regulator, is actively weighing a change to its ban on financial prediction markets, which constitutes a concrete regulatory consideration.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
       "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
