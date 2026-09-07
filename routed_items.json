@@ -13629,5 +13629,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** OpenAI's top scientist warns AI is advancing so fast it is becoming increasingly diffic",
+    "text": "**JUST IN:** OpenAI's top scientist warns AI is advancing so fast it is becoming increasingly difficult for humans to understand and control.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-07T20:56:30+00:00",
+    "url": "https://t.me/watcherguru/14952",
+    "raw_id": "14952",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The item is a statement from an OpenAI scientist about AI\u2019s rapid advancement; it contains no concrete regulatory, operational, or project-specific action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
