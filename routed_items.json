@@ -13608,5 +13608,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "**\ud83c\uddfa\ud83c\uddf8 BIG: **President Trump says Bombardier will no longer be allowed to sell in the U.S. unless Can",
+    "text": "**\ud83c\uddfa\ud83c\uddf8 BIG: **President Trump says Bombardier will no longer be allowed to sell in the U.S. unless Canada opens its market to American banks, companies and Gulfstream Aerospace.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-07T18:05:01+00:00",
+    "url": "https://t.me/cointelegraph/71993",
+    "raw_id": "71993",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The article reports a statement by former President Trump about Bombardier, which is an opinion/endorsement rather than a concrete regulatory or operational action by a government body.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
