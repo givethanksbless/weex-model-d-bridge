@@ -2710,7 +2710,7 @@
   },
   {
     "event_id": "macro_us_spent_billion_100_20260907",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-07T13:53:33+00:00",
     "trigger_source": "https://t.me/watcherguru/14949",
@@ -3202,7 +3202,7 @@
   },
   {
     "event_id": "hack_having_eth_https_coindesk_20260907",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-07T13:55:21+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24535",
