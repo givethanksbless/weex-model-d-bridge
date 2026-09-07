@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "China\u2019s $45B recapitalization of its largest banks and insurers is a macro\u2011level financial event affecting the broader market, not a crypto\u2011specific incident.",
-  "source": "cointelegraph",
-  "timestamp": "2026-09-07T08:49:21+00:00",
-  "_event_id": "macro_45b_recapitalizati_banks_china_20260907",
+  "note": "The article reports a $100\u202fbillion increase in U.S. fuel spending tied to the Iran war, a broad macroeconomic shock affecting the entire market.",
+  "source": "watcherguru",
+  "timestamp": "2026-09-07T13:53:33+00:00",
+  "_event_id": "macro_us_spent_billion_100_20260907",
   "_raw_category": "macro/geopolitical shock"
 }
