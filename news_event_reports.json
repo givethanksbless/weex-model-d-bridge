@@ -2362,7 +2362,7 @@
   },
   {
     "event_id": "hack_million_network_hit_claim_20260907",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-07T03:43:54+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24520",
@@ -2379,6 +2379,93 @@
       "source_type": "third_party",
       "url": "https://t.me/CoinDeskGlobal/24520",
       "reasoning": "Liquid Network suffered a $320M security exploit, halting transactions.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_withdrawn_4_network_bitcoin_20260907",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-07T05:01:04+00:00",
+    "trigger_source": "https://t.me/watcherguru/14946",
+    "trigger_source_title": "**JUST IN:** 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack.",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**JUST IN:** 4,000 Bitcoin worth $320 million withdrawn following Liquid Network hack.",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/14946",
+      "reasoning": "Liquid Network suffered a hack that led to the withdrawal of 4,000 BTC, a concrete security breach tied to a specific project.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_below_s_bitcoin_strikes_20260902",
+    "matched_existing_event": true,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-02T10:51:16+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24471",
+    "trigger_source_title": "[**Bitcoin slips below $76,500 as U.S. strikes on Iran send oil above $93**](https://www.coindesk.co",
+    "is_canonical_source": false,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**Oil up, bitcoin down as U.S. strikes Iranian crude carriers**](https://www.coindesk.com/markets/2",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24521",
+      "reasoning": "The article reports a market-wide shock\u2014oil prices spiking due to U.S. strikes on Iranian crude carriers\u2014leading to a Bitcoin price dip, which is a macro systemic event rather than a project, exchange, or regulatory action.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_withdrawn_4_network_btc_20260907",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-07T04:23:34+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71982",
+    "trigger_source_title": "\ud83d\udea8** ALERT:** Liquid Network says ~4,000 BTC ($320M) was withdrawn from its Federation wallet by purp",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "\ud83d\udea8** ALERT:** Liquid Network says ~4,000 BTC ($320M) was withdrawn from its Federation wallet by purp",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/71982",
+      "reasoning": "Liquid Network experienced a security breach with ~4,000 BTC withdrawn by alleged white\u2011hat hackers, a concrete hack event tied to a specific project.",
       "providers_checked": [
         "groq",
         "gemini_second_opinion"
