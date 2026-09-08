@@ -14727,5 +14727,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Republicans expect Crypto Clarity Act to fail in the Senate next week.",
+    "text": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Republicans expect Crypto Clarity Act to fail in the Senate next week.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-08T16:13:31+00:00",
+    "url": "https://t.me/watcherguru/14959",
+    "raw_id": "14959",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The statement is an opinion about the likely failure of the Crypto Clarity Act; no government body has taken concrete action, so it does not qualify as regulatory_action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
