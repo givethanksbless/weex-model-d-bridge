@@ -2768,7 +2768,7 @@
   },
   {
     "event_id": "hack_remain_hard_questions_silence_20260907",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-07T23:01:53+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24539",
@@ -2790,6 +2790,35 @@
         "gemini_second_opinion"
       ],
       "providers_agree": false,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_update_wallet_federation_hackers_20260908",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-08T00:03:07+00:00",
+    "trigger_source": "https://t.me/cointelegraph/71994",
+    "trigger_source_title": "\ud83d\udea8 **UPDATE**: Liquid Network hackers have returned 3,400 BTC (85%) to the Federation wallet after ne",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "\ud83d\udea8 **UPDATE**: Liquid Network hackers have returned 3,400 BTC (85%) to the Federation wallet after ne",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/71994",
+      "reasoning": "The article reports a hack on Liquid Network, with specific amounts of BTC returned and retained, indicating a project-specific security incident.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
       "internal_category": "project_specific",
       "internal_confidence_score": 0.54
     },
