@@ -3347,7 +3347,7 @@
   },
   {
     "event_id": "macro_live_bond_yen_bitcoin_20260908",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-08T08:31:23+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24545",
