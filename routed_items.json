@@ -14051,5 +14051,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets**](https://www.co",
+    "text": "[**Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets**](https://www.coindesk.com/tech/2026/09/08/live-updates)\n\nBitcoin, gold and technology stocks fall as the yen rallies, while oil prices and government bond yields climb globally.",
+    "timestamp_utc": "2026-09-08T08:31:23+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24545",
+    "raw_id": "24545",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "macro_systemic",
+    "specificity": "vague",
+    "reasoning": "The article reports on broad macroeconomic movements\u2014yen rally and rising bond yields\u2014that are affecting bitcoin and risk assets, but it does not describe a concrete action or event tied to a specific entity.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.12,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]

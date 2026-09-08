@@ -3344,5 +3344,33 @@
       "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_live_bond_yen_bitcoin_20260908",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-08T08:31:23+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24545",
+    "trigger_source_title": "[**Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets**](https://www.co",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets**](https://www.co",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24545",
+      "reasoning": "The article reports on broad macroeconomic movements\u2014yen rally and rising bond yields\u2014that are affecting bitcoin and risk assets, but it does not describe a concrete action or event tied to a specific entity.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.12
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   }
 ]
