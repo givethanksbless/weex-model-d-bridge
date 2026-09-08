@@ -14028,5 +14028,28 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "F2Pool Co-Founder Says Zcash Rally Is Narrative-Driven, Fundamentals Don\u2019t Match Market Rank",
+    "text": "F2Pool Co-Founder Says Zcash Rally Is Narrative-Driven, Fundamentals Don\u2019t Match Market Rank\n\nF2Pool co-founder Chun Wang said Zcash\u2019s recent gains have been driven largely by \u201cnarrative buying,\u201d arguing that a higher market capitalization does not mean its fundamentals justify its current ranking. He said Zcash has long faced questions over token distribution, governance and security, and that its privacy narrative alone is not enough to put it on par with networks such as Solana and Hyperliquid, which he said have clearer real-world usage demand. \u2014 [link](https://wublockchain.xyz/news/news-20759)",
+    "timestamp_utc": "2026-09-08T07:55:42+00:00",
+    "url": "https://t.me/wublockchainenglish/25933",
+    "raw_id": "25933",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The article contains only an opinion from a F2Pool co\u2011founder about Zcash\u2019s price movement, with no concrete regulatory, exchange, or project\u2011specific action reported.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [
+      "SOL"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
