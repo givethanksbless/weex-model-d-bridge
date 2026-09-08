@@ -3401,5 +3401,34 @@
       "internal_confidence_score": 0.12
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_scalers_s_2_paradox_20260908",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-08T13:40:20+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24554",
+    "trigger_source_title": "[**Bitcoin\u2019s complexity paradox: How layer-2 scalers became AI's main target**](https://www.coindesk",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "[**Bitcoin\u2019s complexity paradox: How layer-2 scalers became AI's main target**](https://www.coindesk",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24554",
+      "reasoning": "The article discusses security incidents involving specific Bitcoin layer\u20112 projects (Coldcard, Lightning, Liquid), indicating a project\u2011specific risk event rather than a regulatory action or macro shock.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   }
 ]
