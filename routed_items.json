@@ -13944,5 +13944,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**Bitcoin\u2019s golden cross is here**](https://www.coindesk.com/markets/2026/09/08/bitcoin-s-golden-cr",
+    "text": "[**Bitcoin\u2019s golden cross is here**](https://www.coindesk.com/markets/2026/09/08/bitcoin-s-golden-cross-is-here)\n\nA golden cross has triggered on bitcoin's daily price chart, indicating a potential long-term bullish trend ahead.",
+    "timestamp_utc": "2026-09-08T05:56:50+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24542",
+    "raw_id": "24542",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Market commentary on Bitcoin\u2019s chart pattern, no concrete action or event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
