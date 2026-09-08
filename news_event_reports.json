@@ -3404,7 +3404,7 @@
   },
   {
     "event_id": "hack_scalers_s_2_paradox_20260908",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-08T13:40:20+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24554",
