@@ -3203,7 +3203,7 @@
   },
   {
     "event_id": "hack_recursive_future_star_proposes_20260909",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-09T16:08:12+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25956",
@@ -3232,7 +3232,7 @@
   },
   {
     "event_id": "regulatory_https_coinde_widespread_sanctions_20260909",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-09T16:05:58+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24577",
