@@ -3145,7 +3145,7 @@
   },
   {
     "event_id": "exchange_hunter_token_under_billion_20260909",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "exchange/counterparty failure",
     "trigger_timestamp": "2026-09-09T13:58:22+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24571",
