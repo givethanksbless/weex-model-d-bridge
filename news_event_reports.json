@@ -3029,7 +3029,7 @@
   },
   {
     "event_id": "regulatory_germany_impose_starting_cryptocurrency_20260909",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-09T11:00:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/72015",
@@ -3058,7 +3058,7 @@
   },
   {
     "event_id": "macro_after_as_strikes_mar_20260909",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-09T10:47:49+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24566",
@@ -3087,7 +3087,7 @@
   },
   {
     "event_id": "exchange_frozen_attacker_s_address_20260909",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "exchange/counterparty failure",
     "trigger_timestamp": "2026-09-09T10:06:50+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25949",
