@@ -3433,7 +3433,7 @@
   },
   {
     "event_id": "regulatory_s_hyperliquid_highlight_u_20260909",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-09T02:19:33+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25941",
