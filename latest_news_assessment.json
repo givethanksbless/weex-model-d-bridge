@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a $100\u202fbillion increase in U.S. fuel spending tied to the Iran war, a broad macroeconomic shock affecting the entire market.",
-  "source": "watcherguru",
-  "timestamp": "2026-09-07T13:53:33+00:00",
-  "_event_id": "macro_us_spent_billion_100_20260907",
+  "note": "The article reports a market-wide reaction to oil prices and Iran strikes, affecting Bitcoin and equities, which constitutes a macro systemic event.",
+  "source": "CoinDeskGlobal",
+  "timestamp": "2026-09-09T10:47:49+00:00",
+  "_event_id": "macro_after_as_strikes_mar_20260909",
   "_raw_category": "macro/geopolitical shock"
 }
