@@ -16500,5 +16500,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\u26a1\ufe0f **NEW**: Changelly has partnered with Tether to spotlight $XAUt, Tether's gold-backed token, thro",
+    "text": "\u26a1\ufe0f **NEW**: Changelly has partnered with Tether to spotlight $XAUt, Tether's gold-backed token, through qualifying swaps on the Changelly platform. \n\nThe campaign runs through Sept. 21.\n\n$XAUt tracks the price of physical gold held in Switzerland, giving users a tokenized exposure to gold.\n\nhttps://changellylink.onelink.me/PXRS/xz7ekf70\n\n[Brought to you by [Changelly](https://changellylink.onelink.me/PXRS/xz7ekf70)]\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-09T22:40:01+00:00",
+    "url": "https://t.me/cointelegraph/72023",
+    "raw_id": "72023",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The post describes a promotional partnership between Changelly and Tether to spotlight the XAUt token, which is marketing activity and not a regulatory, exchange, or project-specific event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** Hunter Biden says his crypto memecoin $LAPTOP saw a \"sharp swing\" in price due to \"tech",
+    "text": "**JUST IN:** Hunter Biden says his crypto memecoin $LAPTOP saw a \"sharp swing\" in price due to \"technical issues\u2026which has since stabilized to healthy levels.\"\n\nThe coin is now down over 95% since launch.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-09T22:01:48+00:00",
+    "url": "https://t.me/watcherguru/14985",
+    "raw_id": "14985",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Hunter Biden\u2019s statement is a personal opinion about the price movement of a memecoin; it does not describe any regulatory, exchange, or project-specific action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]

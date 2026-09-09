@@ -3261,7 +3261,7 @@
   },
   {
     "event_id": "hack_pleads_bitcoin_spending_245_20260909",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-09T21:02:15+00:00",
     "trigger_source": "https://t.me/watcherguru/14982",
