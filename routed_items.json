@@ -16414,5 +16414,28 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "PumpFun Adds Tokenized Stocks as Pairing Assets for Token Launches",
+    "text": "PumpFun Adds Tokenized Stocks as Pairing Assets for Token Launches\n\nPumpFun has launched support for tokenized stocks as pairing assets for token creators, expanding beyond SOL and USDC. Available options include tokenized assets linked to Tesla, NVIDIA, Circle, the Nasdaq, the S&P 500, Micron Technology and SK Hynix, among others. \u2014 [link](https://wublockchain.xyz/news/news-20785)",
+    "timestamp_utc": "2026-09-09T20:02:58+00:00",
+    "url": "https://t.me/wublockchainenglish/25959",
+    "raw_id": "25959",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "PumpFun\u2019s announcement of adding tokenized stocks as pairing assets is a promotional feature update, not a regulatory action, exchange policy change, or project-specific incident, so it falls under the none category.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [
+      "SOL"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
