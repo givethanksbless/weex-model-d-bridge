@@ -2884,7 +2884,7 @@
   },
   {
     "event_id": "regulatory_like_tether_controls_relaxes_20260909",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-09T04:33:45+00:00",
     "trigger_source": "https://t.me/cointelegraph/72008",
@@ -2901,6 +2901,35 @@
       "source_type": "third_party",
       "url": "https://t.me/cointelegraph/72008",
       "reasoning": "Iran\u2019s government is actively relaxing currency controls and turning to crypto assets to bypass sanctions, which is a concrete regulatory action by a state body.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_using_has_export_ft_20260909",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-09T05:32:22+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/25943",
+    "trigger_source_title": "FT: Using Crypto to Receive Export Payments in Iran Has Become Completely Normalized",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "FT: Using Crypto to Receive Export Payments in Iran Has Become Completely Normalized",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/25943",
+      "reasoning": "The Central Bank of Iran, a government body, has eased foreign exchange controls to allow exporters to use crypto for cross-border settlement, which is a concrete regulatory change.",
       "providers_checked": [
         "groq",
         "gemini_second_opinion"
