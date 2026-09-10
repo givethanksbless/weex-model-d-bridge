@@ -3348,7 +3348,7 @@
   },
   {
     "event_id": "hack_s_blames_rack_six_20260910",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-10T06:15:11+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24581",
