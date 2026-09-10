@@ -3377,7 +3377,7 @@
   },
   {
     "event_id": "macro_highest_5_since_june_20260910",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-10T12:50:31+00:00",
     "trigger_source": "https://t.me/watcherguru/14992",
@@ -3406,7 +3406,7 @@
   },
   {
     "event_id": "macro_deposit_rate_lifting_rates_20260910",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-10T12:27:38+00:00",
     "trigger_source": "https://t.me/cointelegraph/72031",
