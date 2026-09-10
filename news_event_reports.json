@@ -3376,6 +3376,64 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "macro_highest_5_since_june_20260910",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-10T12:50:31+00:00",
+    "trigger_source": "https://t.me/watcherguru/14992",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 US 30-year bond yield rises to 5.35%, highest level since June 2007.",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 US 30-year bond yield rises to 5.35%, highest level since June 2007.",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/14992",
+      "reasoning": "The article reports a concrete macroeconomic event\u2014US 30\u2011year bond yields rising to 5.35%\u2014which can influence broader financial markets, including crypto.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_deposit_rate_lifting_rates_20260910",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-10T12:27:38+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72031",
+    "trigger_source_title": "**\ud83c\uddea\ud83c\uddfa JUST IN:** The ECB raises interest rates by 25 basis points, lifting its deposit rate to 2.50%.",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**\ud83c\uddea\ud83c\uddfa JUST IN:** The ECB raises interest rates by 25 basis points, lifting its deposit rate to 2.50%.",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/72031",
+      "reasoning": "The ECB\u2019s interest rate hike is a concrete monetary policy action by a government body that impacts the broader crypto market, qualifying as a macro\u2011systemic event.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
@@ -3984,7 +4042,7 @@
   },
   {
     "event_id": "macro_buybacks_bessent_continue_treasury_20260910",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-10T11:48:01+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24589",
