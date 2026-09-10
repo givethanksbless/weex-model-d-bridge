@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a concrete macroeconomic event\u2014US 30\u2011year bond yields rising to 5.35%\u2014which can influence broader financial markets, including crypto.",
-  "source": "watcherguru",
-  "timestamp": "2026-09-10T12:50:31+00:00",
-  "_event_id": "macro_highest_5_since_june_20260910",
+  "note": "The article reports market expectations for a Fed rate hike, a macroeconomic event affecting the broader financial system, not a specific crypto project or regulatory action.",
+  "source": "cointelegraph",
+  "timestamp": "2026-09-10T22:10:01+00:00",
+  "_event_id": "macro_futures_69_rate_september_20260910",
   "_raw_category": "macro/geopolitical shock"
 }
