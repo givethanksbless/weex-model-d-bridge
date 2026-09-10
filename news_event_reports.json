@@ -3319,7 +3319,7 @@
   },
   {
     "event_id": "hack_was_investigating_still_trezor_20260910",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-10T04:03:38+00:00",
     "trigger_source": "https://t.me/cointelegraph/72027",
