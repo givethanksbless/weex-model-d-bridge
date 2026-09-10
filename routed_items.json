@@ -16605,5 +16605,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83c\uddfa\ud83c\uddf8 **JUST IN**: President Trump says he'll issue a $5,000 \"Trump Dividend\" to every adult US citizen",
+    "text": "\ud83c\uddfa\ud83c\uddf8 **JUST IN**: President Trump says he'll issue a $5,000 \"Trump Dividend\" to every adult US citizen if Republicans win both the House and Senate.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-10T02:42:03+00:00",
+    "url": "https://t.me/cointelegraph/72026",
+    "raw_id": "72026",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "President Trump\u2019s statement is a political opinion about a potential policy, not a concrete regulatory action by a government body, so it falls under none with vague specificity.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
