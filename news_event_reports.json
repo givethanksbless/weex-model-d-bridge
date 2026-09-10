@@ -3434,6 +3434,35 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "hack_regulatory_https_www_monument_20260910",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-10T15:54:12+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24595",
+    "trigger_source_title": "[**Monument Bank delays retail tokenized deposits, cites regulatory issues in the UK**](https://www.",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**Monument Bank delays retail tokenized deposits, cites regulatory issues in the UK**](https://www.",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24595",
+      "reasoning": "Monument Bank, a specific challenger bank, is delaying its retail tokenized deposits rollout due to regulatory issues in the UK, constituting a project\u2011specific negative event tied to a named entity.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
@@ -4066,6 +4095,34 @@
       "providers_agree": true,
       "internal_category": "macro_systemic",
       "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_rates_49_raising_next_20260828",
+    "matched_existing_event": true,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-08-28T16:14:49+00:00",
+    "trigger_source": "https://t.me/watcherguru/14840",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Odds of the Federal Reserve raising interest rates next month surge to 49%.",
+    "is_canonical_source": false,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Odds of the Federal Reserve raising interest rates next week surge to 64% after PPI ",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/14994",
+      "reasoning": "The article reports a forecast about the Federal Reserve potentially raising rates, which is a macroeconomic event that could affect crypto markets, but it does not describe a concrete action taken by a government body or a specific crypto project.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.12
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   }
