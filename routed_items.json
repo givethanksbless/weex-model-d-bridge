@@ -16584,5 +16584,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83c\uddfa\ud83c\uddf8 ** NOW**: White House crypto advisor Patrick Witt says, \u201cAll Senators, Republican and Democrat, s",
+    "text": "\ud83c\uddfa\ud83c\uddf8 ** NOW**: White House crypto advisor Patrick Witt says, \u201cAll Senators, Republican and Democrat, should vote on Tuesday to get on the (Clarity) bill and allow the legislative process to continue.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-10T01:26:07+00:00",
+    "url": "https://t.me/cointelegraph/72024",
+    "raw_id": "72024",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Patrick Witt is expressing an opinion/endorsement about the Clarity bill; no concrete regulatory action has been taken by a government body.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
