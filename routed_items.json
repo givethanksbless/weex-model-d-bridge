@@ -16626,5 +16626,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Hunter Biden\u2019s LAPTOP Meme Coin Falls 99.5% From ATH, Circulating Market Cap Estimated at $565M",
+    "text": "Hunter Biden\u2019s LAPTOP Meme Coin Falls 99.5% From ATH, Circulating Market Cap Estimated at $565M\n\nHunter Biden\u2019s LAPTOP meme coin is trading at around $1.614, down approximately 99.5% from its all-time high of $314.94, GMGN data shows. The token fell as low as $1.116 and has recorded roughly $11.74 million in total trading volume. LAPTOP launched on Base on September 9 with a total supply of 1 billion tokens. Based on the previously disclosed initial circulating supply of 350 million tokens, its circulating market capitalization is estimated at approximately $565 million, with a fully diluted valuation of about $1.61 billion.\n\nOn-chain analyst [@ai_9684xtpa](https://x.com/ai_9684xtpa/status/2097659095591563366?s=20) reported that market makers GSR, G20 and Wintermute received 15.5 million, 5 million and 2.5 million LAPTOP tokens, respectively, representing a combined 2.3% of the total supply.\n\nThe team said its initial liquidity pool opened at $0.05 but was front-run by sniper bots amid heavy demand, while insufficient market-maker liquidity amplified the surge and subsequent crash. Starting at 00:00 UTC on Sept. 10, the project plans to allocate 4 million LAPTOP, or 0.4% of total supply, to incentivize liquidity on Aerodrome, Base\u2019s leading decentralized exchange. The team also said there was no presale or KOL allocation.\n\n[Hunter Biden](https://x.com/HunterBiden/status/2097853144596381759), son of former U.S. President Joe Biden, said the X account of the Phoenix Veritas Foundation behind the LAPTOP meme coin has been suspended. The team is working with X to restore access and said it will not abandon LAPTOP, with project updates to be published on Medium in the meantime. \u2014 [link](https://wublockchain.xyz/news/news-20783)",
+    "timestamp_utc": "2026-09-09T17:07:55+00:00",
+    "url": "https://t.me/wublockchainenglish/25957",
+    "raw_id": "25957",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports on the price decline and market data of the LAPTOP meme coin, with no indication of regulatory action, exchange delisting, hack, or systemic market shock.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
