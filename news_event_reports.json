@@ -3464,7 +3464,7 @@
   },
   {
     "event_id": "regulatory_s_gaps_regulator_access_20260910",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-10T17:04:03+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24597",
