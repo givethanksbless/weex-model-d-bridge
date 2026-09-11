@@ -19828,5 +19828,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83c\uddfa\ud83c\uddf8 HUGE: Latin America's largest digital bank Nu is launching in the US with 3.5% yield, cashback, g",
+    "text": "\ud83c\uddfa\ud83c\uddf8 HUGE: Latin America's largest digital bank Nu is launching in the US with 3.5% yield, cashback, global transfers and crypto trading.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-11T21:34:18+00:00",
+    "url": "https://t.me/cointelegraph/72057",
+    "raw_id": "72057",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article announces a private bank\u2019s launch of crypto trading services in the US, which is a promotional marketing activity and not a regulatory or operational event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
