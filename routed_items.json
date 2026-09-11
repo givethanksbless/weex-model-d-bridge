@@ -19723,5 +19723,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udd25 BIG: Liquid Staking TVL just hit $52.3B after climbing 34%, per CertiK Skynet.",
+    "text": "\ud83d\udd25 BIG: Liquid Staking TVL just hit $52.3B after climbing 34%, per CertiK Skynet.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-11T18:39:11+00:00",
+    "url": "https://t.me/cointelegraph/72055",
+    "raw_id": "72055",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The item reports a market metric (TVL) with a specific figure and source, but it does not describe any regulatory action, project incident, or exchange operation, so it falls under generic market chatter.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]

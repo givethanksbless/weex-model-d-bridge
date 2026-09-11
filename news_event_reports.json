@@ -3986,7 +3986,7 @@
   },
   {
     "event_id": "regulatory_house_us_russia_impose_20260911",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-11T17:59:53+00:00",
     "trigger_source": "https://t.me/cointelegraph/72053",
@@ -4794,7 +4794,7 @@
   },
   {
     "event_id": "regulatory_waiting_www_coindes_drama_20260911",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-11T17:23:34+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24612",
