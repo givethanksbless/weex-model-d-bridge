@@ -19807,5 +19807,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** Another Anthropic researcher says humans \"may not survive\" the AI race after announcing",
+    "text": "**JUST IN:** Another Anthropic researcher says humans \"may not survive\" the AI race after announcing resignation.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-11T20:02:50+00:00",
+    "url": "https://t.me/watcherguru/15015",
+    "raw_id": "15015",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Opinion statement by a researcher, no concrete action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
