@@ -3754,7 +3754,7 @@
   },
   {
     "event_id": "hack_blockstream_ransom_stolen_refuses_20260911",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-11T10:49:55+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25985",
@@ -4471,6 +4471,34 @@
       "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_u_rising_s_vulnerable_20260911",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-11T11:20:54+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24607",
+    "trigger_source_title": "[**Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report**](https://www.",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report**](https://www.",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24607",
+      "reasoning": "The article discusses macroeconomic factors (rising yields, oil prices) affecting Bitcoin, but no concrete regulatory or project-specific event.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.12
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   }
