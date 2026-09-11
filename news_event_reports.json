@@ -3783,7 +3783,7 @@
   },
   {
     "event_id": "macro_cpi_inflation_lowest_march_20260911",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-11T12:36:37+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/25987",
@@ -3812,7 +3812,7 @@
   },
   {
     "event_id": "macro_coin_cpi_forecast_setting_20260911",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-11T12:33:01+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24608",
@@ -3841,7 +3841,7 @@
   },
   {
     "event_id": "macro_inflation_4_remains_3_20260911",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-11T12:30:11+00:00",
     "trigger_source": "https://t.me/watcherguru/15006",
