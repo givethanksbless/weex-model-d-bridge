@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports market expectations for a Fed rate hike, a macroeconomic event affecting the broader financial system, not a specific crypto project or regulatory action.",
-  "source": "cointelegraph",
-  "timestamp": "2026-09-10T22:10:01+00:00",
-  "_event_id": "macro_futures_69_rate_september_20260910",
+  "note": "The article reports concrete U.S. CPI figures for August, a macroeconomic indicator that can influence market-wide conditions, fitting the macro_systemic category.",
+  "source": "wublockchainenglish",
+  "timestamp": "2026-09-11T12:36:37+00:00",
+  "_event_id": "macro_cpi_inflation_lowest_march_20260911",
   "_raw_category": "macro/geopolitical shock"
 }
