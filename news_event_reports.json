@@ -3638,7 +3638,7 @@
   },
   {
     "event_id": "regulatory_text_bill_but_clarity_20260910",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-10T20:22:23+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24600",
