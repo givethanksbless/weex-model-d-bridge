@@ -3870,7 +3870,7 @@
   },
   {
     "event_id": "regulatory_canada_cleared_banks_deposits_20260911",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-11T15:00:34+00:00",
     "trigger_source": "https://t.me/cointelegraph/72050",
@@ -3899,7 +3899,7 @@
   },
   {
     "event_id": "regulatory_canada_can_banks_launch_20260911",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-11T14:45:52+00:00",
     "trigger_source": "https://t.me/watcherguru/15011",
@@ -3928,7 +3928,7 @@
   },
   {
     "event_id": "regulatory_uk_lords_government_passes_20260911",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-11T14:33:31+00:00",
     "trigger_source": "https://t.me/watcherguru/15010",
