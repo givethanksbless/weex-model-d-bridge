@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports concrete U.S. CPI figures for August, a macroeconomic indicator that can influence market-wide conditions, fitting the macro_systemic category.",
+  "note": "The article reports a concrete Fed policy decision\u2014interest rate hikes\u2014that will affect the entire crypto market, fitting the macro_systemic category with specific details.",
   "source": "wublockchainenglish",
-  "timestamp": "2026-09-11T12:36:37+00:00",
-  "_event_id": "macro_cpi_inflation_lowest_march_20260911",
+  "timestamp": "2026-09-12T02:59:00+00:00",
+  "_event_id": "macro_wsj_rate_series_fed_20260912",
   "_raw_category": "macro/geopolitical shock"
 }
