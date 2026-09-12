@@ -20290,5 +20290,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udea8 INSANE: Global government debts in the OECD is costing us $2T in interest per year.",
+    "text": "\ud83d\udea8 INSANE: Global government debts in the OECD is costing us $2T in interest per year.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-12T12:34:11+00:00",
+    "url": "https://t.me/cointelegraph/72063",
+    "raw_id": "72063",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "macro_systemic",
+    "specificity": "vague",
+    "reasoning": "The article discusses a broad macroeconomic claim about global government debt interest, not a specific event or action affecting a particular crypto project, exchange, or regulator.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.12,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
