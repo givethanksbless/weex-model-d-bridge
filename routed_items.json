@@ -20248,5 +20248,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": false
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**Bitcoin activity, passports exposed after Revolut falls for fake government request**](https://ww",
+    "text": "[**Bitcoin activity, passports exposed after Revolut falls for fake government request**](https://www.coindesk.com/tech/2026/09/12/bitcoin-activity-passports-exposed-after-revolut-falls-for-fake-government-request)\n\nPassports, selfies and home addresses were also handed over after the digital bank treated a fraudulent request as legitimate, the firm said Saturday, but no customer funds were lost.",
+    "timestamp_utc": "2026-09-12T10:11:56+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24614",
+    "raw_id": "24614",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "project_specific",
+    "specificity": "specific",
+    "reasoning": "Revolut, a crypto\u2011related digital bank, fell for a fake government request and handed over customers\u2019 passports, selfies and addresses, constituting a security breach specific to that project.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "title": "[**Bitcoin activity, passports exposed after Revolut falls for fake government request**](https://ww",
+      "text": "[**Bitcoin activity, passports exposed after Revolut falls for fake government request**](https://www.coindesk.com/tech/2026/09/12/bitcoin-activity-passports-exposed-after-revolut-falls-for-fake-government-request)\n\nPassports, selfies and home addresses were also handed over after the digital bank treated a fraudulent request as legitimate, the firm said Saturday, but no customer funds were lost.",
+      "timestamp_utc": "2026-09-12T10:11:56+00:00",
+      "url": "https://t.me/CoinDeskGlobal/24614",
+      "raw_id": "24614",
+      "layer1_reason": "no junk pattern matched (default pass)",
+      "category": "project_specific",
+      "specificity": "specific",
+      "reasoning": "Revolut suffered a security breach where customer data, including Bitcoin activity and passports, was exposed due to a fraudulent government request.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   }
 ]
