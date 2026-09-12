@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a concrete Fed policy decision\u2014interest rate hikes\u2014that will affect the entire crypto market, fitting the macro_systemic category with specific details.",
-  "source": "wublockchainenglish",
-  "timestamp": "2026-09-12T02:59:00+00:00",
-  "_event_id": "macro_wsj_rate_series_fed_20260912",
+  "note": "The article reports a concrete change in the overall crypto market value ($460B increase since last month), which is a market-wide event not tied to a single project or exchange.",
+  "source": "cointelegraph",
+  "timestamp": "2026-09-12T09:04:52+00:00",
+  "_event_id": "macro_month_up_460b_still_20260912",
   "_raw_category": "macro/geopolitical shock"
 }
