@@ -20080,5 +20080,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udcca MARKET: The Total Crypto Market is still up $460B since last month.",
+    "text": "\ud83d\udcca MARKET: The Total Crypto Market is still up $460B since last month.",
+    "timestamp_utc": "2026-09-12T05:59:15+00:00",
+    "url": "https://t.me/cointelegraph/72061",
+    "raw_id": "72061",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "Market update with a specific figure, no regulatory or operational action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Robinhood CEO: Tokenized Stocks Do Not Need Company Approval if Underlying Share Rights Remain Uncha",
+    "text": "Robinhood CEO: Tokenized Stocks Do Not Need Company Approval if Underlying Share Rights Remain Unchanged\n\nRobinhood Co-founder and CEO Vlad Tenev said that public companies should control the rights attached to their shares, but not every lawful use investors make of those shares after acquiring them. Issuer consent should be required if a tokenized product alters the rights of the underlying shares, replaces the company\u2019s official shareholder register, or imposes new obligations on the company or its transfer agent. However, authorization should not be necessary when the product is an independent financial instrument backed by or referencing freely transferable shares without changing the issuer's rights or obligations.\n\nRobinhood Stock Tokens fall into the latter category. They are backed 1:1 by the underlying shares and provide economic exposure without altering a company\u2019s ownership structure or the rights attached to its shares. Tenev argued that putting assets onchain should not grant issuers veto powers they do not have in traditional markets, and companies should not be able to block new investors simply because they do not understand the technology. \u2014 [link](https://wublockchain.xyz/news/news-20824)",
+    "timestamp_utc": "2026-09-12T05:23:48+00:00",
+    "url": "https://t.me/wublockchainenglish/25997",
+    "raw_id": "25997",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "moderate",
+    "reasoning": "The CEO\u2019s statement is a private company\u2019s viewpoint on tokenized stocks, not a concrete regulatory action, exchange policy change, or project-specific incident.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.5,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
