@@ -20525,5 +20525,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** OpenAI CEO Sam Altman backs Anthropic CEO Dario Amodei's call for the AI industry to sl",
+    "text": "**JUST IN:** OpenAI CEO Sam Altman backs Anthropic CEO Dario Amodei's call for the AI industry to slow down development.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-12T16:33:00+00:00",
+    "url": "https://t.me/watcherguru/15020",
+    "raw_id": "15020",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The statement is an opinion/endorsement by a private company CEO, not a concrete regulatory action or project-specific event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
