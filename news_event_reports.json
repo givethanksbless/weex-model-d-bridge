@@ -4102,7 +4102,7 @@
   },
   {
     "event_id": "hack_revolut_exposed_fake_passports_20260912",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-12T10:11:56+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24614",
