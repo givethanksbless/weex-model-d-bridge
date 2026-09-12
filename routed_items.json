@@ -20017,5 +20017,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "BitMEX Co-Founder Ben Delo Donates Record \u00a336 Million to Reform UK",
+    "text": "BitMEX Co-Founder Ben Delo Donates Record \u00a336 Million to Reform UK\n\nBitMEX co-founder Ben Delo has donated \u00a336 million to Reform UK, marking the largest single donation ever received by a British political party. Delo said he had originally planned to donate \u00a31 million per month from now until the Labour government holds a general election, which must take place by 2029. However, concerned that the government could introduce limits on large political donations, he decided to transfer the entire amount at once. The UK currently places no limit on how much domestic donors may give to political parties. Delo had previously donated \u00a34 million to Reform UK and received an unconditional pardon from U.S. President Donald Trump last year for his conviction under the Bank Secrecy Act. \u2014 [link](https://wublockchain.xyz/news/news-20821)",
+    "timestamp_utc": "2026-09-12T01:51:50+00:00",
+    "url": "https://t.me/wublockchainenglish/25994",
+    "raw_id": "25994",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "Ben Delo\u2019s donation is a private political contribution, not a regulatory action, exchange policy change, or project-specific event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
