@@ -20311,5 +20311,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**Staked ether should be seen as the benchmark of the decentralized economy**](https://www.coindesk",
+    "text": "[**Staked ether should be seen as the benchmark of the decentralized economy**](https://www.coindesk.com/opinion/2026/09/12/staked-ether-should-be-seen-as-the-benchmark-of-the-decentralized-economy)\n\nThe yield-generating asset has a special place in the digital asset investor\u2019s portfolio, argues GlobalStake\u2019s Ryan Haczynski.",
+    "timestamp_utc": "2026-09-12T14:00:55+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24615",
+    "raw_id": "24615",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Opinion article about staked ether; no concrete regulatory, exchange, or project event reported.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
