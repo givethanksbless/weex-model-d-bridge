@@ -4189,7 +4189,7 @@
   },
   {
     "event_id": "regulatory_schr_cat_act_life_20260913",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-13T12:00:45+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24621",
