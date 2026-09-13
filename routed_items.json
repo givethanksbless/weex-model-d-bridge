@@ -20924,5 +20924,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Uniswap Monthly Trading Volume Surpasses $70B, Exceeding the Next Three DEXs Combined",
+    "text": "Uniswap Monthly Trading Volume Surpasses $70B, Exceeding the Next Three DEXs Combined\n\nUniswap said its protocol processed more than $70 billion in trading volume over the past month, exceeding the combined volume of the next three largest DEXs. The figures were sourced from DeFiLlama Research. Uniswap said the data reflects continued strong trading activity and its leading position in decentralized spot trading by liquidity and volume. \u2014 [link](https://wublockchain.xyz/news/news-20829)",
+    "timestamp_utc": "2026-09-13T08:44:41+00:00",
+    "url": "https://t.me/wublockchainenglish/26002",
+    "raw_id": "26002",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports Uniswap\u2019s trading volume figure, which is a market performance metric and does not indicate any regulatory, operational, or project-specific risk event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "**\ud83d\udd25 NEW: **Tesla will unveil its new Roadster on October 1.",
+    "text": "**\ud83d\udd25 NEW: **Tesla will unveil its new Roadster on October 1.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-13T08:10:01+00:00",
+    "url": "https://t.me/cointelegraph/72076",
+    "raw_id": "72076",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "Tesla, a non\u2011crypto company, is announcing a product launch; the event is not crypto\u2011related, so it falls under the 'none' category.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
