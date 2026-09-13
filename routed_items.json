@@ -20777,5 +20777,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udcca MARKET: This is now ETH's second best Q3 ever.",
+    "text": "\ud83d\udcca MARKET: This is now ETH's second best Q3 ever.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-12T23:33:50+00:00",
+    "url": "https://t.me/cointelegraph/72072",
+    "raw_id": "72072",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The item is a generic market commentary on ETH\u2019s performance, with no concrete regulatory, exchange, project, or macro event described.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** \ud83c\uddf7\ud83c\uddfa Russia says it is 'impossible' to slow down development of AI.",
+    "text": "**JUST IN:** \ud83c\uddf7\ud83c\uddfa Russia says it is 'impossible' to slow down development of AI.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-12T23:02:34+00:00",
+    "url": "https://t.me/watcherguru/15023",
+    "raw_id": "15023",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Russia\u2019s statement is an opinion about AI development, not a concrete regulatory action such as issuing rules or opening an investigation.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
