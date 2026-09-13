@@ -21323,5 +21323,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** Brent crude oil surges at open after Saudi Arabia shuts down major pipeline following a",
+    "text": "**JUST IN:** Brent crude oil surges at open after Saudi Arabia shuts down major pipeline following attack.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-13T22:09:11+00:00",
+    "url": "https://t.me/watcherguru/15030",
+    "raw_id": "15030",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The story concerns a non-crypto commodity market event (oil pipeline shutdown) and does not involve any crypto project, exchange, or regulatory action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** Elon Musk says he is \"highly confident\" SpaceX $SPCX will launch Nvidia $NVDA AI comput",
+    "text": "**JUST IN:** Elon Musk says he is \"highly confident\" SpaceX $SPCX will launch Nvidia $NVDA AI computers in space next year.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-13T22:01:39+00:00",
+    "url": "https://t.me/watcherguru/15028",
+    "raw_id": "15028",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Elon Musk\u2019s statement is an opinion about a future launch; no concrete regulatory, exchange, or project action has occurred.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
