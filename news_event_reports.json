@@ -4218,7 +4218,7 @@
   },
   {
     "event_id": "regulatory_discuss_crypto_democrats_tonight_20260913",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-13T18:25:22+00:00",
     "trigger_source": "https://t.me/watcherguru/15027",
