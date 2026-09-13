@@ -4160,7 +4160,7 @@
   },
   {
     "event_id": "regulatory_third_transfers_party_thailand_20260913",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-13T01:32:29+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26001",
