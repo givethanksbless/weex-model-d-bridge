@@ -21134,5 +21134,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 President Trump rejects calls to slow down AI development.",
+    "text": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 President Trump rejects calls to slow down AI development.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-13T16:01:22+00:00",
+    "url": "https://t.me/watcherguru/15025",
+    "raw_id": "15025",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The item reports a statement by former President Trump about AI development, which is not a concrete regulatory action, nor does it involve crypto or an exchange; thus it falls under the 'none' category with vague specificity.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
