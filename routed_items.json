@@ -20966,5 +20966,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "A Bitcoin Seed Generator Is Using Radioactive Decay for Entropy",
+    "text": "A Bitcoin Seed Generator Is Using Radioactive Decay for Entropy\n\nAn open-source project called Entropy32 Plus uses radioactive decay as a physical entropy source to generate Bitcoin BIP39 seed phrases. A Geiger counter captures decay events, whose timing is processed through SHA-256 before being mapped to the BIP39 wordlist. The device is designed to operate fully offline with no wireless connectivity or persistent seed storage. The developer notes that its entropy quality has not yet been validated under NIST SP 800-90B and describes the project as experimental rather than independently audited for securing significant funds. \u2014 [link](https://wublockchain.xyz/news/news-20830)",
+    "timestamp_utc": "2026-09-13T09:59:58+00:00",
+    "url": "https://t.me/wublockchainenglish/26003",
+    "raw_id": "26003",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article describes a new open\u2011source Bitcoin seed generator project; it does not report a regulatory action, exchange event, hack, or market\u2011wide shock, so it falls under the generic category.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
