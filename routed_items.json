@@ -21113,5 +21113,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Stolen Power and Crypto Mining Emerge as New Tools for Latin American Cartels",
+    "text": "Stolen Power and Crypto Mining Emerge as New Tools for Latin American Cartels\n\nReuters reported that Mexican authorities uncovered a suspected illicit crypto mining operation in the mountainous Tlaola area of Puebla state, seizing 300 GPUs, 80 medium-voltage terminals and eight satellite antennas. Authorities are investigating whether the site stole electricity from a nearby hydroelectric dam, and it is the fourth similar operation discovered in the area since early 2025. Chainalysis said Latin American cartels are increasingly using crypto transfers and mining operations to launder money, often setting up infrastructure in areas where electricity is cheap or can be stolen under organized-crime influence. \u2014 [link](https://wublockchain.xyz/news/news-20832)",
+    "timestamp_utc": "2026-09-13T13:01:24+00:00",
+    "url": "https://t.me/wublockchainenglish/26005",
+    "raw_id": "26005",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The report describes a law\u2011enforcement seizure of equipment used in an illicit crypto\u2011mining operation, which is not a regulatory action, project failure, or market\u2011wide shock, so it falls under none.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
