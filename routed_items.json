@@ -21407,5 +21407,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "The U.S. House Ways and Means Committee plans to review two crypto tax bills on Sept. 16.",
+    "text": "The U.S. House Ways and Means Committee plans to review two crypto tax bills on Sept. 16.\n\nThe Mining and Staking Tax Clarity Act would defer taxes on newly generated tokens until disposal, while treating the income as ordinary income. Republicans are reportedly considering removing the deferral provision or limiting it to five years.\n\nThe Applying Existing Tax Law Anti-Abuse Rules to Digital Assets Act would extend wash-sale and constructive-sale rules to digital assets, while excluding assets earned through mining or staking and eligible U.S. dollar-denominated stablecoins from its scope.\n\nIf approved, both bills would advance to the House floor. \u2014 [link](https://wublockchain.xyz/news/news-20833)",
+    "timestamp_utc": "2026-09-14T01:52:39+00:00",
+    "url": "https://t.me/wublockchainenglish/26006",
+    "raw_id": "26006",
+    "layer1_reason": "event-keyword override",
+    "category": "regulatory_action",
+    "specificity": "specific",
+    "reasoning": "The U.S. House Ways and Means Committee, a government legislative body, is planning to review two specific crypto tax bills on a set date, which constitutes a concrete regulatory action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "title": "The U.S. House Ways and Means Committee plans to review two crypto tax bills on Sept. 16.",
+      "text": "The U.S. House Ways and Means Committee plans to review two crypto tax bills on Sept. 16.\n\nThe Mining and Staking Tax Clarity Act would defer taxes on newly generated tokens until disposal, while treating the income as ordinary income. Republicans are reportedly considering removing the deferral provision or limiting it to five years.\n\nThe Applying Existing Tax Law Anti-Abuse Rules to Digital Assets Act would extend wash-sale and constructive-sale rules to digital assets, while excluding assets earned through mining or staking and eligible U.S. dollar-denominated stablecoins from its scope.\n\nIf approved, both bills would advance to the House floor. \u2014 [link](https://wublockchain.xyz/news/news-20833)",
+      "timestamp_utc": "2026-09-14T01:52:39+00:00",
+      "url": "https://t.me/wublockchainenglish/26006",
+      "raw_id": "26006",
+      "layer1_reason": "event-keyword override",
+      "category": "regulatory_action",
+      "specificity": "specific",
+      "reasoning": "A government legislative committee (U.S. House Ways and Means Committee) is taking concrete action by scheduling a formal review of two specific crypto tax bills on a set date (Sept. 16).",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   }
 ]
