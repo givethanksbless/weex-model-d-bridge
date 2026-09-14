@@ -4679,7 +4679,7 @@
   },
   {
     "event_id": "macro_012_5_infla_fuels_20260914",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-14T17:04:51+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26021",
@@ -4701,6 +4701,34 @@
       ],
       "providers_agree": null,
       "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_financial_house_committee_reserv_20260914",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-14T18:30:05+00:00",
+    "trigger_source": "https://t.me/watcherguru/15050",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 House Financial Services Committee to vote on advancing the Strategic Bitcoin Reserv",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 House Financial Services Committee to vote on advancing the Strategic Bitcoin Reserv",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/15050",
+      "reasoning": "The House Financial Services Committee, a legislative body, is set to vote on the Strategic Bitcoin Reserve bill, which is a concrete regulatory action affecting crypto.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
@@ -5659,7 +5687,7 @@
   },
   {
     "event_id": "regulatory_banks_escalate_act_rewards_20260914",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-14T17:51:43+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24639",
@@ -5687,7 +5715,7 @@
   },
   {
     "event_id": "macro_grow_over_escalation_after_20260914",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-14T17:10:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/72105",
