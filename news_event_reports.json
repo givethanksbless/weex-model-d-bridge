@@ -4623,7 +4623,7 @@
   },
   {
     "event_id": "regulatory_has_agreed_here_www_20260914",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-14T14:28:10+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24635",
@@ -4645,6 +4645,34 @@
       ],
       "providers_agree": null,
       "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_rates_49_raising_next_20260828",
+    "matched_existing_event": true,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-08-28T16:14:49+00:00",
+    "trigger_source": "https://t.me/watcherguru/14840",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Odds of the Federal Reserve raising interest rates next month surge to 49%.",
+    "is_canonical_source": false,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Odds of the Federal Reserve raising interest rates this week surge to 84%",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/15041",
+      "reasoning": "The article reports a concrete macroeconomic event\u2014Fed interest rate decision odds\u2014affecting the entire market, not a specific crypto project or regulatory body.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
