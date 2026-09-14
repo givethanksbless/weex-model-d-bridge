@@ -4595,7 +4595,7 @@
   },
   {
     "event_id": "hack_vault_identity_avalanche_5m_20260914",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-14T13:14:41+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26017",
@@ -4617,6 +4617,34 @@
       ],
       "providers_agree": null,
       "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_has_agreed_here_www_20260914",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-14T14:28:10+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24635",
+    "trigger_source_title": "[**Here is the revised Clarity Act ethics provision Donald Trump has agreed to**](https://www.coinde",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "[**Here is the revised Clarity Act ethics provision Donald Trump has agreed to**](https://www.coinde",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24635",
+      "reasoning": "The article describes a specific legislative proposal (the Clarity Act) that would impose divestiture requirements and grant state attorneys general enforcement powers, constituting a concrete action by a government body (Congress) affecting crypto regulation.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
