@@ -4392,7 +4392,7 @@
   },
   {
     "event_id": "regulatory_fca_gold_uk_tokenized_20260914",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-14T04:47:58+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26010",
