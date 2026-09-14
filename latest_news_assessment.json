@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports on the Federal Reserve\u2019s upcoming policy meeting and the market expectation of a 25\u2011basis\u2011point rate hike, a macroeconomic event that can influence broad market sentiment and crypto prices.",
-  "source": "CoinDeskGlobal",
-  "timestamp": "2026-09-14T11:44:40+00:00",
-  "_event_id": "macro_bitcoin_ai_as_stocks_20260914",
+  "note": "The article reports a specific macroeconomic event\u2014U.S. Treasury yields reaching a high level\u2014which impacts the broader financial market, not a crypto-specific incident.",
+  "source": "wublockchainenglish",
+  "timestamp": "2026-09-14T17:04:51+00:00",
+  "_event_id": "macro_012_5_infla_fuels_20260914",
   "_raw_category": "macro/geopolitical shock"
 }

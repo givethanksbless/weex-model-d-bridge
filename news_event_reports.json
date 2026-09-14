@@ -4678,6 +4678,34 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "macro_012_5_infla_fuels_20260914",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-14T17:04:51+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/26021",
+    "trigger_source_title": "U.S. 10-Year Treasury Yield Hits 5.012%, Highest Intraday Level Since 2007, as Oil Surge Fuels Infla",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "U.S. 10-Year Treasury Yield Hits 5.012%, Highest Intraday Level Since 2007, as Oil Surge Fuels Infla",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26021",
+      "reasoning": "The article reports a specific macroeconomic event\u2014U.S. Treasury yields reaching a high level\u2014which impacts the broader financial market, not a crypto-specific incident.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
@@ -5602,7 +5630,7 @@
   },
   {
     "event_id": "regulatory_plans_restrict_media_15_20260914",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-14T16:05:17+00:00",
     "trigger_source": "https://t.me/watcherguru/15044",
@@ -5625,6 +5653,62 @@
       ],
       "providers_agree": true,
       "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_banks_escalate_act_rewards_20260914",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-14T17:51:43+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24639",
+    "trigger_source_title": "[**Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote**](https://www.",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "[**Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote**](https://www.",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24639",
+      "reasoning": "The Senate, a government body, is preparing to vote on the Clarity Act, a bill that would regulate stablecoins\u2014an actual legislative action affecting crypto.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_grow_over_escalation_after_20260914",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-14T17:10:01+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72105",
+    "trigger_source_title": "**\ud83c\uddee\ud83c\uddf7\ud83c\uddfe\ud83c\uddea MARKET:** Oil prices rise as concerns over a Middle East escalation grow, after talks between",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**\ud83c\uddee\ud83c\uddf7\ud83c\uddfe\ud83c\uddea MARKET:** Oil prices rise as concerns over a Middle East escalation grow, after talks between",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/72105",
+      "reasoning": "The article reports a market-wide shock\u2014oil price movements driven by geopolitical tensions in the Middle East\u2014without referencing any specific crypto project, exchange, or regulatory action.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
       "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
