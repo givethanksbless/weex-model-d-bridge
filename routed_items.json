@@ -23112,5 +23112,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**Robinhood plans share redemptions, voting rights for stock tokens, after criticism**](https://www",
+    "text": "[**Robinhood plans share redemptions, voting rights for stock tokens, after criticism**](https://www.coindesk.com/business/2026/09/14/robinhood-plans-share-redemptions-voting-rights-for-stock-tokens-after-criticism)\n\nCEO Vlad Tenev said more shareholder features are coming as Robinhood\u2019s offshore stock tokens draw scrutiny over ownership rights.",
+    "timestamp_utc": "2026-09-14T21:05:34+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24641",
+    "raw_id": "24641",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "exchange_operational",
+    "specificity": "specific",
+    "reasoning": "Robinhood is adding share redemption and voting rights to its stock token offering, a concrete policy change affecting trading features, fitting the exchange_operational category.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true
   }
 ]
