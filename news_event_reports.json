@@ -4735,7 +4735,7 @@
   },
   {
     "event_id": "regulatory_us_committee_strategic_wedn_20260914",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-14T19:05:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/72109",
