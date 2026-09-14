@@ -5373,7 +5373,7 @@
   },
   {
     "event_id": "macro_week_interest_decisions_crypto_20260914",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-14T09:30:22+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24626",
