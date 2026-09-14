@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a concrete change in the overall crypto market value ($460B increase since last month), which is a market-wide event not tied to a single project or exchange.",
-  "source": "cointelegraph",
-  "timestamp": "2026-09-12T09:04:52+00:00",
-  "_event_id": "macro_month_up_460b_still_20260912",
+  "note": "The article reports on the Federal Reserve\u2019s upcoming policy meeting and the market expectation of a 25\u2011basis\u2011point rate hike, a macroeconomic event that can influence broad market sentiment and crypto prices.",
+  "source": "CoinDeskGlobal",
+  "timestamp": "2026-09-14T11:44:40+00:00",
+  "_event_id": "macro_bitcoin_ai_as_stocks_20260914",
   "_raw_category": "macro/geopolitical shock"
 }
