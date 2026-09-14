@@ -4450,7 +4450,7 @@
   },
   {
     "event_id": "regulatory_push_most_out_market_20260914",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-14T08:06:41+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26012",
@@ -4468,9 +4468,10 @@
       "url": "https://t.me/wublockchainenglish/26012",
       "reasoning": "Brazil\u2019s central bank, a government regulator, is imposing new capital and compliance rules on VASPs with concrete deadlines and thresholds, constituting a direct regulatory action.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
@@ -5360,6 +5361,35 @@
       "source_type": "third_party",
       "url": "https://t.me/cointelegraph/72084",
       "reasoning": "The article reports a concrete supply disruption\u2014Saudi Arabia shutting its East\u2011West pipeline\u2014that is a macro\u2011level market shock affecting oil prices, fitting the macro_systemic category.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_week_interest_decisions_crypto_20260914",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-14T09:30:22+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24626",
+    "trigger_source_title": "[**Fed, BOE, BOJ interest-rate decisions: Crypto Week Ahead**](https://www.coindesk.com/markets/2026",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**Fed, BOE, BOJ interest-rate decisions: Crypto Week Ahead**](https://www.coindesk.com/markets/2026",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24626",
+      "reasoning": "Interest rate decisions by the Fed, BOE, and BOJ are macroeconomic events that can influence crypto markets broadly, fitting the macro_systemic category.",
       "providers_checked": [
         "groq",
         "gemini_second_opinion"
