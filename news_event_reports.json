@@ -5264,7 +5264,7 @@
   },
   {
     "event_id": "hack_turned_w_46_billion_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-15T13:44:16+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24660",
@@ -6332,7 +6332,7 @@
   },
   {
     "event_id": "regulatory_remai_reject_crypto_clarity_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-15T13:45:12+00:00",
     "trigger_source": "https://t.me/watcherguru/15066",
@@ -6349,6 +6349,62 @@
       "source_type": "third_party",
       "url": "https://t.me/watcherguru/15066",
       "reasoning": "The Republicans, as part of the U.S. legislature, are taking a concrete action by rejecting a counter\u2011offer to the Crypto Clarity Act, which is a legislative measure affecting crypto regulation.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_87_bps_25_reserve_20260915",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-15T14:45:36+00:00",
+    "trigger_source": "https://t.me/watcherguru/15068",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 87% chance the Federal Reserve raises interest rates by 25 bps at tomorrow's FOMC me",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 87% chance the Federal Reserve raises interest rates by 25 bps at tomorrow's FOMC me",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/15068",
+      "reasoning": "The post reports a speculative probability of a Fed rate hike, which is a macroeconomic event affecting markets broadly but not a confirmed regulatory or project-specific action.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.12
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_clarity_update_vote_key_20260915",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T14:44:22+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72129",
+    "trigger_source_title": "**\ud83c\uddfa\ud83c\uddf8 UPDATE: **The CLARITY Act faces mounting opposition ahead of today\u2019s key Senate vote.",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**\ud83c\uddfa\ud83c\uddf8 UPDATE: **The CLARITY Act faces mounting opposition ahead of today\u2019s key Senate vote.",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/72129",
+      "reasoning": "The article reports that the U.S. Senate is about to vote on the CLARITY Act, a concrete legislative action affecting crypto regulation.",
       "providers_checked": [
         "groq"
       ],
