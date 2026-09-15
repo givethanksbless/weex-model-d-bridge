@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a specific macroeconomic event\u2014U.S. Treasury yields reaching a high level\u2014which impacts the broader financial market, not a crypto-specific incident.",
-  "source": "wublockchainenglish",
-  "timestamp": "2026-09-14T17:04:51+00:00",
-  "_event_id": "macro_012_5_infla_fuels_20260914",
+  "note": "The article reports a large, market-wide liquidation event triggered by BTC falling below a specific price, indicating a systemic shock across the crypto market.",
+  "source": "cointelegraph",
+  "timestamp": "2026-09-15T08:30:30+00:00",
+  "_event_id": "macro_as_btc_past_fell_20260915",
   "_raw_category": "macro/geopolitical shock"
 }
