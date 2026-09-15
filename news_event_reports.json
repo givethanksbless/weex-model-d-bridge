@@ -4852,7 +4852,7 @@
   },
   {
     "event_id": "regulatory_iranian_us_it_black_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-15T01:21:10+00:00",
     "trigger_source": "https://t.me/cointelegraph/72117",
@@ -4880,7 +4880,7 @@
   },
   {
     "event_id": "regulatory_language_democrats_ethics_act_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-15T01:11:13+00:00",
     "trigger_source": "https://t.me/watcherguru/15059",
