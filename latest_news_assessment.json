@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a large, market-wide liquidation event triggered by BTC falling below a specific price, indicating a systemic shock across the crypto market.",
-  "source": "cointelegraph",
-  "timestamp": "2026-09-15T08:30:30+00:00",
-  "_event_id": "macro_as_btc_past_fell_20260915",
+  "note": "The article reports a market-wide shock to Bitcoin mining costs, with specific figures and a named entity (Core Scientific) taking concrete action, indicating a systemic industry-wide impact.",
+  "source": "wublockchainenglish",
+  "timestamp": "2026-09-15T12:58:14+00:00",
+  "_event_id": "macro_75_miners_pay_as_20260915",
   "_raw_category": "macro/geopolitical shock"
 }
