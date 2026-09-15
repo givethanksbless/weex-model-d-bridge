@@ -5293,7 +5293,7 @@
   },
   {
     "event_id": "macro_bitcoin_one_76_below_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-15T15:10:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/72130",
@@ -5344,6 +5344,64 @@
       ],
       "providers_agree": null,
       "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_company_with_robinhood_engineers_20260915",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T17:01:01+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72132",
+    "trigger_source_title": "**\ud83d\udea8 JUST IN: **Two Robinhood engineers were charged with using confidential company information to t",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**\ud83d\udea8 JUST IN: **Two Robinhood engineers were charged with using confidential company information to t",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/72132",
+      "reasoning": "The article reports that two Robinhood engineers were criminally charged for insider trading, which is a concrete regulatory action taken by a government body against private individuals, qualifying it as regulatory_action.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_employees_hood_fraud_with_20260915",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-15T17:00:15+00:00",
+    "trigger_source": "https://t.me/watcherguru/15075",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Two Robinhood $HOOD employees charged with fraud for alleged insider trading on Hype",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Two Robinhood $HOOD employees charged with fraud for alleged insider trading on Hype",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/15075",
+      "reasoning": "Insider trading allegations involving Hyperliquid ($HYPE) constitute a specific negative event tied to that project, fitting the project_specific category.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "project_specific",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
@@ -6473,7 +6531,7 @@
   },
   {
     "event_id": "regulatory_last_disappointment_minute_clarity_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-15T15:50:52+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24661",
