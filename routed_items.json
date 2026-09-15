@@ -23450,5 +23450,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83c\uddfa\ud83c\uddf8 **JUST IN**: The US DOJ is seeking forfeiture of $61 million it says came from Iranian black-mark",
+    "text": "\ud83c\uddfa\ud83c\uddf8 **JUST IN**: The US DOJ is seeking forfeiture of $61 million it says came from Iranian black-market oil sales and was laundered through Binance.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-15T01:21:10+00:00",
+    "url": "https://t.me/cointelegraph/72117",
+    "raw_id": "72117",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "regulatory_action",
+    "specificity": "specific",
+    "reasoning": "The U.S. Department of Justice is actively pursuing a forfeiture action against funds laundered through Binance, which is a concrete regulatory action by a government body.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Democrats reject Republican crypto Clarity Act draft bill over ethics language.",
+    "text": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Democrats reject Republican crypto Clarity Act draft bill over ethics language.\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-15T01:11:13+00:00",
+    "url": "https://t.me/watcherguru/15059",
+    "raw_id": "15059",
+    "layer1_reason": "event-keyword override",
+    "category": "regulatory_action",
+    "specificity": "specific",
+    "reasoning": "The U.S. Democratic caucus, a government body, has taken a concrete action by rejecting the draft crypto Clarity Act bill, which is a regulatory action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true
   }
 ]
