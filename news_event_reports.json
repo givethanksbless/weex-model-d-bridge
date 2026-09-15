@@ -5148,7 +5148,7 @@
   },
   {
     "event_id": "macro_as_btc_past_fell_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-15T08:30:30+00:00",
     "trigger_source": "https://t.me/cointelegraph/72123",
@@ -5171,6 +5171,35 @@
       ],
       "providers_agree": false,
       "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_convince_launches_major_push_20260915",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T09:12:45+00:00",
+    "trigger_source": "https://t.me/watcherguru/15063",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Trump administration launches major push to convince Senators to advance the Crypto ",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Trump administration launches major push to convince Senators to advance the Crypto ",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/15063",
+      "reasoning": "The Trump administration, a government body, is actively lobbying Senators to advance the Crypto Clarity Act, which is a concrete regulatory action involving legislation.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
