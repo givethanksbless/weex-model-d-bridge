@@ -4613,9 +4613,10 @@
       "url": "https://t.me/wublockchainenglish/26017",
       "reasoning": "The UAE\u2019s Telecommunications and Digital Government Regulatory Authority is upgrading the UAEPASS Digital Vault, a named government project, to Avalanche L1, which is a concrete, project\u2011specific infrastructure change.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": false,
       "internal_category": "project_specific",
       "internal_confidence_score": 0.54
     },
@@ -4641,9 +4642,10 @@
       "url": "https://t.me/CoinDeskGlobal/24635",
       "reasoning": "The article describes a specific legislative proposal (the Clarity Act) that would impose divestiture requirements and grant state attorneys general enforcement powers, constituting a concrete action by a government body (Congress) affecting crypto regulation.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
@@ -4669,9 +4671,10 @@
       "url": "https://t.me/watcherguru/15041",
       "reasoning": "The article reports a concrete macroeconomic event\u2014Fed interest rate decision odds\u2014affecting the entire market, not a specific crypto project or regulatory body.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "macro_systemic",
       "internal_confidence_score": 0.54
     },
@@ -4697,9 +4700,10 @@
       "url": "https://t.me/wublockchainenglish/26021",
       "reasoning": "The article reports a specific macroeconomic event\u2014U.S. Treasury yields reaching a high level\u2014which impacts the broader financial market, not a crypto-specific incident.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "macro_systemic",
       "internal_confidence_score": 0.54
     },
@@ -4870,9 +4874,10 @@
       "url": "https://t.me/cointelegraph/72117",
       "reasoning": "The U.S. Department of Justice is actively pursuing a forfeiture action against funds laundered through Binance, which is a concrete regulatory action by a government body.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
@@ -4898,9 +4903,10 @@
       "url": "https://t.me/watcherguru/15059",
       "reasoning": "The U.S. Democratic caucus, a government body, has taken a concrete action by rejecting the draft crypto Clarity Act bill, which is a regulatory action.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
@@ -4984,9 +4990,10 @@
       "url": "https://t.me/CoinDeskGlobal/24645",
       "reasoning": "The Senate, a government body, is preparing to vote on the Clarity Act, a concrete legislative action that directly affects the crypto market.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
@@ -5052,7 +5059,7 @@
   },
   {
     "event_id": "regulatory_doj_oil_ht_61_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-15T05:12:31+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24649",
@@ -5070,9 +5077,70 @@
       "url": "https://t.me/CoinDeskGlobal/24649",
       "reasoning": "The U.S. DOJ filed a civil forfeiture complaint seeking $61\u202fmillion in proceeds from Iran\u2019s alleged crypto\u2011laundered oil sales, which is a concrete regulatory/legal action by a government body.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_updates_nearly_80_senate_20260915",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T06:37:53+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24651",
+    "trigger_source_title": "[**Live updates: Bitcoin slides from nearly $80,000 as Senate votes on Clarity Act**](https://www.co",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [
+      "XRP"
+    ],
+    "evidence": {
+      "title": "[**Live updates: Bitcoin slides from nearly $80,000 as Senate votes on Clarity Act**](https://www.co",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24651",
+      "reasoning": "The U.S. Senate, a government body, is conducting a procedural vote on the Clarity Act, a bill that would affect crypto markets, which constitutes a concrete regulatory action.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_data_ft_hackers_gave_20260915",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T06:22:47+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/26030",
+    "trigger_source_title": "FT: Revolut Gave Hackers Data on 680 Customers After Fake Government Requests",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "FT: Revolut Gave Hackers Data on 680 Customers After Fake Government Requests",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26030",
+      "reasoning": "The UK Information Commissioner\u2019s Office, a government regulator, has opened an investigation into Revolut\u2019s data breach, which is a concrete regulatory action.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
@@ -6079,9 +6147,10 @@
       "url": "https://t.me/cointelegraph/72105",
       "reasoning": "The article reports a market-wide shock\u2014oil price movements driven by geopolitical tensions in the Middle East\u2014without referencing any specific crypto project, exchange, or regulatory action.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "macro_systemic",
       "internal_confidence_score": 0.3
     },
