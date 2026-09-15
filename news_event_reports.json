@@ -5495,7 +5495,7 @@
   },
   {
     "event_id": "regulatory_failed_coindesk_2026_https_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-15T18:51:53+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24663",
@@ -5523,12 +5523,12 @@
   },
   {
     "event_id": "regulatory_breaking_fails_senate_advance_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
-    "trigger_timestamp": "2026-09-15T18:44:58+00:00",
-    "trigger_source": "https://t.me/watcherguru/15079",
-    "trigger_source_title": "**BREAKING:** \ud83c\uddfa\ud83c\uddf8 Senate fails to advance Crypto Clarity Act.",
-    "is_canonical_source": true,
+    "trigger_timestamp": "2026-09-15T18:44:21+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72134",
+    "trigger_source_title": "\ud83d\udea8 **BREAKING**: The CLARITY Act fails to secure the 60 votes needed to advance in the US Senate.",
+    "is_canonical_source": false,
     "confidence_tier": "LIKELY",
     "recommended_posture": "Reduce size, pause new entries in affected symbols",
     "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
@@ -5579,7 +5579,7 @@
   },
   {
     "event_id": "regulatory_votes_advance_crypto_mitch_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-15T18:40:44+00:00",
     "trigger_source": "https://t.me/watcherguru/15078",
@@ -5596,6 +5596,62 @@
       "source_type": "third_party",
       "url": "https://t.me/watcherguru/15078",
       "reasoning": "Senator Mitch McConnell, a member of the U.S. legislature, voted to advance the Crypto Clarity Act, which is a concrete legislative action affecting crypto.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_act_u_vote_short_20260915",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T19:23:22+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/26039",
+    "trigger_source_title": "U.S. Senate Fails to Advance CLARITY Act as Cloture Vote Falls Short of 60-Vote Threshold",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "U.S. Senate Fails to Advance CLARITY Act as Cloture Vote Falls Short of 60-Vote Threshold",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26039",
+      "reasoning": "The U.S. Senate, a government legislature, took a concrete action by failing to advance the CLARITY Act, a bill affecting crypto regulation, with a specific vote count and bill number.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_https_here_fails_clarity_20260915",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T19:06:47+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24664",
+    "trigger_source_title": "[**Clarity Act fails in Senate: Here is how the crypto industry is reacting **](https://www.coindesk",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**Clarity Act fails in Senate: Here is how the crypto industry is reacting **](https://www.coindesk",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24664",
+      "reasoning": "The U.S. Senate, a government body, rejected the Clarity Act, a concrete legislative action affecting crypto regulation.",
       "providers_checked": [
         "groq"
       ],
