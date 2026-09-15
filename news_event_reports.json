@@ -5235,7 +5235,7 @@
   },
   {
     "event_id": "macro_75_miners_pay_as_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-15T12:58:14+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26033",
@@ -5258,6 +5258,35 @@
       ],
       "providers_agree": false,
       "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_turned_w_46_billion_20260915",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-15T13:44:16+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24660",
+    "trigger_source_title": "[**A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge**](https://w",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "[**A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge**](https://w",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24660",
+      "reasoning": "The article reports a hack that exploited bugs in the Symbiosis DeFi bridge, creating unbacked synthetic BTC tokens and causing losses, which is a project-specific security incident.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "project_specific",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
@@ -6274,7 +6303,7 @@
   },
   {
     "event_id": "regulatory_rules_eu_global_discuss_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-15T12:55:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/72128",
@@ -6296,6 +6325,34 @@
         "gemini_second_opinion"
       ],
       "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_remai_reject_crypto_clarity_20260915",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T13:45:12+00:00",
+    "trigger_source": "https://t.me/watcherguru/15066",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Republicans reject Democrats' Crypto Clarity Act counter-offer as negotiations remai",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Republicans reject Democrats' Crypto Clarity Act counter-offer as negotiations remai",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/15066",
+      "reasoning": "The Republicans, as part of the U.S. legislature, are taking a concrete action by rejecting a counter\u2011offer to the Crypto Clarity Act, which is a legislative measure affecting crypto regulation.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.3
     },
