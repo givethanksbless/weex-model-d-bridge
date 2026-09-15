@@ -5088,7 +5088,7 @@
   },
   {
     "event_id": "regulatory_updates_nearly_80_senate_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-15T06:37:53+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24651",
@@ -5119,7 +5119,7 @@
   },
   {
     "event_id": "regulatory_data_ft_hackers_gave_20260915",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-15T06:22:47+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26030",

@@ -24277,5 +24277,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "watcherguru",
+    "source_type": "third_party",
+    "title": "**JUST IN:** Bitcoin falls under $77,000",
+    "text": "**JUST IN:** Bitcoin falls under $77,000\n\n@WatcherGuru",
+    "timestamp_utc": "2026-09-15T07:52:04+00:00",
+    "url": "https://t.me/watcherguru/15062",
+    "raw_id": "15062",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The item merely reports a price movement of Bitcoin, which is general market commentary and does not describe any concrete regulatory, exchange, or project-specific event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "FT: CEE Energy Giant Orlen Lost $424 Million in Venezuela Oil Deal Involving USDT Payments",
+    "text": "FT: CEE Energy Giant Orlen Lost $424 Million in Venezuela Oil Deal Involving USDT Payments\n\nPolish state-controlled energy giant Orlen lost an estimated $424 million through its Swiss trading arm OTS after a failed Venezuelan oil deal that involved USDT payments, the Financial Times reported. OTS prepaid about $230 million for 6 million barrels of Merey 16 crude, but most of the oil was never delivered, triggering heavy shipping costs, a Polish criminal investigation and charges against former Orlen executives. \u2014 [link](https://wublockchain.xyz/news/news-20859)",
+    "timestamp_utc": "2026-09-15T07:09:34+00:00",
+    "url": "https://t.me/wublockchainenglish/26031",
+    "raw_id": "26031",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports a corporate loss by Orlen involving USDT payments, but it does not describe a regulatory action, hack, exchange change, or market-wide shock; thus it falls under the 'none' category.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
