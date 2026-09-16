@@ -6079,7 +6079,7 @@
   },
   {
     "event_id": "regulatory_u_consider_crypto_bitcoin_20260916",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-16T14:11:35+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26054",
@@ -7262,7 +7262,7 @@
   },
   {
     "event_id": "regulatory_selig_crypto_ahead_will_20260916",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-16T14:53:33+00:00",
     "trigger_source": "https://t.me/cointelegraph/72152",
@@ -7291,7 +7291,7 @@
   },
   {
     "event_id": "regulatory_cftc_senate_c_issue_20260916",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-16T14:43:08+00:00",
     "trigger_source": "https://t.me/watcherguru/15091",
