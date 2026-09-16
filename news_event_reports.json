@@ -6107,6 +6107,90 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "regulatory_unveils_house_legislation_tax_20260915",
+    "matched_existing_event": true,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T01:00:08+00:00",
+    "trigger_source": "https://t.me/watcherguru/15058",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 US House unveils new crypto tax legislation.",
+    "is_canonical_source": false,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 US House committee advances crypto tax bill.",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/15094",
+      "reasoning": "The U.S. House committee is actively advancing a crypto tax bill, a concrete regulatory action by a government body.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_shares_www_tax_ahead_20260915",
+    "matched_existing_event": true,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T03:27:54+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24646",
+    "trigger_source_title": "[**U.S. House panel shares crypto tax bill ahead of hearing later this week**](https://www.coindesk.",
+    "is_canonical_source": false,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "[**U.S. House's tax committee advances crypto tax bill in wake of Clarity Act loss**](https://www.co",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24685",
+      "reasoning": "The U.S. House of Representatives\u2019 tax committee, a government legislative body, is actively advancing the Digital Asset Tax Certainty Act, a concrete regulatory action affecting crypto.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "exchange_celsius_days_exchange_bitmex_20260916",
+    "matched_existing_event": false,
+    "category": "exchange/counterparty failure",
+    "trigger_timestamp": "2026-09-16T16:04:52+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/26056",
+    "trigger_source_title": "Celsius Sues BitMEX 11 Days Before Exchange Shutdown, Seeking $495 Million",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Full defensive: flatten or pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "Celsius Sues BitMEX 11 Days Before Exchange Shutdown, Seeking $495 Million",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26056",
+      "reasoning": "A lawsuit filed by Celsius\u2019s bankruptcy estate against BitMEX is a concrete, project\u2011specific negative event involving named parties, a filing date, and a monetary claim.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
