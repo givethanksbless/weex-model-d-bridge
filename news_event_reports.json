@@ -6021,7 +6021,7 @@
   },
   {
     "event_id": "stablecoin_coindesk_part_latam_telecom_20260916",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "stablecoin/peg failure",
     "trigger_timestamp": "2026-09-16T14:01:11+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24681",
@@ -6050,7 +6050,7 @@
   },
   {
     "event_id": "hack_blackrock_10_launches_validators_20260916",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-16T13:41:15+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26053",
@@ -6074,6 +6074,35 @@
       "providers_agree": false,
       "internal_category": "project_specific",
       "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_u_consider_crypto_bitcoin_20260916",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-16T14:11:35+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/26054",
+    "trigger_source_title": "U.S. House to Consider Crypto Tax and Strategic Bitcoin Reserve Bills Today",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "U.S. House to Consider Crypto Tax and Strategic Bitcoin Reserve Bills Today",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26054",
+      "reasoning": "The U.S. House committees are actively moving forward with specific crypto-related bills, which is a concrete regulatory action by a government body.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
@@ -7221,6 +7250,64 @@
       "source_type": "third_party",
       "url": "https://t.me/wublockchainenglish/26045",
       "reasoning": "The FCA, a government regulator, is taking a concrete stance on how banks can handle crypto payments, indicating a regulatory decision rather than an opinion or market event.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_selig_crypto_ahead_will_20260916",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-16T14:53:33+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72152",
+    "trigger_source_title": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Michael Selig says crypto rulemaking will move ahead despite CLARITY\u2019s failure: \u201cThe CFT",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Michael Selig says crypto rulemaking will move ahead despite CLARITY\u2019s failure: \u201cThe CFT",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/72152",
+      "reasoning": "The CFTC Chair is announcing that crypto rulemaking will proceed, which constitutes a concrete regulatory action by a government body.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_cftc_senate_c_issue_20260916",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-16T14:43:08+00:00",
+    "trigger_source": "https://t.me/watcherguru/15091",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 CFTC says it is ready to issue crypto rules despite the Senate failing to pass the C",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 CFTC says it is ready to issue crypto rules despite the Senate failing to pass the C",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/15091",
+      "reasoning": "The CFTC, a government regulator, has announced it is ready to issue crypto rules, which is a concrete regulatory action rather than an opinion or plan.",
       "providers_checked": [
         "groq",
         "gemini_second_opinion"
