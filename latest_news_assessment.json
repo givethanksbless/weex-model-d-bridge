@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a market-wide shock in crude oil prices driven by specific supply disruptions (Saudi pipeline shutdown, Libyan field protests, China inventory drawdown), which is a macro systemic event affecting the broader market, not a crypto-specific incident.",
-  "source": "wublockchainenglish",
-  "timestamp": "2026-09-15T17:02:15+00:00",
-  "_event_id": "macro_high_hits_oil_106_20260915",
+  "note": "The article reports a market-wide liquidation event ($570\u202fmillion) triggered by the failure of the Clarity Act, a macro-level cause affecting all crypto futures traders.",
+  "source": "CoinDeskGlobal",
+  "timestamp": "2026-09-16T04:07:58+00:00",
+  "_event_id": "macro_570_clarity_out_coindesk_20260916",
   "_raw_category": "macro/geopolitical shock"
 }
