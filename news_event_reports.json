@@ -5845,7 +5845,7 @@
   },
   {
     "event_id": "hack_c_https_style_faster_20260916",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-16T06:08:36+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24669",
@@ -6970,7 +6970,7 @@
   },
   {
     "event_id": "macro_c_up_shine_https_20260916",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-16T06:42:51+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24670",
