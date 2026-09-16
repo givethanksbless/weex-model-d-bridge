@@ -5292,6 +5292,35 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "regulatory_clarity_update_vote_key_20260915",
+    "matched_existing_event": true,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T14:44:22+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72129",
+    "trigger_source_title": "**\ud83c\uddfa\ud83c\uddf8 UPDATE: **The CLARITY Act faces mounting opposition ahead of today\u2019s key Senate vote.",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**\ud83c\uddfa\ud83c\uddf8 UPDATE: **The CLARITY Act faces mounting opposition ahead of today\u2019s key Senate vote.",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/72129",
+      "reasoning": "The article reports that the U.S. Senate is about to vote on the CLARITY Act, a concrete legislative action affecting crypto regulation.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "regulatory_last_disappointment_minute_clarity_20260915",
     "matched_existing_event": true,
     "category": "regulatory shock",
@@ -5369,9 +5398,10 @@
       "url": "https://t.me/wublockchainenglish/26036",
       "reasoning": "The article reports that Senate Republicans rejected a counterproposal to the CLARITY Act, a specific piece of legislation affecting crypto regulation, which is a concrete action by a legislative body.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
@@ -6812,9 +6842,10 @@
       "url": "https://t.me/watcherguru/15066",
       "reasoning": "The Republicans, as part of the U.S. legislature, are taking a concrete action by rejecting a counter\u2011offer to the Crypto Clarity Act, which is a legislative measure affecting crypto regulation.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.3
     },
@@ -6845,34 +6876,6 @@
       "providers_agree": null,
       "internal_category": "macro_systemic",
       "internal_confidence_score": 0.12
-    },
-    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
-  },
-  {
-    "event_id": "regulatory_clarity_update_vote_key_20260915",
-    "matched_existing_event": true,
-    "category": "regulatory shock",
-    "trigger_timestamp": "2026-09-15T14:44:22+00:00",
-    "trigger_source": "https://t.me/cointelegraph/72129",
-    "trigger_source_title": "**\ud83c\uddfa\ud83c\uddf8 UPDATE: **The CLARITY Act faces mounting opposition ahead of today\u2019s key Senate vote.",
-    "is_canonical_source": true,
-    "confidence_tier": "UNCONFIRMED",
-    "recommended_posture": "No action -- log only, do not fire",
-    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
-    "live_or_historical": "live",
-    "symbols_affected": [],
-    "evidence": {
-      "title": "**\ud83c\uddfa\ud83c\uddf8 UPDATE: **The CLARITY Act faces mounting opposition ahead of today\u2019s key Senate vote.",
-      "source": "cointelegraph",
-      "source_type": "third_party",
-      "url": "https://t.me/cointelegraph/72129",
-      "reasoning": "The article reports that the U.S. Senate is about to vote on the CLARITY Act, a concrete legislative action affecting crypto regulation.",
-      "providers_checked": [
-        "groq"
-      ],
-      "providers_agree": null,
-      "internal_category": "regulatory_action",
-      "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   }

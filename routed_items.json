@@ -24808,7 +24808,28 @@
     "symbols_affected": [],
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": false
+    "final_confirmed": false,
+    "second_opinion": {
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Republicans reject Democrats' Crypto Clarity Act counter-offer as negotiations remai",
+      "text": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Republicans reject Democrats' Crypto Clarity Act counter-offer as negotiations remain deadlocked.\n\n@WatcherGuru",
+      "timestamp_utc": "2026-09-15T13:45:12+00:00",
+      "url": "https://t.me/watcherguru/15066",
+      "raw_id": "15066",
+      "layer1_reason": "no junk pattern matched (default pass)",
+      "category": "regulatory_action",
+      "specificity": "moderate",
+      "reasoning": "The item reports on active legislative negotiations and a rejected counter-offer regarding the Crypto Clarity Act by members of the U.S. legislature.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.5,
+      "confidence_score": 0.3,
+      "confirmed": false,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   },
   {
     "source": "CoinDeskGlobal",
@@ -24976,7 +24997,28 @@
     "symbols_affected": [],
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": false
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "title": "**\ud83c\uddfa\ud83c\uddf8 UPDATE: **The CLARITY Act faces mounting opposition ahead of today\u2019s key Senate vote.",
+      "text": "**\ud83c\uddfa\ud83c\uddf8 UPDATE: **The CLARITY Act faces mounting opposition ahead of today\u2019s key Senate vote.\n\nRead more: [https://cointelegraph.com/news/clarity-act-odds-fall-democrats-gop-final-offer](https://cointelegraph.com/news/clarity-act-odds-fall-democrats-gop-final-offer)\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+      "timestamp_utc": "2026-09-15T14:44:22+00:00",
+      "url": "https://t.me/cointelegraph/72129",
+      "raw_id": "72129",
+      "layer1_reason": "event-keyword override",
+      "category": "regulatory_action",
+      "specificity": "specific",
+      "reasoning": "The US Senate is scheduled to hold a key vote today on the CLARITY Act, representing concrete legislative action on a crypto-related bill.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": false
   },
   {
     "source": "wublockchainenglish",
@@ -25270,7 +25312,28 @@
     "symbols_affected": [],
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": true
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "title": "Republicans Reject Democrats\u2019 CLARITY Act Counteroffer as 60-Vote Outcome Remains Uncertain",
+      "text": "Republicans Reject Democrats\u2019 CLARITY Act Counteroffer as 60-Vote Outcome Remains Uncertain\n\nAccording to [Punchbowl](https://punchbowl.news/article/vault/crypto-clarity-act-day-of-reckoning/) News and Crypto In America, Senate Republicans rejected Democrats\u2019 latest CLARITY Act counterproposal ahead of Tuesday\u2019s 2:15 p.m. ET cloture vote, which requires 60 votes to advance. Democrats sought tighter ethics rules, narrower BRCA developer protections and stronger conflict-of-interest provisions, while leaving stablecoin yield largely unchanged. Republicans say their latest text already includes 126 substantive Democratic changes and call it their \u201clast, best and final offer.\u201d The vote count remains uncertain. \u2014 [link](https://wublockchain.xyz/news/news-20864)",
+      "timestamp_utc": "2026-09-15T15:09:18+00:00",
+      "url": "https://t.me/wublockchainenglish/26036",
+      "raw_id": "26036",
+      "layer1_reason": "event-keyword override",
+      "category": "regulatory_action",
+      "specificity": "specific",
+      "reasoning": "The US Senate is actively negotiating and voting on the CLARITY Act, with specific details provided about a rejected counteroffer and an upcoming cloture vote.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   },
   {
     "source": "cointelegraph",
