@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a concrete use case where Bolivia's telecom operator VIVA, via the project Iris, is adopting stablecoins on Avalanche for settlement and reserves, which is a project\u2011specific development.",
-  "source": "CoinDeskGlobal",
-  "timestamp": "2026-09-16T14:01:11+00:00",
-  "_event_id": "stablecoin_coindesk_part_latam_telecom_20260916",
-  "_raw_category": "stablecoin/peg failure"
+  "note": "The Federal Reserve\u2019s rate hike is a macroeconomic policy change that impacts the broader financial markets, fitting the macro_systemic category; it is specific with named entity, date, and rate change.",
+  "source": "wublockchainenglish",
+  "timestamp": "2026-09-16T18:10:48+00:00",
+  "_event_id": "macro_see_more_rates_00_20260916",
+  "_raw_category": "macro/geopolitical shock"
 }

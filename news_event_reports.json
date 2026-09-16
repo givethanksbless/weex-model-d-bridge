@@ -6164,7 +6164,7 @@
   },
   {
     "event_id": "exchange_celsius_days_exchange_bitmex_20260916",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "exchange/counterparty failure",
     "trigger_timestamp": "2026-09-16T16:04:52+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26056",
@@ -6186,6 +6186,118 @@
       ],
       "providers_agree": null,
       "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_https_fed_basis_july_20260916",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-16T18:00:57+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24687",
+    "trigger_source_title": "[**Fed raises rates by 25 basis points in first hike since July 2023**](https://www.coindesk.com/mar",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**Fed raises rates by 25 basis points in first hike since July 2023**](https://www.coindesk.com/mar",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24687",
+      "reasoning": "The Federal Reserve\u2019s rate hike is a macroeconomic policy change that impacts the broader crypto market, fitting the macro_systemic category with specific details about the action.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_interest_basis_rates_points_20260916",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-16T18:00:28+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72155",
+    "trigger_source_title": "**\ud83c\uddfa\ud83c\uddf8 BREAKING: **The Federal Reserve has raised interest rates by 25 basis points.",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**\ud83c\uddfa\ud83c\uddf8 BREAKING: **The Federal Reserve has raised interest rates by 25 basis points.",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/72155",
+      "reasoning": "The Federal Reserve\u2019s rate hike is a concrete macroeconomic policy change that can influence crypto markets broadly, fitting the macro_systemic category with specific detail.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_committee_ways_advan_digital_20260916",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-16T17:11:24+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72154",
+    "trigger_source_title": "**\ud83d\udea8 HUGE: **The House Ways and Means Committee has passed the Digital Asset Tax Certainty Act, advan",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**\ud83d\udea8 HUGE: **The House Ways and Means Committee has passed the Digital Asset Tax Certainty Act, advan",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/72154",
+      "reasoning": "The House Ways and Means Committee, a U.S. government body, has passed the Digital Asset Tax Certainty Act, which is a concrete legislative action affecting crypto.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_see_more_rates_00_20260916",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-16T18:10:48+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/26057",
+    "trigger_source_title": "Fed Raises Rates by 25 Bps to 3.75%\u20134.00%; 16 of 18 Officials See at Least One More Hike in 2026",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "Fed Raises Rates by 25 Bps to 3.75%\u20134.00%; 16 of 18 Officials See at Least One More Hike in 2026",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26057",
+      "reasoning": "The Federal Reserve\u2019s rate hike is a macroeconomic policy change that impacts the broader financial markets, fitting the macro_systemic category; it is specific with named entity, date, and rate change.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
@@ -7398,6 +7510,34 @@
       ],
       "providers_agree": true,
       "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_rate_more_year_expects_20260916",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-16T18:08:15+00:00",
+    "trigger_source": "https://t.me/watcherguru/15098",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Federal Reserve expects one more 25bps rate hike this year.",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Federal Reserve expects one more 25bps rate hike this year.",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/15098",
+      "reasoning": "The Federal Reserve, a government body, is projecting a monetary policy change that can influence the broader crypto market, but it is not a regulatory action targeting crypto specifically.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "macro_systemic",
       "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
