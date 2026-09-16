@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The Federal Reserve\u2019s rate hike is a macroeconomic policy change that impacts the broader financial markets, fitting the macro_systemic category; it is specific with named entity, date, and rate change.",
-  "source": "wublockchainenglish",
-  "timestamp": "2026-09-16T18:10:48+00:00",
-  "_event_id": "macro_see_more_rates_00_20260916",
+  "note": "The FOMC\u2019s rate decision is a macroeconomic policy move by a government body that can trigger market-wide effects, fitting the macro_systemic category; the article gives some concrete details but no exact rate change or date, so it is moderate specificity.",
+  "source": "cointelegraph",
+  "timestamp": "2026-09-16T19:34:11+00:00",
+  "_event_id": "macro_summary_september_fomc_20260916",
   "_raw_category": "macro/geopolitical shock"
 }
