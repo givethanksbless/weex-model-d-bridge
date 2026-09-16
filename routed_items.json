@@ -28225,5 +28225,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "**\ud83c\uddfa\ud83c\uddf8 BIG: **The US House Financial Services Committee advances H.R. 8957, a bill to establish a Stra",
+    "text": "**\ud83c\uddfa\ud83c\uddf8 BIG: **The US House Financial Services Committee advances H.R. 8957, a bill to establish a Strategic Bitcoin Reserve, in a 28\u201321 vote.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-16T21:11:00+00:00",
+    "url": "https://t.me/cointelegraph/72163",
+    "raw_id": "72163",
+    "layer1_reason": "event-keyword override",
+    "category": "regulatory_action",
+    "specificity": "specific",
+    "reasoning": "The US House Financial Services Committee, a legislative body, advanced H.R. 8957, a bill establishing a Strategic Bitcoin Reserve, representing a concrete regulatory action affecting crypto.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true
   }
 ]
