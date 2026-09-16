@@ -5904,6 +5904,93 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "regulatory_company_with_robinhood_engineers_20260915",
+    "matched_existing_event": true,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T17:01:01+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72132",
+    "trigger_source_title": "**\ud83d\udea8 JUST IN: **Two Robinhood engineers were charged with using confidential company information to t",
+    "is_canonical_source": false,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "[**Two Robinhood engineers charged with insider trading using Hyperliquid perpetuals**](https://www.",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24672",
+      "reasoning": "U.S. prosecutors (a government body) filed criminal charges against two Robinhood engineers for insider trading involving Hyperliquid perpetuals, constituting a concrete regulatory action.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_uk_authorization_releases_fca_20260916",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-16T09:20:42+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/26046",
+    "trigger_source_title": "UK FCA Releases Cryptoasset Regulatory Guidance, Authorization Applications to Open on Sept. 30",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "UK FCA Releases Cryptoasset Regulatory Guidance, Authorization Applications to Open on Sept. 30",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26046",
+      "reasoning": "The UK FCA, a government regulator, is issuing new cryptoasset regulatory guidance and opening authorization applications, which constitutes a concrete regulatory action.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "macro_2_uk_july_3_20260916",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-16T09:15:24+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72145",
+    "trigger_source_title": "**\ud83c\uddec\ud83c\udde7 NOW: **UK inflation rose to 3.1% in August, up from 2.9% in July.",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**\ud83c\uddec\ud83c\udde7 NOW: **UK inflation rose to 3.1% in August, up from 2.9% in July.",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/72145",
+      "reasoning": "UK inflation data is a macroeconomic indicator that can influence market-wide conditions, fitting the macro_systemic category with specific figures and dates.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
@@ -7030,7 +7117,7 @@
   },
   {
     "event_id": "regulatory_block_limit_banks_9_20260916",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-16T08:58:18+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26045",
