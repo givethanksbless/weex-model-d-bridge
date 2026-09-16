@@ -5873,6 +5873,37 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "regulatory_updates_nearly_80_senate_20260915",
+    "matched_existing_event": true,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-15T06:37:53+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24651",
+    "trigger_source_title": "[**Live updates: Bitcoin slides from nearly $80,000 as Senate votes on Clarity Act**](https://www.co",
+    "is_canonical_source": false,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [
+      "XRP"
+    ],
+    "evidence": {
+      "title": "Fitch: Malaysia Ranks Among Most Open Islamic Crypto Markets as Regulated Volume Tops $4B",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26044",
+      "reasoning": "The Securities Commission Malaysia\u2019s Shariah Advisory Council formally endorsed major crypto assets as Sharia\u2011compliant, a concrete regulatory action by a government body affecting crypto assets.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
@@ -6993,6 +7024,35 @@
       ],
       "providers_agree": true,
       "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_block_limit_banks_9_20260916",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-16T08:58:18+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/26045",
+    "trigger_source_title": "9 of Top 10 UK Retail Banks Block or Limit Crypto Transactions",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "9 of Top 10 UK Retail Banks Block or Limit Crypto Transactions",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26045",
+      "reasoning": "The FCA, a government regulator, is taking a concrete stance on how banks can handle crypto payments, indicating a regulatory decision rather than an opinion or market event.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
       "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
