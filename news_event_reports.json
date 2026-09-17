@@ -6155,9 +6155,10 @@
       "url": "https://t.me/CoinDeskGlobal/24685",
       "reasoning": "The U.S. House of Representatives\u2019 tax committee, a government legislative body, is actively advancing the Digital Asset Tax Certainty Act, a concrete regulatory action affecting crypto.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
@@ -6183,9 +6184,10 @@
       "url": "https://t.me/wublockchainenglish/26056",
       "reasoning": "A lawsuit filed by Celsius\u2019s bankruptcy estate against BitMEX is a concrete, project\u2011specific negative event involving named parties, a filing date, and a monetary claim.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": false,
       "internal_category": "project_specific",
       "internal_confidence_score": 0.54
     },
