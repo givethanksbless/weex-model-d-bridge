@@ -7123,7 +7123,7 @@
   },
   {
     "event_id": "macro_us_s_excess_capacity_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-17T21:30:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/72191",
@@ -7152,7 +7152,7 @@
   },
   {
     "event_id": "hack_s_kathleen_gets_finance_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-17T21:29:00+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24704",
@@ -8480,7 +8480,7 @@
   },
   {
     "event_id": "regulatory_s_real_wants_www_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-17T21:47:51+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24705",
