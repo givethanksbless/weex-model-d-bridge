@@ -6833,7 +6833,7 @@
   },
   {
     "event_id": "regulatory_developers_cftc_build_derivatives_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-17T15:36:49+00:00",
     "trigger_source": "https://t.me/watcherguru/15119",
@@ -6862,7 +6862,7 @@
   },
   {
     "event_id": "regulatory_expands_providers_action_cftc_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-17T15:35:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/72186",
@@ -6891,7 +6891,7 @@
   },
   {
     "event_id": "regulatory_da_passes_protect_house_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-17T15:31:27+00:00",
     "trigger_source": "https://t.me/watcherguru/15118",
@@ -6920,7 +6920,7 @@
   },
   {
     "event_id": "regulatory_sign_weekday_dec_expand_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-17T15:20:26+00:00",
     "trigger_source": "https://t.me/cointelegraph/72184",
@@ -6949,7 +6949,7 @@
   },
   {
     "event_id": "regulatory_s_begins_sec_u_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-17T15:05:35+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24702",
@@ -6978,7 +6978,7 @@
   },
   {
     "event_id": "regulatory_exemption_chair_new_its_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-17T15:03:29+00:00",
     "trigger_source": "https://t.me/cointelegraph/72182",
