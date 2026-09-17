@@ -28729,5 +28729,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Vitalik Buterin Rejects Claim AI Hackers Will Make Cybersecurity Unwinnable",
+    "text": "Vitalik Buterin Rejects Claim AI Hackers Will Make Cybersecurity Unwinnable\n\nEthereum co-founder Vitalik Buterin said he disagrees with the view that AI-powered hackers will make cybersecurity effectively unsolvable, arguing that mature AI tools could ultimately shift the advantage toward defenders. Buterin said continuing to hold crypto is itself a bet on that outcome, noting that roughly 90% of his net worth remains in crypto. He argued that if AI can prove complex mathematical theorems, it can also help formally verify that software meets defined security properties, with future defenses focusing on validating entire systems \u2014 including databases, networks, caches and supply chains \u2014 rather than merely finding bugs before attackers do. \u2014 [link](https://wublockchain.xyz/news/news-20889)",
+    "timestamp_utc": "2026-09-17T04:01:04+00:00",
+    "url": "https://t.me/wublockchainenglish/26062",
+    "raw_id": "26062",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Vitalik Buterin is expressing an opinion about AI and cybersecurity; no concrete regulatory, exchange, or project action is described.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83c\uddfa\ud83c\uddf8 **NOW**: Senator Kirsten Gillibrand and six Democratic colleagues reaffirmed their commitment to ",
+    "text": "\ud83c\uddfa\ud83c\uddf8 **NOW**: Senator Kirsten Gillibrand and six Democratic colleagues reaffirmed their commitment to passing the CLARITY Act in a statement.\n\n\"This week was a setback, but not the end of that important work.\"\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-17T03:06:25+00:00",
+    "url": "https://t.me/cointelegraph/72167",
+    "raw_id": "72167",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Senators are expressing intent to pass the CLARITY Act, but no concrete regulatory action has been taken yet.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
