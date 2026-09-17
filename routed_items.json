@@ -28855,5 +28855,53 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Russia\u2019s Largest Stock Exchange MOEX to Launch Crypto Perpetual Futures on BTC, ETH, SOL, XRP and TR",
+    "text": "Russia\u2019s Largest Stock Exchange MOEX to Launch Crypto Perpetual Futures on BTC, ETH, SOL, XRP and TRX\n\nMoscow Exchange (MOEX), Russia\u2019s largest stock exchange, will launch perpetual futures linked to its BTC, ETH, SOL, XRP and TRX indices on September 22. The contracts will be available only to qualified investors, quoted in U.S. dollars and settled in Russian rubles without delivery of the underlying crypto assets. MOEX said more than 72,000 qualified investors have traded its crypto-linked futures since the first products launched last summer, with cumulative trading volume exceeding RUB 600 billion. \u2014 [link](https://wublockchain.xyz/news/news-20891)",
+    "timestamp_utc": "2026-09-17T05:42:11+00:00",
+    "url": "https://t.me/wublockchainenglish/26064",
+    "raw_id": "26064",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "exchange_operational",
+    "specificity": "specific",
+    "reasoning": "MOEX is launching new crypto perpetual futures contracts for specific assets, a concrete exchange operational change.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [
+      "SOL",
+      "XRP"
+    ],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "title": "Russia\u2019s Largest Stock Exchange MOEX to Launch Crypto Perpetual Futures on BTC, ETH, SOL, XRP and TR",
+      "text": "Russia\u2019s Largest Stock Exchange MOEX to Launch Crypto Perpetual Futures on BTC, ETH, SOL, XRP and TRX\n\nMoscow Exchange (MOEX), Russia\u2019s largest stock exchange, will launch perpetual futures linked to its BTC, ETH, SOL, XRP and TRX indices on September 22. The contracts will be available only to qualified investors, quoted in U.S. dollars and settled in Russian rubles without delivery of the underlying crypto assets. MOEX said more than 72,000 qualified investors have traded its crypto-linked futures since the first products launched last summer, with cumulative trading volume exceeding RUB 600 billion. \u2014 [link](https://wublockchain.xyz/news/news-20891)",
+      "timestamp_utc": "2026-09-17T05:42:11+00:00",
+      "url": "https://t.me/wublockchainenglish/26064",
+      "raw_id": "26064",
+      "layer1_reason": "no junk pattern matched (default pass)",
+      "category": "none",
+      "specificity": "specific",
+      "reasoning": "This is an announcement of a traditional stock exchange (MOEX) launching a new financial product (perpetual futures). It is a business expansion rather than a regulatory action, exchange risk, or project failure.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.0,
+      "confirmed": false,
+      "symbols_affected": [
+        "SOL",
+        "XRP"
+      ],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": false
   }
 ]
