@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The Bank of England\u2019s decision to hold interest rates at 3.75% is a concrete macroeconomic policy action that can influence the broader financial markets, including crypto, but it is not a crypto-specific regulatory action.",
+  "note": "The article reports a concrete policy change\u2014delaying new excess\u2011capacity tariffs\u2014by the U.S. government, which is a market\u2011wide shock affecting the crypto sector broadly.",
   "source": "cointelegraph",
-  "timestamp": "2026-09-17T11:34:33+00:00",
-  "_event_id": "macro_interest_held_3_bank_20260917",
+  "timestamp": "2026-09-17T21:30:01+00:00",
+  "_event_id": "macro_us_s_excess_capacity_20260917",
   "_raw_category": "macro/geopolitical shock"
 }

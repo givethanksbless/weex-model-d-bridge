@@ -7122,6 +7122,64 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "macro_us_s_excess_capacity_20260917",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-17T21:30:01+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72191",
+    "trigger_source_title": "**\ud83c\uddfa\ud83c\uddf8 JUST IN: **The US is expected to delay new excess-capacity tariffs until after next week\u2019s Trum",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "**\ud83c\uddfa\ud83c\uddf8 JUST IN: **The US is expected to delay new excess-capacity tariffs until after next week\u2019s Trum",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/72191",
+      "reasoning": "The article reports a concrete policy change\u2014delaying new excess\u2011capacity tariffs\u2014by the U.S. government, which is a market\u2011wide shock affecting the crypto sector broadly.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_s_kathleen_gets_finance_20260917",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-17T21:29:00+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24704",
+    "trigger_source_title": "[**The Ondo Finance succession crisis gets messier as Kathleen Allman\u2019s daughter alleges \u2018dementia\u2019,",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "[**The Ondo Finance succession crisis gets messier as Kathleen Allman\u2019s daughter alleges \u2018dementia\u2019,",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24704",
+      "reasoning": "The article reports a concrete legal action\u2014a Hawaiian court petition by a family member\u2014to establish a conservatorship over Ondo Finance\u2019s stake, directly impacting the project\u2019s governance and ownership structure.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
@@ -8416,6 +8474,35 @@
       ],
       "providers_agree": true,
       "internal_category": "project_specific",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_s_real_wants_www_20260917",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-17T21:47:51+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24705",
+    "trigger_source_title": "[**Real stocks are finally coming on blockchain. Here\u2019s how the SEC wants it to work**](https://www.",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**Real stocks are finally coming on blockchain. Here\u2019s how the SEC wants it to work**](https://www.",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24705",
+      "reasoning": "The SEC, a government regulator, is actively establishing a regulated pathway for tokenized stocks, which constitutes a concrete regulatory action rather than an opinion or marketing.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
       "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
