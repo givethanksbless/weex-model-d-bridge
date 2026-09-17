@@ -29056,5 +29056,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "**\ud83c\uddea\ud83c\uddfa JUST IN:** Eurozone inflation rose to 3.2% in August from 2.9% in July.",
+    "text": "**\ud83c\uddea\ud83c\uddfa JUST IN:** Eurozone inflation rose to 3.2% in August from 2.9% in July.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-17T09:45:25+00:00",
+    "url": "https://t.me/cointelegraph/72174",
+    "raw_id": "72174",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "General macroeconomic inflation data, not a crypto-specific event or regulatory action.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "**\ud83d\udd25 INSIGHT:** Fewer Bitcoin holders are underwater, making a return to a bear market increasingly u",
+    "text": "**\ud83d\udd25 INSIGHT:** Fewer Bitcoin holders are underwater, making a return to a bear market increasingly unlikely, per CryptoQuant. \n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-17T09:31:12+00:00",
+    "url": "https://t.me/cointelegraph/72173",
+    "raw_id": "72173",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The article provides a general market insight about Bitcoin holders, with no concrete action or event to classify under any risk category.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]

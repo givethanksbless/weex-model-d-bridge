@@ -7842,7 +7842,7 @@
   },
   {
     "event_id": "macro_reserve_hikes_federal_parallels_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-17T08:42:57+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24693",
