@@ -7036,7 +7036,7 @@
   },
   {
     "event_id": "regulatory_failing_act_senate_after_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-17T18:55:28+00:00",
     "trigger_source": "https://t.me/cointelegraph/72189",
@@ -7065,7 +7065,7 @@
   },
   {
     "event_id": "regulatory_door_opens_could_trading_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-17T18:38:34+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24703",
@@ -7094,7 +7094,7 @@
   },
   {
     "event_id": "regulatory_supporting_government_crypto_sanctions_20260917",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-17T18:17:30+00:00",
     "trigger_source": "https://t.me/watcherguru/15123",
