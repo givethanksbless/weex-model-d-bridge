@@ -28926,7 +28926,31 @@
     ],
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": true
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "title": "\ud83c\uddf7\ud83c\uddfa **BIG**: Russia's largest exchange, the Moscow Exchange, will launch perpetual futures on BTC, ET",
+      "text": "\ud83c\uddf7\ud83c\uddfa **BIG**: Russia's largest exchange, the Moscow Exchange, will launch perpetual futures on BTC, ETH, SOL, XRP and TRX indices on September 22, available only to qualified investors.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+      "timestamp_utc": "2026-09-17T07:02:49+00:00",
+      "url": "https://t.me/cointelegraph/72171",
+      "raw_id": "72171",
+      "layer1_reason": "no junk pattern matched (default pass)",
+      "category": "none",
+      "specificity": "specific",
+      "reasoning": "The Moscow Exchange is launching a new financial product (perpetual futures on crypto indices). This is a business expansion/product launch by a traditional exchange, not a risk event or regulatory action.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.0,
+      "confirmed": false,
+      "symbols_affected": [
+        "SOL",
+        "XRP"
+      ],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": false
   },
   {
     "source": "wublockchainenglish",
@@ -28966,6 +28990,27 @@
     "confidence_score": 0.0,
     "confirmed": false,
     "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
+    "source": "CoinDeskGlobal",
+    "source_type": "third_party",
+    "title": "[**U.S. diesel prices hit record high as bitcoin and gold struggle**](https://www.coindesk.com/marke",
+    "text": "[**U.S. diesel prices hit record high as bitcoin and gold struggle**](https://www.coindesk.com/markets/2026/09/17/u-s-diesel-prices-hit-record-high-as-bitcoin-and-gold-struggle)\n\nRecord diesel prices could feed through to consumer price inflation, confirming more Fed rate hikes. The central bank appears determined to raise rates into a oil supply shock.",
+    "timestamp_utc": "2026-09-17T07:27:35+00:00",
+    "url": "https://t.me/CoinDeskGlobal/24692",
+    "raw_id": "24692",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The article discusses diesel price trends and macroeconomic implications, with no concrete crypto-related action or event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
