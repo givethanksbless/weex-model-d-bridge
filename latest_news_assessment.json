@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The FOMC\u2019s rate decision is a macroeconomic policy move by a government body that can trigger market-wide effects, fitting the macro_systemic category; the article gives some concrete details but no exact rate change or date, so it is moderate specificity.",
-  "source": "cointelegraph",
-  "timestamp": "2026-09-16T19:34:11+00:00",
-  "_event_id": "macro_summary_september_fomc_20260916",
+  "note": "The article reports a market-wide liquidation event totaling $345\u202fmillion that impacted many traders, with Zcash accounting for $56\u202fmillion of forced closures\u2014an event affecting the broader crypto market rather than a single project or regulatory action.",
+  "source": "CoinDeskGlobal",
+  "timestamp": "2026-09-17T10:41:28+00:00",
+  "_event_id": "macro_as_https_crypto_liquidations_20260917",
   "_raw_category": "macro/geopolitical shock"
 }
