@@ -27657,7 +27657,28 @@
     "symbols_affected": [],
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": true
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 US House committee advances crypto tax bill.",
+      "text": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 US House committee advances crypto tax bill.\n\n@WatcherGuru",
+      "timestamp_utc": "2026-09-16T16:34:47+00:00",
+      "url": "https://t.me/watcherguru/15094",
+      "raw_id": "15094",
+      "layer1_reason": "event-keyword override",
+      "category": "regulatory_action",
+      "specificity": "specific",
+      "reasoning": "A US legislative committee has taken concrete action by advancing a crypto tax bill.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   },
   {
     "source": "CoinDeskGlobal",
@@ -27720,7 +27741,28 @@
     "symbols_affected": "systemwide",
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": true
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "title": "[**Fed raises rates by 25 basis points in first hike since July 2023**](https://www.coindesk.com/mar",
+      "text": "[**Fed raises rates by 25 basis points in first hike since July 2023**](https://www.coindesk.com/markets/2026/09/16/fed-raises-rates-by-25-basis-points-in-first-hike-since-july-2023)\n\nThe widely expected move places the U.S. Federal Reserve's benchmark fed funds rate range at 3.75%-4.0%.",
+      "timestamp_utc": "2026-09-16T18:00:57+00:00",
+      "url": "https://t.me/CoinDeskGlobal/24687",
+      "raw_id": "24687",
+      "layer1_reason": "no junk pattern matched (default pass)",
+      "category": "macro_systemic",
+      "specificity": "specific",
+      "reasoning": "The Federal Reserve raising interest rates is a major macroeconomic event that affects the entire financial market, including crypto, and the text provides specific details about the rate hike size and new target range.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": "systemwide",
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   },
   {
     "source": "cointelegraph",
@@ -27741,7 +27783,28 @@
     "symbols_affected": "systemwide",
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": true
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "title": "**\ud83c\uddfa\ud83c\uddf8 BREAKING: **The Federal Reserve has raised interest rates by 25 basis points.",
+      "text": "**\ud83c\uddfa\ud83c\uddf8 BREAKING: **The Federal Reserve has raised interest rates by 25 basis points.",
+      "timestamp_utc": "2026-09-16T18:00:28+00:00",
+      "url": "https://t.me/cointelegraph/72155",
+      "raw_id": "72155",
+      "layer1_reason": "event-keyword override",
+      "category": "macro_systemic",
+      "specificity": "specific",
+      "reasoning": "The Federal Reserve raising interest rates by a specific amount (25 basis points) is a market-wide macroeconomic event that affects the entire financial system, including crypto.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": "systemwide",
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   },
   {
     "source": "CoinDeskGlobal",
@@ -27783,7 +27846,28 @@
     "symbols_affected": [],
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": true
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "title": "**\ud83d\udea8 HUGE: **The House Ways and Means Committee has passed the Digital Asset Tax Certainty Act, advan",
+      "text": "**\ud83d\udea8 HUGE: **The House Ways and Means Committee has passed the Digital Asset Tax Certainty Act, advancing a clearer tax framework for crypto.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+      "timestamp_utc": "2026-09-16T17:11:24+00:00",
+      "url": "https://t.me/cointelegraph/72154",
+      "raw_id": "72154",
+      "layer1_reason": "event-keyword override",
+      "category": "regulatory_action",
+      "specificity": "specific",
+      "reasoning": "The House Ways and Means Committee, a legislative body, has officially passed the Digital Asset Tax Certainty Act, representing a concrete regulatory action rather than just an opinion.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   },
   {
     "source": "cointelegraph",
@@ -27867,7 +27951,28 @@
     "symbols_affected": "systemwide",
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": true
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "title": "Fed Raises Rates by 25 Bps to 3.75%\u20134.00%; 16 of 18 Officials See at Least One More Hike in 2026",
+      "text": "Fed Raises Rates by 25 Bps to 3.75%\u20134.00%; 16 of 18 Officials See at Least One More Hike in 2026\n\nJust In: The Federal Reserve\u2019s FOMC voted unanimously, 12\u20130, to raise the target range for the federal funds rate by 25 basis points to 3.75%\u20134.00%, while continuing its policy of maintaining ample reserves in the banking system. The FOMC said the U.S. economy continues to expand at a solid pace, domestic spending remains resilient, productivity growth and capital investment are strong, and the labor market is broadly stable. Uncertainty remains elevated, in part due to geopolitical developments. Inflation remains elevated, and the Committee said the rate increase is intended to support a timelier return to its 2% target.\n\nWall Street Journal reporter [Nick Timiraos](https://x.com/NickTimiraos/status/2100284021448040567?s=20) said 16 of 18 participants projected at least one more rate increase in 2026, while few projected rates to end 2027 below 4%. \u2014 [link](https://wublockchain.xyz/news/news-20884)",
+      "timestamp_utc": "2026-09-16T18:10:48+00:00",
+      "url": "https://t.me/wublockchainenglish/26057",
+      "raw_id": "26057",
+      "layer1_reason": "event-keyword override",
+      "category": "macro_systemic",
+      "specificity": "specific",
+      "reasoning": "The Federal Reserve's decision to raise interest rates by 25 basis points is a major macroeconomic event that impacts the broader financial markets, including cryptocurrency.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": "systemwide",
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   },
   {
     "source": "watcherguru",
@@ -27888,7 +27993,28 @@
     "symbols_affected": "systemwide",
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": false
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Federal Reserve expects one more 25bps rate hike this year.",
+      "text": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Federal Reserve expects one more 25bps rate hike this year.\n\n@WatcherGuru",
+      "timestamp_utc": "2026-09-16T18:08:15+00:00",
+      "url": "https://t.me/watcherguru/15098",
+      "raw_id": "15098",
+      "layer1_reason": "event-keyword override",
+      "category": "macro_systemic",
+      "specificity": "specific",
+      "reasoning": "The Federal Reserve's expectation of a 25bps rate hike is a macro-economic event (rate change) affecting the broader financial and crypto markets.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": "systemwide",
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": false
   },
   {
     "source": "watcherguru",
@@ -27993,7 +28119,28 @@
     "symbols_affected": [],
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": true
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "title": "[**Revolut hackers demand $3 million in Monero, threaten to sell customer data**](https://www.coinde",
+      "text": "[**Revolut hackers demand $3 million in Monero, threaten to sell customer data**](https://www.coindesk.com/markets/2026/09/16/revolut-hackers-demand-usd3-million-in-monero-threaten-to-sell-customer-data)\n\nThe group gave Revolut 24 hours to pay and said it targeted customers with significant crypto holdings.",
+      "timestamp_utc": "2026-09-16T19:08:31+00:00",
+      "url": "https://t.me/CoinDeskGlobal/24689",
+      "raw_id": "24689",
+      "layer1_reason": "event-keyword override",
+      "category": "project_specific",
+      "specificity": "specific",
+      "reasoning": "Revolut, a major fintech and crypto platform, has suffered a security breach where hackers are demanding $3 million in Monero and threatening to leak customer data.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   },
   {
     "source": "cointelegraph",
