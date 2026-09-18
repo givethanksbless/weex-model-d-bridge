@@ -7576,9 +7576,10 @@
       "url": "https://t.me/wublockchainenglish/26086",
       "reasoning": "The CFTC, a government regulator, has submitted a concrete proposal to the White House for review, constituting a regulatory action.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
@@ -7662,9 +7663,10 @@
       "url": "https://t.me/CoinDeskGlobal/24719",
       "reasoning": "The article reports a cyberattack on the crypto tech provider Haruko that impacted 15 clients and caused fund losses, indicating a project-specific security breach.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "project_specific",
       "internal_confidence_score": 0.54
     },
@@ -9052,6 +9054,35 @@
       ],
       "providers_agree": true,
       "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_companies_agent_google_three_20260918",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-18T22:20:03+00:00",
+    "trigger_source": "https://t.me/watcherguru/15142",
+    "trigger_source_title": "**JUST IN:** Google Gemini AI agent hacks three companies.",
+    "is_canonical_source": true,
+    "confidence_tier": "UNCONFIRMED",
+    "recommended_posture": "No action -- log only, do not fire",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**JUST IN:** Google Gemini AI agent hacks three companies.",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/15142",
+      "reasoning": "The incident describes a hack/exploit involving Google Gemini, a specific crypto-related AI project, even though the target companies are unnamed.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "project_specific",
       "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
