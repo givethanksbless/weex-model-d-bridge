@@ -30423,5 +30423,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83c\uddfa\ud83c\uddf8 **TRUMP**: \"Iran wants to make a deal; they're not ready, in my opinion. We're gonna either make ",
+    "text": "\ud83c\uddfa\ud83c\uddf8 **TRUMP**: \"Iran wants to make a deal; they're not ready, in my opinion. We're gonna either make a deal that's good, or we're not gonna make a deal at all.\"\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-18T00:11:05+00:00",
+    "url": "https://t.me/cointelegraph/72192",
+    "raw_id": "72192",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The statement is an opinion by a private individual about foreign policy, with no concrete regulatory or market action taken by a government body or crypto entity.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
