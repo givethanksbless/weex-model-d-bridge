@@ -9000,7 +9000,7 @@
   },
   {
     "event_id": "regulatory_so_cap_far_crypto_20260918",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-18T17:27:25+00:00",
     "trigger_source": "https://t.me/watcherguru/15134",
