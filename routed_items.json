@@ -30486,5 +30486,47 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83c\uddea\ud83c\uddfa **JUST IN**: ECB's Christine Lagarde personally stepped in to stop Binance from securing an EU-wi",
+    "text": "\ud83c\uddea\ud83c\uddfa **JUST IN**: ECB's Christine Lagarde personally stepped in to stop Binance from securing an EU-wide license, per WSJ.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-18T02:29:33+00:00",
+    "url": "https://t.me/cointelegraph/72193",
+    "raw_id": "72193",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "regulatory_action",
+    "specificity": "specific",
+    "reasoning": "ECB President Christine Lagarde personally intervened to prevent Binance from obtaining an EU-wide license, which is a concrete regulatory action by a government body.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.54,
+    "confirmed": true,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "title": "\ud83c\uddea\ud83c\uddfa **JUST IN**: ECB's Christine Lagarde personally stepped in to stop Binance from securing an EU-wi",
+      "text": "\ud83c\uddea\ud83c\uddfa **JUST IN**: ECB's Christine Lagarde personally stepped in to stop Binance from securing an EU-wide license, per WSJ.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+      "timestamp_utc": "2026-09-18T02:29:33+00:00",
+      "url": "https://t.me/cointelegraph/72193",
+      "raw_id": "72193",
+      "layer1_reason": "no junk pattern matched (default pass)",
+      "category": "regulatory_action",
+      "specificity": "specific",
+      "reasoning": "The head of the European Central Bank (ECB) actively intervened to block Binance from obtaining an EU-wide license, representing a concrete regulatory action by a government/central bank official.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   }
 ]
