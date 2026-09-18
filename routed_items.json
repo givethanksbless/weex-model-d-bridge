@@ -30974,7 +30974,28 @@
     "symbols_affected": [],
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": true
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "title": "Upbit to Delist the ICX/KRW Trading Pair on Oct. 19",
+      "text": "Upbit to Delist the ICX/KRW Trading Pair on Oct. 19\n\nSouth Korea\u2019s largest cryptocurrency exchange, Upbit, announced that it will delist the ICX/KRW trading pair at 3:00 p.m. on October 19, 2026, Korea Standard Time. All outstanding orders will be canceled. Upbit stated that ICON (ICX) may face unresolved or unremedied security incident risks, and that the reasons for ending trading support have not been resolved since the asset was designated as an investment caution asset.\n\nAfter trading support ends, the platform will continue to support withdrawals until November 18. ICON is a Layer 1 blockchain launched in 2017, while ICX is its native token, primarily used in the past for network transactions, staking, and governance. \u2014 [link](https://wublockchain.xyz/news/news-20908)",
+      "timestamp_utc": "2026-09-18T07:49:30+00:00",
+      "url": "https://t.me/wublockchainenglish/26080",
+      "raw_id": "26080",
+      "layer1_reason": "event-keyword override",
+      "category": "exchange_delisting_risk",
+      "specificity": "specific",
+      "reasoning": "Upbit, a specific cryptocurrency exchange, has announced the delisting of the ICX/KRW trading pair on a specific date (October 19, 2026) due to unresolved security risks.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   },
   {
     "source": "CoinDeskGlobal",
