@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The Bank of Japan\u2019s policy rate hike is a macroeconomic action affecting the broader financial system, not a crypto-specific event.",
-  "source": "wublockchainenglish",
-  "timestamp": "2026-09-18T03:04:27+00:00",
-  "_event_id": "macro_level_bank_rates_bps_20260918",
+  "note": "The article reports a concrete market-wide liquidation event ($230M in crypto shorts liquidated in one hour) triggered by BTC crossing $80,000, which qualifies as a macro systemic shock.",
+  "source": "cointelegraph",
+  "timestamp": "2026-09-18T14:42:42+00:00",
+  "_event_id": "macro_btc_80_000_one_20260918",
   "_raw_category": "macro/geopolitical shock"
 }
