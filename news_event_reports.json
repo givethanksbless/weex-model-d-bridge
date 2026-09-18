@@ -7470,6 +7470,35 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "hack_private_times_payments_up_20260918",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-18T12:50:32+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24717",
+    "trigger_source_title": "[**Zcash targets November upgrade to make private payments up to three times faster**](https://www.c",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "[**Zcash targets November upgrade to make private payments up to three times faster**](https://www.c",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24717",
+      "reasoning": "The article announces a concrete protocol upgrade (NU7) for the Zcash project, detailing changes to block times and fee allocation, which is a specific, project\u2011specific event.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
