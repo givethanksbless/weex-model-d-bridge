@@ -7326,7 +7326,7 @@
   },
   {
     "event_id": "hack_into_new_openai_employee_20260918",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-18T04:56:24+00:00",
     "trigger_source": "https://t.me/cointelegraph/72195",
