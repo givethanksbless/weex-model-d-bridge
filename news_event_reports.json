@@ -7355,7 +7355,7 @@
   },
   {
     "event_id": "regulatory_through_booth_https_ran_20260918",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-18T06:52:51+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24711",
@@ -7378,6 +7378,34 @@
       ],
       "providers_agree": true,
       "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "exchange_krw_icx_upbit_oct_20260918",
+    "matched_existing_event": false,
+    "category": "exchange/counterparty failure",
+    "trigger_timestamp": "2026-09-18T07:49:30+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/26080",
+    "trigger_source_title": "Upbit to Delist the ICX/KRW Trading Pair on Oct. 19",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Full defensive: flatten or pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "Upbit to Delist the ICX/KRW Trading Pair on Oct. 19",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26080",
+      "reasoning": "Upbit announced it will delist the ICX/KRW trading pair on Oct. 19, 2026, cancel outstanding orders, and continue withdrawals until Nov. 18, directly affecting the ICX asset.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "exchange_delisting_risk",
       "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
