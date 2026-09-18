@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a concrete policy change\u2014delaying new excess\u2011capacity tariffs\u2014by the U.S. government, which is a market\u2011wide shock affecting the crypto sector broadly.",
-  "source": "cointelegraph",
-  "timestamp": "2026-09-17T21:30:01+00:00",
-  "_event_id": "macro_us_s_excess_capacity_20260917",
+  "note": "The Bank of Japan\u2019s policy rate hike is a macroeconomic action affecting the broader financial system, not a crypto-specific event.",
+  "source": "wublockchainenglish",
+  "timestamp": "2026-09-18T03:04:27+00:00",
+  "_event_id": "macro_level_bank_rates_bps_20260918",
   "_raw_category": "macro/geopolitical shock"
 }
