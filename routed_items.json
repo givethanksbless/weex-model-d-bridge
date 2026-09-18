@@ -31627,7 +31627,28 @@
     "symbols_affected": [],
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": false
+    "final_confirmed": false,
+    "second_opinion": {
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "title": "**JUST IN:** $81,000 Bitcoin",
+      "text": "**JUST IN:** $81,000 Bitcoin\n\n@WatcherGuru",
+      "timestamp_utc": "2026-09-18T15:21:11+00:00",
+      "url": "https://t.me/watcherguru/15130",
+      "raw_id": "15130",
+      "layer1_reason": "no junk pattern matched (default pass)",
+      "category": "none",
+      "specificity": "specific",
+      "reasoning": "This is a simple price milestone alert for Bitcoin with no regulatory, project-specific risk, or exchange operational implications.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.0,
+      "confirmed": false,
+      "symbols_affected": [],
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   },
   {
     "source": "CoinDeskGlobal",
@@ -31733,5 +31754,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "**\u26a1\ufe0f NEW: **NYSE spent the past year testing Avalanche technology for its tokenization plans, Ava La",
+    "text": "**\u26a1\ufe0f NEW: **NYSE spent the past year testing Avalanche technology for its tokenization plans, Ava Labs President Charley Cooper said.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-18T16:31:01+00:00",
+    "url": "https://t.me/cointelegraph/72202",
+    "raw_id": "72202",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "moderate",
+    "reasoning": "The article reports NYSE\u2019s internal testing of Avalanche technology for tokenization plans, which is a business activity rather than a regulatory action, exchange policy change, or project-specific incident.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.5,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]

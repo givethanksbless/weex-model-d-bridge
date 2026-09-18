@@ -6223,12 +6223,12 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
-    "event_id": "macro_87_bps_25_reserve_20260915",
+    "event_id": "macro_projected_interest_now_rates_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
-    "trigger_timestamp": "2026-09-15T14:45:36+00:00",
-    "trigger_source": "https://t.me/watcherguru/15068",
-    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 87% chance the Federal Reserve raises interest rates by 25 bps at tomorrow's FOMC me",
+    "trigger_timestamp": "2026-08-31T17:42:25+00:00",
+    "trigger_source": "https://t.me/watcherguru/14861",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 Federal Reserve is now projected to raise interest rates by 25 bps in September.",
     "is_canonical_source": false,
     "confidence_tier": "LIKELY",
     "recommended_posture": "Reduce size market-wide, no forced exits",
@@ -7644,7 +7644,7 @@
   },
   {
     "event_id": "hack_15_cyberattack_affecting_https_20260918",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-18T15:09:57+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24719",
