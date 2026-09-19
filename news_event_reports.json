@@ -7761,7 +7761,7 @@
   },
   {
     "event_id": "macro_now_are_out_stations_20260919",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-19T14:39:49+00:00",
     "trigger_source": "https://t.me/watcherguru/15145",
