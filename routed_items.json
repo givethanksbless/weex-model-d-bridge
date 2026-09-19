@@ -32321,5 +32321,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Highlight Clip: Circle CPTO: If Hundreds of Millions in USDC Are Stolen, Would Arc Be Rolled Back?",
+    "text": "Highlight Clip: Circle CPTO: If Hundreds of Millions in USDC Are Stolen, Would Arc Be Rolled Back?\n\n[Circle CPTO: If Hundreds of Millions in USDC Are Stolen, Would Arc Be Rolled Back?](https://x.com/WuBlockchain/status/2101098953924022513)\n\nCircle Chief Product and Technology Officer Nikhil Chandhok said in a September 16 interview with Bankless that, when asked whether Circle would roll back Arc if a lending protocol such as Aave were exploited by the Lazarus Group and tens or even hundreds of millions of dollars in USDC were stolen, he could not commit to a specific response.Instead, Chandhok emphasized that Arc is immutable public financial infrastructure supported by more than 20 validators.\n\nHe said rolling back a blockchain would be an extremely significant decision, and breaking its immutability could fundamentally undermine trust that would be difficult to rebuild. \u2014 [link](https://wublockchain.xyz/news/news-20919)",
+    "timestamp_utc": "2026-09-19T03:01:57+00:00",
+    "url": "https://t.me/wublockchainenglish/26091",
+    "raw_id": "26091",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Statement by Circle executive about a hypothetical scenario; no concrete regulatory or operational action has been taken.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
