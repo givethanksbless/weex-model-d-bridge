@@ -32848,5 +32848,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Interpol Expands Silver Notice System, Identifies at Least \u20ac36M in Criminal Assets",
+    "text": "Interpol Expands Silver Notice System, Identifies at Least \u20ac36M in Criminal Assets\n\nAccording to AP, Interpol is expanding its Silver Notice system, which allows its 196 member countries to share information and assist in tracing and seizing cross-border criminal assets, including cash, cryptocurrency, vehicles and real estate. Trialed since January 2025, the system has involved 82 countries and identified at least \u20ac36 million in criminal assets. Interpol says criminals generally retain around 99% of their illicit proceeds. The first Silver Notice was requested by Italy for a senior mafia member, after which Brazil identified multiple properties and other assets linked to the suspect and his associates. Interpol members are expected to vote on the system\u2019s full adoption at the General Assembly in Hong Kong in November 2026. \u2014 [link](https://wublockchain.xyz/news/interpol-expands-silver-notice-identifies-36m-criminal-assets-20923)",
+    "timestamp_utc": "2026-09-19T18:58:36+00:00",
+    "url": "https://t.me/wublockchainenglish/26095",
+    "raw_id": "26095",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "Interpol\u2019s expansion of its Silver Notice system is a law\u2011enforcement initiative, not a regulatory action by a government body, regulator, or legislature, and it does not target a specific crypto project or exchange.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
