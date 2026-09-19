@@ -32911,5 +32911,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udea8 HUGE: This is now $ETH's best Q3 ever.",
+    "text": "\ud83d\udea8 HUGE: This is now $ETH's best Q3 ever.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-19T22:34:57+00:00",
+    "url": "https://t.me/cointelegraph/72217",
+    "raw_id": "72217",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The item is a generic price commentary about ETH's Q3 performance, with no concrete action or event to classify.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
