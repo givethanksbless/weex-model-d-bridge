@@ -32258,5 +32258,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Coinbase Files to Launch Single-Stock and ETF Perpetual Futures in the U.S.",
+    "text": "Coinbase Files to Launch Single-Stock and ETF Perpetual Futures in the U.S.\n\nCoinbase Derivatives has filed with the CFTC for approval to launch cash-settled perpetual futures referencing individual U.S.-listed stocks and ETFs. The products would target the U.S. market and launch following CFTC approval and any other necessary regulatory approvals, with Apple (AAPL) used as the representative contract in the filing. Coinbase already offers equity perpetual futures to eligible non-U.S. users, while the new filing seeks to bring such products into the U.S. regulated market. The contracts would be regulated as security futures products under the joint jurisdiction of the CFTC and SEC. \u2014 [link](https://wublockchain.xyz/news/news-20917)",
+    "timestamp_utc": "2026-09-19T01:17:08+00:00",
+    "url": "https://t.me/wublockchainenglish/26089",
+    "raw_id": "26089",
+    "layer1_reason": "event-keyword override",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "Coinbase is filing a proposal with the CFTC, which is a private company\u2019s action, not a concrete regulatory body action; it does not fit exchange_operational or other categories.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": "systemwide",
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
