@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article reports a concrete market-wide liquidation event ($230M in crypto shorts liquidated in one hour) triggered by BTC crossing $80,000, which qualifies as a macro systemic shock.",
-  "source": "cointelegraph",
-  "timestamp": "2026-09-18T14:42:42+00:00",
-  "_event_id": "macro_btc_80_000_one_20260918",
+  "note": "The story reports a nationwide fuel shortage in France, an emergency meeting by the government, and planned financial assistance\u2014 a macro\u2011level shock affecting the broader economy, not a crypto\u2011specific event.",
+  "source": "watcherguru",
+  "timestamp": "2026-09-19T14:39:49+00:00",
+  "_event_id": "macro_now_are_out_stations_20260919",
   "_raw_category": "macro/geopolitical shock"
 }
