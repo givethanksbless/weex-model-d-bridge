@@ -32869,5 +32869,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "\ud83d\udea8 INTERESTING: If you put $1,000 in Treasury bonds 15 years ago, you'd have about $1,300 today. ",
+    "text": "\ud83d\udea8 INTERESTING: If you put $1,000 in Treasury bonds 15 years ago, you'd have about $1,300 today. \n\n$5 in Bitcoin in the same year would now be worth over $80,000.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-19T19:31:01+00:00",
+    "url": "https://t.me/cointelegraph/72215",
+    "raw_id": "72215",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "The post is a general market comparison of returns, not a concrete event or action affecting a specific asset, exchange, or regulator.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
