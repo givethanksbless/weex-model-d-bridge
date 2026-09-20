@@ -9234,7 +9234,7 @@
   },
   {
     "event_id": "macro_street_with_wall_bracing_20260920",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-20T13:40:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/72224",
