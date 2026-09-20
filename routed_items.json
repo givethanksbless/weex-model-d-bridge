@@ -32974,5 +32974,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "cointelegraph",
+    "source_type": "third_party",
+    "title": "**\ud83d\udea8 INSIGHT: **Peter Schiff says the SEC\u2019s tokenized stock announcement is bearish for Bitcoin becau",
+    "text": "**\ud83d\udea8 INSIGHT: **Peter Schiff says the SEC\u2019s tokenized stock announcement is bearish for Bitcoin because tokenized securities could offer the same convenience with more reliable underlying value.\n\n[News](https://cointelegraph.com/) | [Markets](https://cointelegraph.com/category/markets) | [YouTube](https://www.youtube.com/@cointelegraph)",
+    "timestamp_utc": "2026-09-20T01:10:09+00:00",
+    "url": "https://t.me/cointelegraph/72220",
+    "raw_id": "72220",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "Peter Schiff is expressing an opinion about the SEC\u2019s tokenized stock announcement; no concrete regulatory action has been taken by a government body.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
