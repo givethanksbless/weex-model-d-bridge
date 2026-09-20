@@ -32995,5 +32995,26 @@
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Robinhood Chain Collected $4.5M in Daily Fees, Paid Ethereum Just $400",
+    "text": "Robinhood Chain Collected $4.5M in Daily Fees, Paid Ethereum Just $400\n\nAn analysis published by South Korean outlet Digital Asset highlights the gap between Robinhood Chain\u2019s growth and the economic value captured by Ethereum. According to Bitquery, Robinhood Chain collected approximately $4.5 million in transaction fees on September 3 while paying Ethereum just $398 in data posting and proof costs. The analysis argues that growing Layer 2 activity does not necessarily translate into proportional revenue for Ethereum, as much of the fee revenue remains within the L2 ecosystem. \u2014 [link](https://wublockchain.xyz/news/news-20925)",
+    "timestamp_utc": "2026-09-20T02:59:37+00:00",
+    "url": "https://t.me/wublockchainenglish/26097",
+    "raw_id": "26097",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article reports on fee revenue figures for Robinhood Chain and its payment to Ethereum; it contains no regulatory action, exchange delisting, project hack, macro shock, or operational change, so it falls under none.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
