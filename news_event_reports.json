@@ -7789,6 +7789,63 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "regulatory_blockchain_withdraws_digital_chinese_20260920",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-20T04:23:39+00:00",
+    "trigger_source": "https://t.me/watcherguru/15149",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddf8\ud83c\udde6\ud83c\udde8\ud83c\uddf3 Saudi Arabia withdraws from Chinese-led digital currency & blockchain payment syst",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "**JUST IN:** \ud83c\uddf8\ud83c\udde6\ud83c\udde8\ud83c\uddf3 Saudi Arabia withdraws from Chinese-led digital currency & blockchain payment syst",
+      "source": "watcherguru",
+      "source_type": "third_party",
+      "url": "https://t.me/watcherguru/15149",
+      "reasoning": "Saudi Arabia, a government body, is taking a concrete action by withdrawing from a Chinese-led digital currency and blockchain payment system, which directly affects crypto regulatory environment.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_told_fine_polymarket_found_20260920",
+    "matched_existing_event": false,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-09-20T04:01:54+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/26098",
+    "trigger_source_title": "WSJ: Polymarket CEO Reportedly Told Staff to Keep Growing and Pay a Fine if Regulators Found Out Ami",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "WSJ: Polymarket CEO Reportedly Told Staff to Keep Growing and Pay a Fine if Regulators Found Out Ami",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26098",
+      "reasoning": "The article reports a $10M stolen-card fraud attempt targeting Polymarket accounts and the CEO\u2019s directive to staff to continue growth and pay fines if regulators discover the issue, indicating a governance failure specific to the Polymarket project.",
+      "providers_checked": [
+        "groq"
+      ],
+      "providers_agree": null,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
