@@ -33099,6 +33099,27 @@
     "symbols_affected": "systemwide",
     "rubric_version": 3,
     "provider": "groq",
-    "final_confirmed": true
+    "final_confirmed": true,
+    "second_opinion": {
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "title": "WSJ: Polymarket CEO Reportedly Told Staff to Keep Growing and Pay a Fine if Regulators Found Out Ami",
+      "text": "WSJ: Polymarket CEO Reportedly Told Staff to Keep Growing and Pay a Fine if Regulators Found Out Amid $10M Stolen-Card Fraud Attempt\n\nThe Wall Street Journal reported that fraudsters linked stolen debit cards to Polymarket US accounts in February, attempting to move at least $10 million through wagers and withdrawals. At one point, its payment processor rejected more than 80% of the deposits it handled as fraudulent, far exceeding the industry norm of roughly 1%. According to people familiar with the events, CEO Shayne Coplan's response to employees' concerns was to keep growing and pay a fine if regulators ever found out. Polymarket said it has procedures to detect and respond to suspicious activity and is committed to working with regulators and law enforcement. \u2014 [link](https://wublockchain.xyz/news/polymarket-ceo-urged-growth-pay-fine-if-regulators-flag-10m-card-fraud-20926)",
+      "timestamp_utc": "2026-09-20T04:01:54+00:00",
+      "url": "https://t.me/wublockchainenglish/26098",
+      "raw_id": "26098",
+      "layer1_reason": "event-keyword override",
+      "category": "project_specific",
+      "specificity": "specific",
+      "reasoning": "The report details a specific $10 million fraud attempt and internal governance issues/compliance failures specific to Polymarket and its CEO.",
+      "authority_weight": 0.6,
+      "specificity_score": 0.9,
+      "confidence_score": 0.54,
+      "confirmed": true,
+      "symbols_affected": "systemwide",
+      "rubric_version": 3,
+      "provider": "gemini_second_opinion"
+    },
+    "providers_agree": true
   }
 ]
