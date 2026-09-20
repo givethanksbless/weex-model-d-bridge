@@ -33121,5 +33121,26 @@
       "provider": "gemini_second_opinion"
     },
     "providers_agree": true
+  },
+  {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "Binance Enters the Pre-IPO Subscription Market",
+    "text": "Binance Enters the Pre-IPO Subscription Market\n\nBinance Wallet announced the launch of Pre-Access campaigns hosted by PancakeSwap, allowing users to gain indirect tokenized exposure to companies that may go public. Participation quotas can be increased through Alpha Points, onchain bStocks trading volume and holdings, while assets remain self-custodied in users\u2019 wallets. The first project has not yet been announced. \u2014 [link](https://wublockchain.xyz/news/news-20928)",
+    "timestamp_utc": "2026-09-20T08:45:28+00:00",
+    "url": "https://t.me/wublockchainenglish/26100",
+    "raw_id": "26100",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "specific",
+    "reasoning": "The article announces a promotional feature launch by Binance Wallet and PancakeSwap, which is marketing content and does not represent a regulatory action, exchange operation, or project-specific event.",
+    "authority_weight": 0.6,
+    "specificity_score": 0.9,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
   }
 ]
