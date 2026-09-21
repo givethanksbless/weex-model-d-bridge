@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "China\u2019s reduction of US Treasury holdings to an 18\u2011year low is a macro\u2011level market shock affecting the broader financial system, not tied to a single crypto project or exchange.",
+  "note": "The article reports a large, market-wide liquidation of leveraged short positions ($575M in 12 hours), indicating a broad shock across the crypto market.",
   "source": "watcherguru",
-  "timestamp": "2026-09-20T16:19:02+00:00",
-  "_event_id": "macro_low_year_china_holdings_20260920",
+  "timestamp": "2026-09-21T14:53:41+00:00",
+  "_event_id": "macro_bitcoin_surges_6_86_20260921",
   "_raw_category": "macro/geopolitical shock"
 }
