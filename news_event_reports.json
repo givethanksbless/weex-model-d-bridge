@@ -7877,7 +7877,7 @@
   },
   {
     "event_id": "hack_stolen_fraud_that_debit_20260921",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-21T01:35:25+00:00",
     "trigger_source": "https://t.me/cointelegraph/72227",
