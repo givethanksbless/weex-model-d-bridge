@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "Bank of America warns that supply disruptions from the Iran war could push Brent crude above $150, a macro\u2011level market risk affecting oil prices.",
-  "source": "cointelegraph",
-  "timestamp": "2026-09-22T19:25:01+00:00",
-  "_event_id": "macro_from_disruptions_push_america_20260922",
+  "note": "The article reports a market-wide bond selloff and rising Treasury yields, a macroeconomic shock affecting the broader financial system, not tied to any specific crypto project, exchange, or regulatory action.",
+  "source": "wublockchainenglish",
+  "timestamp": "2026-09-23T21:19:50+00:00",
+  "_event_id": "macro_us_highest_as_yields_20260923",
   "_raw_category": "macro/geopolitical shock"
 }
