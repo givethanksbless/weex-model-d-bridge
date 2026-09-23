@@ -8457,7 +8457,7 @@
   },
   {
     "event_id": "regulatory_staking_push_central_https_20260922",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-22T14:33:28+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24757",
@@ -8486,7 +8486,7 @@
   },
   {
     "event_id": "macro_from_disruptions_push_america_20260922",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "macro/geopolitical shock",
     "trigger_timestamp": "2026-09-22T19:25:01+00:00",
     "trigger_source": "https://t.me/cointelegraph/72269",
@@ -8515,7 +8515,7 @@
   },
   {
     "event_id": "hack_coindesk_six_https_big_20260922",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "hack/exploit",
     "trigger_timestamp": "2026-09-22T17:34:35+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24759",
@@ -8539,6 +8539,64 @@
       "providers_agree": false,
       "internal_category": "project_specific",
       "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_mention_that_will_what_20260923",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-23T00:04:51+00:00",
+    "trigger_source": "https://t.me/cointelegraph/72270",
+    "trigger_source_title": "\ud83c\uddfa\ud83c\uddf8 **JUST IN**: The CFTC warns that \"mention markets,\" which let traders bet on what someone will sa",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "\ud83c\uddfa\ud83c\uddf8 **JUST IN**: The CFTC warns that \"mention markets,\" which let traders bet on what someone will sa",
+      "source": "cointelegraph",
+      "source_type": "third_party",
+      "url": "https://t.me/cointelegraph/72270",
+      "reasoning": "The CFTC, a government regulator, has issued concrete guidance limiting when exchanges can list 'mention markets,' which is a direct regulatory action.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_mention_regulator_platforms_about_20260923",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-23T00:02:25+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24762",
+    "trigger_source_title": "[**U.S. regulator warns about cheating risks in 'mention markets' on prediction platforms**](https:/",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**U.S. regulator warns about cheating risks in 'mention markets' on prediction platforms**](https:/",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24762",
+      "reasoning": "The CFTC issued a new advisory, a concrete regulatory action by a government body, addressing risks in mention markets on prediction platforms.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
