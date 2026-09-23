@@ -8544,7 +8544,7 @@
   },
   {
     "event_id": "regulatory_mention_that_will_what_20260923",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-23T00:04:51+00:00",
     "trigger_source": "https://t.me/cointelegraph/72270",
@@ -8573,7 +8573,7 @@
   },
   {
     "event_id": "regulatory_mention_regulator_platforms_about_20260923",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-23T00:02:25+00:00",
     "trigger_source": "https://t.me/CoinDeskGlobal/24762",
@@ -8597,6 +8597,95 @@
       "providers_agree": false,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "hack_500_vulnerability_859_affecting_20260828",
+    "matched_existing_event": true,
+    "category": "hack/exploit",
+    "trigger_timestamp": "2026-08-28T06:22:51+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24408",
+    "trigger_source_title": "[**Solana\u2019s faster supply cuts lead vote while $800,000 daily burn plan trails**](https://www.coinde",
+    "is_canonical_source": false,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Pause new entries in affected symbol(s) only",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [
+      "SOL"
+    ],
+    "evidence": {
+      "title": "[**Solana starts testing upgrade that could cut finality from 12.8 seconds to 150 milliseconds**](ht",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24765",
+      "reasoning": "Solana is testing a protocol upgrade that would reduce block finality time, a concrete technical change affecting the Solana project.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "project_specific",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_10_leads_https_www_20260923",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-23T04:10:37+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24763",
+    "trigger_source_title": "[**Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000**](https://www.coindesk.c",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [],
+    "evidence": {
+      "title": "[**Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000**](https://www.coindesk.c",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24763",
+      "reasoning": "The article reports that a bill to make the government's bitcoin stockpile permanent has advanced further through Congress, which is a concrete action taken by a legislative body affecting crypto.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
+    "event_id": "regulatory_bear_investors_44b_foreign_20260923",
+    "matched_existing_event": false,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-23T04:01:25+00:00",
+    "trigger_source": "https://t.me/wublockchainenglish/26133",
+    "trigger_source_title": "Russia Says Investors Will Bear Losses From Foreign Stablecoin Freezes; Crypto Holdings Reach $44B",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "Russia Says Investors Will Bear Losses From Foreign Stablecoin Freezes; Crypto Holdings Reach $44B",
+      "source": "wublockchainenglish",
+      "source_type": "third_party",
+      "url": "https://t.me/wublockchainenglish/26133",
+      "reasoning": "The Russian Deputy Finance Minister announced a concrete reporting requirement for tax residents on foreign crypto transactions, which is a direct regulatory action by a government body.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": true,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.54
     },
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
