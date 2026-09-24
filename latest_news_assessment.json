@@ -4,9 +4,9 @@
   "direction": "down",
   "category": "macro/systemic",
   "symbols_affected": "systemwide",
-  "note": "The article describes a macroeconomic shock\u2014Treasury yields reaching a 2007 high\u2014causing broad market pressure that led to Dogecoin and Bitcoin price declines, fitting the macro_systemic category with moderate specificity.",
+  "note": "The article discusses the Federal Reserve\u2019s planned rate hikes and their impact on bitcoin and gold, describing a concrete macroeconomic event that affects the entire market rather than a single project or exchange.",
   "source": "CoinDeskGlobal",
-  "timestamp": "2026-09-24T04:13:30+00:00",
-  "_event_id": "macro_2007_000_level_https_20260924",
+  "timestamp": "2026-09-24T10:12:28+00:00",
+  "_event_id": "macro_traders_by_slides_83_20260924",
   "_raw_category": "macro/geopolitical shock"
 }
