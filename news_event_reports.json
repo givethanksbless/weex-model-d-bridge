@@ -8893,6 +8893,37 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "macro_2007_000_level_https_20260924",
+    "matched_existing_event": false,
+    "category": "macro/geopolitical shock",
+    "trigger_timestamp": "2026-09-24T04:13:30+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24780",
+    "trigger_source_title": "[**Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007**](https:",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size market-wide, no forced exits",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": [
+      "DOGE"
+    ],
+    "evidence": {
+      "title": "[**Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007**](https:",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24780",
+      "reasoning": "The article describes a macroeconomic shock\u2014Treasury yields reaching a 2007 high\u2014causing broad market pressure that led to Dogecoin and Bitcoin price declines, fitting the macro_systemic category with moderate specificity.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "macro_systemic",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "macro_stir_2024_iran_fail_20260831",
     "matched_existing_event": true,
     "category": "macro/geopolitical shock",
@@ -10425,12 +10456,12 @@
   },
   {
     "event_id": "regulatory_plan_backed_dollar_exploring_20260923",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
-    "trigger_timestamp": "2026-09-23T23:30:26+00:00",
-    "trigger_source": "https://t.me/cointelegraph/72287",
-    "trigger_source_title": "\ud83c\uddfa\ud83c\uddf8 **JUST IN**: The US is reportedly exploring a plan to push dollar-backed stablecoins abroad to st",
-    "is_canonical_source": true,
+    "trigger_timestamp": "2026-09-23T22:18:10+00:00",
+    "trigger_source": "https://t.me/watcherguru/15215",
+    "trigger_source_title": "**JUST IN:** \ud83c\uddfa\ud83c\uddf8 US considers plan to promote dollar-backed crypto stablecoins worldwide.",
+    "is_canonical_source": false,
     "confidence_tier": "UNCONFIRMED",
     "recommended_posture": "No action -- log only, do not fire",
     "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
@@ -10453,7 +10484,7 @@
   },
   {
     "event_id": "regulatory_demand_dollar_treasury_us_20260923",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-23T22:52:56+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26146",
@@ -10471,9 +10502,10 @@
       "url": "https://t.me/wublockchainenglish/26146",
       "reasoning": "The US Treasury, State Department, and DFC are government bodies contemplating a policy to promote dollar\u2011stablecoins abroad, which is a concrete regulatory consideration affecting the crypto space.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.3
     },
