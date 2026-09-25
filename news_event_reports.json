@@ -9272,6 +9272,35 @@
     "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
   },
   {
+    "event_id": "regulatory_act_proposals_reserve_u_20260924",
+    "matched_existing_event": true,
+    "category": "regulatory shock",
+    "trigger_timestamp": "2026-09-24T22:30:34+00:00",
+    "trigger_source": "https://t.me/CoinDeskGlobal/24803",
+    "trigger_source_title": "[**U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins**](https://www.co",
+    "is_canonical_source": true,
+    "confidence_tier": "LIKELY",
+    "recommended_posture": "Reduce size, pause new entries in affected symbols",
+    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
+    "live_or_historical": "live",
+    "symbols_affected": "systemwide",
+    "evidence": {
+      "title": "[**U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins**](https://www.co",
+      "source": "CoinDeskGlobal",
+      "source_type": "third_party",
+      "url": "https://t.me/CoinDeskGlobal/24803",
+      "reasoning": "The U.S. Federal Reserve, a government body, is actively proposing rules to implement the GENIUS Act for stablecoins, which constitutes a concrete regulatory action rather than an opinion or marketing.",
+      "providers_checked": [
+        "groq",
+        "gemini_second_opinion"
+      ],
+      "providers_agree": false,
+      "internal_category": "regulatory_action",
+      "internal_confidence_score": 0.3
+    },
+    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
+  },
+  {
     "event_id": "hack_bitget_6_breach_security_20260924",
     "matched_existing_event": true,
     "category": "hack/exploit",
@@ -11202,34 +11231,6 @@
         "gemini_second_opinion"
       ],
       "providers_agree": true,
-      "internal_category": "regulatory_action",
-      "internal_confidence_score": 0.3
-    },
-    "_event_id_caveat": "matched mechanically -- same category + (shared watchlist symbol OR >= 0.34 title-word overlap) within 30 days of the event's last-seen mention. Not a semantic/LLM judgment -- can still miss a follow-up worded very differently, or over-merge unrelated stories that share entity words. Check event_registry.json if this ID's history looks surprising."
-  },
-  {
-    "event_id": "regulatory_act_proposals_reserve_u_20260924",
-    "matched_existing_event": true,
-    "category": "regulatory shock",
-    "trigger_timestamp": "2026-09-24T22:30:34+00:00",
-    "trigger_source": "https://t.me/CoinDeskGlobal/24803",
-    "trigger_source_title": "[**U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins**](https://www.co",
-    "is_canonical_source": true,
-    "confidence_tier": "UNCONFIRMED",
-    "recommended_posture": "No action -- log only, do not fire",
-    "lead_time_note": "not backtested -- price-drawdown computation belongs to the price/Model D leg, not this one",
-    "live_or_historical": "live",
-    "symbols_affected": "systemwide",
-    "evidence": {
-      "title": "[**U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins**](https://www.co",
-      "source": "CoinDeskGlobal",
-      "source_type": "third_party",
-      "url": "https://t.me/CoinDeskGlobal/24803",
-      "reasoning": "The U.S. Federal Reserve, a government body, is actively proposing rules to implement the GENIUS Act for stablecoins, which constitutes a concrete regulatory action rather than an opinion or marketing.",
-      "providers_checked": [
-        "groq"
-      ],
-      "providers_agree": null,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.3
     },
