@@ -9445,7 +9445,7 @@
   },
   {
     "event_id": "regulatory_updates_toke_let_customer_20260925",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-25T00:49:29+00:00",
     "trigger_source": "https://t.me/cointelegraph/72311",
@@ -9463,9 +9463,10 @@
       "url": "https://t.me/cointelegraph/72311",
       "reasoning": "The U.S. Commodity Futures Trading Commission (CFTC) is actively updating its regulatory guidance, a concrete action by a government body affecting crypto practices.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "regulatory_action",
       "internal_confidence_score": 0.54
     },
@@ -9473,7 +9474,7 @@
   },
   {
     "event_id": "regulatory_000_starting_more_require_20260925",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "regulatory shock",
     "trigger_timestamp": "2026-09-25T00:37:15+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26164",
@@ -9502,7 +9503,7 @@
   },
   {
     "event_id": "exchange_stuck_as_faces_funds_20260925",
-    "matched_existing_event": false,
+    "matched_existing_event": true,
     "category": "exchange/counterparty failure",
     "trigger_timestamp": "2026-09-25T00:17:34+00:00",
     "trigger_source": "https://t.me/wublockchainenglish/26163",
