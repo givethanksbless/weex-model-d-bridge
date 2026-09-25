@@ -9291,9 +9291,10 @@
       "url": "https://t.me/cointelegraph/72310",
       "reasoning": "The article reports a security breach at Bitget, a named exchange, with $351.6\u202fmillion in assets affected and withdrawals suspended, which is a hack/exploit event specific to that project.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "project_specific",
       "internal_confidence_score": 0.54
     },
@@ -9377,9 +9378,10 @@
       "url": "https://t.me/wublockchainenglish/26161",
       "reasoning": "The article reports a confirmed security breach of Bitget wallets, with large amounts of assets moved and the exchange taking concrete actions such as suspending withdrawals and notifying law enforcement, indicating a project-specific hack/exploit event.",
       "providers_checked": [
-        "groq"
+        "groq",
+        "gemini_second_opinion"
       ],
-      "providers_agree": null,
+      "providers_agree": true,
       "internal_category": "project_specific",
       "internal_confidence_score": 0.54
     },
