@@ -43206,27 +43206,6 @@
     "final_confirmed": false
   },
   {
-    "source": "wublockchainenglish",
-    "source_type": "third_party",
-    "title": "Yonhap: South Korea Crypto Market Cap Falls 33% in H1 2026",
-    "text": "Yonhap: South Korea Crypto Market Cap Falls 33% in H1 2026\n\nSouth Korea\u2019s crypto market capitalization fell 33% in the first half of 2026 to 58.9 trillion won ($43.4 billion), according to the Financial Services Commission, the country\u2019s top financial regulator. Average daily trading volume dropped to 3.1 trillion won from 5.4 trillion won, while won deposits fell 35% to 5.2 trillion won. The number of users edged up 0.4% to 11.17 million. South Korea had 26 registered virtual-asset operators at the end of June, including 17 crypto exchanges. \u2014 [link](https://wublockchain.xyz/news/south-korea-crypto-market-cap-falls-33pct-h1-2026-21064)",
-    "timestamp_utc": "2026-10-01T05:20:08+00:00",
-    "url": "https://t.me/wublockchainenglish/26236",
-    "raw_id": "26236",
-    "layer1_reason": "event-keyword override",
-    "category": "none",
-    "specificity": "vague",
-    "reasoning": "API ERROR: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions",
-    "authority_weight": 0.6,
-    "specificity_score": 0.2,
-    "confidence_score": 0.0,
-    "confirmed": false,
-    "symbols_affected": "systemwide",
-    "rubric_version": 3,
-    "provider": "groq",
-    "final_confirmed": false
-  },
-  {
     "source": "CoinDeskGlobal",
     "source_type": "third_party",
     "title": "[**Dogecoin gets DeFi testnet as DogeOS bets miners will eventually secure its apps**](https://www.c",
