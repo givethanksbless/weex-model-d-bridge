@@ -41084,6 +41084,27 @@
     "providers_agree": true
   },
   {
+    "source": "wublockchainenglish",
+    "source_type": "third_party",
+    "title": "MSCI Adopts New Index Exclusion Rules; Strategy and Metaplanet Face Potential Removal",
+    "text": "MSCI Adopts New Index Exclusion Rules; Strategy and Metaplanet Face Potential Removal\n\nMSCI has adopted new rules to exclude non-operating companies from its Global Investable Market Indexes. In an earlier simulation based on May 2026 data, MSCI identified Bitcoin treasury companies Strategy (MSTR) and Metaplanet (3350) as potential removals, while Ethereum treasury company SharpLink (SBET) would be placed on a watchlist. The final list of affected constituents will be published on November 11.\n\nThe new rules, effective after the November 30 close, will exclude companies that fail an operating-assets test and trigger at least four of five financial exclusion criteria. Existing constituents must fail the screening in both of their two most recent annual filing periods before removal. MSCI will also lift temporary index restrictions on companies previously identified as holding digital assets worth at least 50% of total assets, assessing them under the new methodology instead. \u2014 [link](https://wublockchain.xyz/news/news-21261)",
+    "timestamp_utc": "2026-10-15T21:39:19+00:00",
+    "url": "https://t.me/wublockchainenglish/26434",
+    "raw_id": "26434",
+    "layer1_reason": "no junk pattern matched (default pass)",
+    "category": "none",
+    "specificity": "vague",
+    "reasoning": "API ERROR: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions",
+    "authority_weight": 0.6,
+    "specificity_score": 0.2,
+    "confidence_score": 0.0,
+    "confirmed": false,
+    "symbols_affected": [],
+    "rubric_version": 3,
+    "provider": "groq",
+    "final_confirmed": false
+  },
+  {
     "source": "cointelegraph",
     "source_type": "third_party",
     "title": "**\ud83c\uddee\ud83c\uddf7 JUST IN: **US Treasury Secretary Scott Bessent vows to keep pressure on Iran until its financia",
@@ -43699,29 +43720,6 @@
     "confidence_score": 0.0,
     "confirmed": false,
     "symbols_affected": [],
-    "rubric_version": 3,
-    "provider": "groq",
-    "final_confirmed": false
-  },
-  {
-    "source": "wublockchainenglish",
-    "source_type": "third_party",
-    "title": "Sui Devnet Adds Post-Quantum Signature Support, Targets Mainnet Rollout in Q1 2027",
-    "text": "Sui Devnet Adds Post-Quantum Signature Support, Targets Mainnet Rollout in Q1 2027\n\nMysten Labs co-founder and chief cryptographer Kostas Chalkias announced that Sui Devnet has successfully processed its first native quantum-safe transaction, sharing the on-chain transaction record. Sui's core developer Mysten Labs has introduced ML-DSA-65 post-quantum signature support in Devnet release v1.82.0, allowing signed transactions to be submitted through the ExecuteTransaction API and verified through the VerifySignature API.\n\nML-DSA-65 is also supported in multisignature transactions, with additional integration into GraphQL and the Rust SDK. According to Sui's previously announced roadmap, native ML-DSA-65 accounts are expected to reach Testnet by the end of 2026, with native account authentication on Mainnet targeted for Q1 2027, subject to security audits and testing results. \u2014 [link](https://wublockchain.xyz/news/sui-devnet-adds-post-quantum-signatures-mainnet-rollout-q1-2027-21221)",
-    "timestamp_utc": "2026-10-13T14:05:51+00:00",
-    "url": "https://t.me/wublockchainenglish/26394",
-    "raw_id": "26394",
-    "layer1_reason": "no junk pattern matched (default pass)",
-    "category": "none",
-    "specificity": "vague",
-    "reasoning": "API ERROR: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions",
-    "authority_weight": 0.6,
-    "specificity_score": 0.2,
-    "confidence_score": 0.0,
-    "confirmed": false,
-    "symbols_affected": [
-      "SUI"
-    ],
     "rubric_version": 3,
     "provider": "groq",
     "final_confirmed": false
